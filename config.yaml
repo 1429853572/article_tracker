@@ -87,11 +87,8 @@ screening:
   exclusion_keywords:
     - "survey"
     - "review"
-  # --- 必追踪期刊（无论关键词匹配与否） ---
-  must_track_journals:
-    - "Nature"
-    - "Science"
-    - "Cell"
+  # --- 必追踪期刊（无论关键词匹配与否，留空则全部按关键词筛选） ---
+  must_track_journals: []
 
 # ---------- LLM 双语摘要 ----------
 llm:

@@ -54,7 +54,7 @@ class TierClassifier:
         if self._matches_any(text, self.profile.exclusion_keywords):
             return ScreeningTier.noise
 
-        if self._matches_journal(article):
+        if self.profile.must_track_journals and self._matches_journal(article):
             return ScreeningTier.core
 
         if self._matches_any(text, self.profile.core_keywords):

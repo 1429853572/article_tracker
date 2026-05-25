@@ -23,8 +23,9 @@ class Collector:
         if source_filter in ("all", "arxiv") and self.config.arxiv.enabled:
             self._sources.append(ArxivSource(self.config.arxiv, self.config.freshness))
         if source_filter in ("all", "top_journal") and self.config.top_journal.enabled:
+            core_kw = self.config.screening.core_keywords if hasattr(self.config, 'screening') else []
             self._sources.append(
-                TopJournalSource(self.config.top_journal, self.config.s2, self.config.openalex)
+                TopJournalSource(self.config.top_journal, self.config.s2, self.config.openalex, core_keywords=core_kw)
             )
 
     def collect(self, source: str = "all", since: date | None = None) -> dict[str, List[Article]]:

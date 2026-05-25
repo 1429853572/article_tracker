@@ -42,10 +42,12 @@ class TopJournalSource(BaseSource):
         config: TopJournalSourceConfig,
         s2_config: S2Config,
         openalex_config: OpenAlexConfig,
+        core_keywords: List[str] | None = None,
     ):
         self.config = config
         self.s2_config = s2_config
         self.openalex_config = openalex_config
+        self.core_keywords = core_keywords or []
 
     @property
     def name(self) -> str:
@@ -58,9 +60,21 @@ class TopJournalSource(BaseSource):
             return []
 
         all_articles: List[Article] = []
-        for entry in watchlist[:self.config.max_per_journal]:
-            articles = self._fetch_from_s2(entry, since)
-            all_articles.extend(articles)
+        seen_ids: set[str] = set()
+
+        if self.core_keywords:
+            for entry in watchlist:
+                for kw in self.core_keywords:
+                    articles = self._fetch_from_s2(entry, since, extra_query=kw)
+                    for a in articles:
+                        aid = a.doi or a.arxiv_id or a.s2_id or a.title
+                        if aid not in seen_ids:
+                            seen_ids.add(aid)
+                            all_articles.append(a)
+        else:
+            for entry in watchlist[:self.config.max_per_journal]:
+                articles = self._fetch_from_s2(entry, since)
+                all_articles.extend(articles)
 
         self._enrich_openalex_metadata(all_articles)
         return all_articles
@@ -72,7 +86,7 @@ class TopJournalSource(BaseSource):
             return build_watchlist(self.config.watchlist_path)
         return []
 
-    def _fetch_from_s2(self, watchlist_entry: Dict[str, Any], since: date) -> List[Article]:
+    def _fetch_from_s2(self, watchlist_entry: Dict[str, Any], since: date, extra_query: str = "") -> List[Article]:
         api_key = self.s2_config.api_key
         base_url = self.s2_config.base_url
         journal_name = watchlist_entry.get("name", "")
@@ -83,9 +97,11 @@ class TopJournalSource(BaseSource):
         if api_key:
             headers["x-api-key"] = api_key
 
+        query = f"{journal_name} {extra_query}".strip()
+
         since_str = since.isoformat()
         params = {
-            "query": journal_name,
+            "query": query,
             "fields": "paperId,title,authors,abstract,publicationDate,externalIds,url,openAccessPdf,journal",
             "limit": str(self.config.max_per_journal),
             "publicationDateOrYear": since_str,
