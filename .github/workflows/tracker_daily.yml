@@ -47,6 +47,15 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: update seen.json [skip ci]"
           git push
 
+      - name: Prepare GitHub Pages
+        if: always()
+        run: |
+          mkdir -p docs
+          touch docs/.nojekyll
+          if [ ! -f docs/index.html ]; then
+            echo '<!doctype html><html><head><meta charset="utf-8"><title>Paper Tracker</title></head><body><h1>Paper Tracker</h1><p>No results yet. Results will appear after the next tracker run.</p></body></html>' > docs/index.html
+          fi
+
       - name: Deploy GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v3
