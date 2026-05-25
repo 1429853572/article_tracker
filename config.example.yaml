@@ -27,7 +27,7 @@ screening:
   output_tiers: ["core", "proxy", "eco"]
 
 llm:
-  enabled: false
+  enabled: true
   base_url: ""
   model: ""
   api_key_env: "DS_API_KEY"
@@ -47,7 +47,7 @@ output:
   obsidian_vault: ""
   zotero_enabled: false
   email:
-    enabled: false
+    enabled: true
     sender: ""
     to: []
     smtp_server: ""
@@ -58,7 +58,7 @@ output:
     tls_mode: "auto"
     subject_prefix: "Paper Tracker"
   ghpages:
-    enabled: false
+    enabled: true
     output_dir: "docs"
     keep_runs: 30
     accent: "#2563eb"
