@@ -71,25 +71,8 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
     log.enrichment["code_structured"] = code_stats.get("structured", 0)
     log.enrichment["code_scraped"] = code_stats.get("scraped", 0)
 
-    # 5. Enrich: LLM bilingual summary
-    if config.llm.enabled:
-        llm_limit = config.llm.max_papers
-        llm_articles = [a for a in unique_articles if a.screening_tier and a.screening_tier.value in config.screening.output_tiers][:llm_limit]
-        logger.info(f"Step 5: Generating LLM bilingual summaries for up to {llm_limit} papers...")
-        llm_enricher = LLMEnricher(config.llm)
-        llm_stats = llm_enricher.enrich(llm_articles)
-        log.enrichment["llm_success"] = llm_stats.get("success", 0)
-        log.enrichment["llm_failed"] = llm_stats.get("failed", 0)
-
-        if config.llm.enabled:
-            logger.info("Step 5b: Translating titles/abstracts...")
-            for a in llm_articles:
-                llm_enricher.translate(a)
-    else:
-        logger.info("Step 5: LLM disabled, skipping.")
-
-    # 6. Screen
-    logger.info("Step 6: Screening by profile...")
+    # 5. Screen
+    logger.info("Step 5: Screening by profile...")
     classifier = TierClassifier.from_config(config.screening)
     screen_stats = classifier.classify(unique_articles)
     log.screening = screen_stats
@@ -99,15 +82,31 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
     filtered = classifier.filter_by_tiers(unique_articles)
     logger.info(f"  After tier filter: {len(filtered)} papers")
 
-    # 6b. Fallback when empty
+    # 5b. Fallback when empty
     if not filtered and config.freshness.fallback_when_empty:
-        logger.info("Step 6b: No new papers, falling back to recent top papers...")
+        logger.info("Step 5b: No new papers, falling back to recent top papers...")
         all_screened = classifier.filter_by_tiers(unique_articles) if unique_articles else []
         if not all_screened:
             classifier.classify(all_articles)
             all_screened = classifier.filter_by_tiers(all_articles)
         filtered = all_screened[:config.freshness.fallback_top_n]
         logger.info(f"  Fallback: showing top {len(filtered)} recent papers")
+
+    # 6. Enrich: LLM bilingual summary (after screening, only for filtered papers)
+    if config.llm.enabled:
+        llm_limit = config.llm.max_papers
+        llm_articles = filtered[:llm_limit]
+        logger.info(f"Step 6: Generating LLM bilingual summaries for up to {llm_limit} papers...")
+        llm_enricher = LLMEnricher(config.llm)
+        llm_stats = llm_enricher.enrich(llm_articles)
+        log.enrichment["llm_success"] = llm_stats.get("success", 0)
+        log.enrichment["llm_failed"] = llm_stats.get("failed", 0)
+
+        logger.info("Step 6b: Translating titles/abstracts...")
+        for a in llm_articles:
+            llm_enricher.translate(a)
+    else:
+        logger.info("Step 6: LLM disabled, skipping.")
 
     # 7. Output
     if not dry_run:
