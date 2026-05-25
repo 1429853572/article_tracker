@@ -30,16 +30,13 @@ cd article_tracker
 pip install -e ".[all]"
 ```
 
-### 2. 创建配置文件
+### 2. 配置
 
-```bash
-cp config.example.yaml config.yaml
-# 编辑 config.yaml，调整关键词、输出通道等
-```
+编辑 `config.yaml`，调整关键词、输出通道等（已有中文注释说明每项含义）。
 
 ### 3. 配置环境变量
 
-创建 `.env` 文件（本地运行）或在 GitHub Secrets 中设置（CI/CD）：
+在 GitHub Secrets 中设置（CI/CD），或本地创建 `.env` 文件：
 
 | 变量 | 说明 | 必须 |
 |------|------|:----:|
@@ -116,7 +113,7 @@ output:
     enabled: false
 ```
 
-完整配置参考 [`config.example.yaml`](config.example.yaml)。
+完整配置参考 [`config.yaml`](config.yaml)。
 
 ---
 

@@ -142,7 +142,7 @@ class TestSeenStore:
 
 class TestConfig:
     def test_load_example(self):
-        cfg = Config.load("config.example.yaml")
+        cfg = Config.load("config.yaml")
         assert isinstance(cfg, UnifiedConfig)
         assert cfg.arxiv.enabled is True
         assert cfg.top_journal.enabled is True
