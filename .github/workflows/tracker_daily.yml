@@ -33,7 +33,7 @@ jobs:
           DS_API_KEY: ${{ secrets.DS_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
-          EMAIL_TO: ${{ secrets.EMAIL_TC }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
         run: |
