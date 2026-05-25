@@ -63,7 +63,7 @@ def _card(a: Article) -> str:
         parts.append(f'<div class="links" style="margin-top:8px">{" · ".join(links)}</div>')
 
     if a.abstract:
-        parts.append(f'<div class="section"><h4>Abstract</h4><div style="white-space:pre-wrap">{_esc(a.abstract)}</div></div>')
+        parts.append(f'<div class="section"><h4>Abstract</h4><div style="white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px">{_esc(a.abstract)}</div></div>')
 
     if a.digest_en or a.digest_zh:
         inner = ""
@@ -105,7 +105,7 @@ def send_email(articles: List[Article], config: EmailConfig, subject_prefix: str
     msg = MIMEMultipart()
     msg["From"] = config.sender
     msg["To"] = ", ".join(config.to)
-    msg["Subject"] = f"{subject_prefix} — {now_str}"
+    msg["Subject"] = f"{subject_prefix} — {datetime.now().strftime('%Y-%m-%d')}"
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
     try:
