@@ -1,13 +1,9 @@
 from __future__ import annotations
 
-import json
 import uuid
-from pathlib import Path
 from typing import Optional
 
-import yaml
 from fastapi import BackgroundTasks, FastAPI, Query
-from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 
 from article_tracker.config.config import Config
@@ -15,7 +11,6 @@ from article_tracker.config.config import Config
 app = FastAPI(title="Article Tracker API", version="0.1.0")
 
 _tasks: dict[str, dict] = {}
-CONFIG_PATH = "config.yaml"
 
 
 class TrackRequest(BaseModel):
@@ -42,35 +37,6 @@ def _run_track_task(task_id: str, req: TrackRequest):
         _tasks[task_id]["status"] = "failed"
         _tasks[task_id]["error"] = str(e)
 
-
-# ---------- 配置 API ----------
-
-@app.get("/api/v1/config")
-def get_config():
-    try:
-        p = Path(CONFIG_PATH)
-        if not p.exists():
-            return JSONResponse({"error": "config.yaml not found"}, status_code=404)
-        with open(p, "r", encoding="utf-8") as f:
-            data = yaml.safe_load(f) or {}
-        return data
-    except Exception as e:
-        return JSONResponse({"error": str(e)}, status_code=500)
-
-
-@app.post("/api/v1/config")
-def save_config(data: dict):
-    try:
-        cfg = Config.from_raw(data)
-        p = Path(CONFIG_PATH)
-        with open(p, "w", encoding="utf-8") as f:
-            yaml.dump(data, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
-        return {"status": "saved"}
-    except Exception as e:
-        return JSONResponse({"error": str(e)}, status_code=400)
-
-
-# ---------- 追踪 API ----------
 
 @app.post("/api/v1/track", response_model=TaskResponse)
 def trigger_track(req: TrackRequest, background_tasks: BackgroundTasks):
@@ -100,11 +66,3 @@ def list_articles(tier: Optional[str] = None, source: Optional[str] = None, limi
 @app.get("/api/v1/health")
 def health():
     return {"status": "ok"}
-
-
-# ---------- 前端页面 ----------
-
-@app.get("/", response_class=HTMLResponse)
-def serve_ui():
-    from article_tracker.web import get_html
-    return HTMLResponse(content=get_html())
