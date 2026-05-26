@@ -1470,5 +1470,781 @@
   "doi:10.4028/p-4xmsle": {
     "source": "top_journal",
     "title": "Simulations and Measurement of Temperatures in Bridge Structures"
+  },
+  "doi:10.5194/hess-30-2973-2026": {
+    "source": "top_journal",
+    "title": "Interpretable soil moisture prediction with a knowledge-guided deep learning approach"
+  },
+  "doi:10.1038/s43588-026-00987-x": {
+    "source": "top_journal",
+    "title": "Modeling context-dependent RNA splicing by deep learning"
+  },
+  "doi:10.1038/s41467-026-72776-z": {
+    "source": "top_journal",
+    "title": "Dynamic breast MRI with Flexible Temporal Resolution Aided by Deep Learning"
+  },
+  "doi:10.1038/s41551-026-01654-2": {
+    "source": "top_journal",
+    "title": "A deep learning system for non-invasive breast cancer diagnosis with multimodal data"
+  },
+  "doi:10.3389/fninf.2026.1809341": {
+    "source": "top_journal",
+    "title": "A high-resolution dataset of mouse brain vasculature for deep learning-based reconstruction"
+  },
+  "doi:10.1177/14759217261448922": {
+    "source": "top_journal",
+    "title": "Research on acoustic emission bearing fault diagnosis integrating wide kernel convolution and dual domain adaptive mechanisms"
+  },
+  "doi:10.1177/03009858261449089": {
+    "source": "top_journal",
+    "title": "Augmenting prion surveillance by immunohistochemistry using artificial intelligence–based image analysis"
+  },
+  "doi:10.66280/ijair.v1i2.143": {
+    "source": "top_journal",
+    "title": "Bridging the Gap between Human Intuition and Machine Logic using Visual Analytics for Interactive Model Behavior Interpretation"
+  },
+  "doi:10.1002/pan3.70241": {
+    "source": "top_journal",
+    "title": "Where were all the trees? Computer vision meets landscape history to unlock the potential of historical Ordnance Survey maps"
+  },
+  "doi:10.64898/2026.05.18.725888": {
+    "source": "top_journal",
+    "title": "Deep Learning of High-throughput Transcription Factor–DNA Binding Affinity Data: Quantitative Comparison with Pairwise-Additive Models"
+  },
+  "doi:10.64388/irev9i11-1717964": {
+    "source": "top_journal",
+    "title": "Autonomous Traffic Violation Detection Using Machine Learning and Computer Vision"
+  },
+  "doi:10.64388/irev9i11-1717949": {
+    "source": "top_journal",
+    "title": "Driver Drowsiness Detection and Alert System Using Machine Learning and Computer Vision"
+  },
+  "doi:10.56726/irjmets80032": {
+    "source": "top_journal",
+    "title": "Real-Time Object Detection Using YOLO"
+  },
+  "doi:10.65521/ijacte.v15i2s.2969": {
+    "source": "top_journal",
+    "title": "CLens: An AI-Based Framework for Converting Handwritten Chess Scoresheets into PGN"
+  },
+  "doi:10.65521/ijeecs.v15i1s.2960": {
+    "source": "top_journal",
+    "title": "Elevate: An AI-Powered Health & Performance Platform"
+  },
+  "doi:10.3389/fpsyg.2026.1746070": {
+    "source": "top_journal",
+    "title": "Exploring large language model applications in dance education from an educational psychology perspective"
+  },
+  "doi:10.59256/indjcst.20260502038": {
+    "source": "top_journal",
+    "title": "AI-Powered Retail: Revolutionizing Share Market Operations for Efficiency and Customer Experience"
+  },
+  "doi:10.3389/fmech.2026.1806266": {
+    "source": "top_journal",
+    "title": "Automated control of robots in the work zone: a YOLO-Based approach for optimized maintenance"
+  },
+  "doi:10.51583/ijltemas.2026.150400103": {
+    "source": "top_journal",
+    "title": "Real Time Hand Gesture Recognition for Sign Language Communication by Using AI ML"
+  },
+  "doi:10.21275/sr26515093008": {
+    "source": "top_journal",
+    "title": "Natural Language Processing for Intelligent HR Case Routing in ServiceNow HRSD: Reducing Manual Triage Through Transformer-Based Classification"
+  },
+  "doi:10.1007/s41060-026-01146-1": {
+    "source": "top_journal",
+    "title": "Natural language processing for mental health assessment: a survey and comparative evaluation"
+  },
+  "doi:10.34133/csbj.0132": {
+    "source": "top_journal",
+    "title": "Mapping Clinical Intent in Internet Hospitals: Identifying and Profiling Patient Demand via Natural Language Processing"
+  },
+  "doi:10.2196/89534": {
+    "source": "top_journal",
+    "title": "Extracting Social Determinants of Health From Electronic Health Records: Development and Comparison of Rule-Based and Large Language Model Methods"
+  },
+  "doi:10.7717/peerj-cs.3543": {
+    "source": "top_journal",
+    "title": "Advancing disability-inclusive communication with DynaFuseNet and transformer models for sign language interpretation"
+  },
+  "doi:10.1097/st9.0000000000000118": {
+    "source": "top_journal",
+    "title": "TCM Data Hub: a traditional Chinese medicine data platform powered by YiYuan large language models"
+  },
+  "doi:10.66280/ijair.v1i2.142": {
+    "source": "top_journal",
+    "title": "Improving Interpretability in Large Language Models through Layer Wise Relevance Propagation for Identifying Latent Reasoning Biases"
+  },
+  "doi:10.1002/adsc.70500": {
+    "source": "top_journal",
+    "title": "Recent Approaches for the Synthesis of Pyridine and Quinoline Cores Present in Natural Products"
+  },
+  "doi:10.54116/jbdai.v4i1.56": {
+    "source": "top_journal",
+    "title": "Riding AI to Utopia or Dystopia? NLP, LLM and News Informatics Insights for Artificial Intelligence Impacts on Education, Healthcare, Robotics and Careers, Changing Human Society."
+  },
+  "doi:10.1007/s11135-026-02811-0": {
+    "source": "top_journal",
+    "title": "A taxonomic model and measurement instrument for corporate reputation: a text mining-based perspective"
+  },
+  "doi:10.1371/journal.pone.0349527": {
+    "source": "top_journal",
+    "title": "DG-LLM: Decomposition-based dynamic graph adaptation of large language models for spatiotemporal traffic forecasting"
+  },
+  "doi:10.3390/s26103219": {
+    "source": "top_journal",
+    "title": "Evolutionary Digital Twin for Oil and Gas Pipelines: A Cognitive Multi-Agent Framework with Continuous Feedback Learning"
+  },
+  "doi:10.2196/91021": {
+    "source": "top_journal",
+    "title": "Feasibility of Large Language Model–Based Standardized Virtual Patients to Support Clinical Decision-Making Training in Operative Dentistry: Mixed Methods Study"
+  },
+  "doi:10.66280/ijair.v1i2.148": {
+    "source": "top_journal",
+    "title": "Accelerating Autonomous System Evaluation via Reinforcement Learning Driven Large Language Model Agents for Real Time Performance Diagnostics and Strategy Refinement"
+  },
+  "doi:10.7759/cureus.109161": {
+    "source": "top_journal",
+    "title": "Robustness of a Large Language Model (LLM)–Based Virtual Patient for Japanese History-Taking Training Under Direct and Indirect Instructional Contamination"
+  },
+  "doi:10.1007/s00270-026-04472-w": {
+    "source": "top_journal",
+    "title": "Automated Cryoprobe Planning Using a Large Language Model: A Geometric Approach to Optimize Probe Placement Based on Isotherm Data"
+  },
+  "doi:10.1167/tvst.15.5.13": {
+    "source": "top_journal",
+    "title": "Identification of Risk Factors for Glaucoma Progression in Free-Text Clinical Notes Using a Local Large Language Model"
+  },
+  "doi:10.1002/mma.70802": {
+    "source": "top_journal",
+    "title": "Recovering a Time‐Dependent Diffusion Coefficient From Flux Data in a Fractional Diffusion Model With a Higher‐Order Boundary Condition"
+  },
+  "doi:10.1371/journal.pone.0349217": {
+    "source": "top_journal",
+    "title": "Using a mixed opinion dynamics and innovation diffusion model to explore the ‘best game no one played’ phenomenon"
+  },
+  "doi:10.3390/a19050408": {
+    "source": "top_journal",
+    "title": "Interpretable Non-Separable Spatio-Temporal Interaction Cox Model for Diffusion Prediction in Invasive Species Management"
+  },
+  "doi:10.1007/s00332-026-10263-x": {
+    "source": "top_journal",
+    "title": "Correction: Analysis of a Three-Dimensional Rapidly Rotating Convection Model Without Thermal Diffusion"
+  },
+  "doi:10.3390/app16105077": {
+    "source": "top_journal",
+    "title": "A Unified Framework Based on Distribution Shift Modeling for Revealing and Eliminating Backdoor Attacks in Diffusion Models"
+  },
+  "doi:10.3390/buildings16101996": {
+    "source": "top_journal",
+    "title": "Influence of Different Diffusion Depths on Chloride Migration Coefficient and the Calibration Methodology"
+  },
+  "doi:10.3390/axioms15050380": {
+    "source": "top_journal",
+    "title": "Analytical and Numerical Analysis of Multidimensional Diffusion Processes in L2 Space Under Third-Kind Boundary Conditions"
+  },
+  "doi:10.3390/pr14101633": {
+    "source": "top_journal",
+    "title": "Ball Milling Controls Particle Descriptors and Diffusion-Limited Leaching in a Wet Particulate System"
+  },
+  "doi:10.1142/s0218348x26400803": {
+    "source": "top_journal",
+    "title": "Analytical Investigation of Time-Fractional Reaction-Diffusion Waves Via a Khater II Framework"
+  },
+  "doi:10.1103/h74z-zvfv": {
+    "source": "top_journal",
+    "title": "Diffusion minimization via optimal smearing in collapse and hybrid classical-quantum gravitational models"
+  },
+  "doi:10.48175/ijarsct-35509": {
+    "source": "top_journal",
+    "title": "AI-Powered Sign Language Interpreter"
+  },
+  "doi:10.1073/pnas.2535868123": {
+    "source": "top_journal",
+    "title": "Persuading large language models to comply with objectionable requests"
+  },
+  "doi:10.24239/dee.v7i1.152": {
+    "source": "top_journal",
+    "title": "Faith, Language, and Technology: Developing a Multimodal ESP Textbook for Islamic Education"
+  },
+  "doi:10.1007/s00371-026-04480-4": {
+    "source": "top_journal",
+    "title": "Adaptive ensemble attack: breaking Large Multimodal Models via dynamic caption selection and weighted gradients"
+  },
+  "doi:10.3390/rs18101630": {
+    "source": "top_journal",
+    "title": "An Efficient Remote Sensing Cross-Modal Retrieval Method Based on Hashing Contrastive Learning"
+  },
+  "doi:10.25073/2588-1086/vnucsce.7148": {
+    "source": "top_journal",
+    "title": "AI-Driven Jamming Detection and DRL-Based Anti-Jamming for Ambient Backscatter Communications in 6G Networks"
+  },
+  "doi:10.55041/ijcope.v2i5.606": {
+    "source": "top_journal",
+    "title": "A Review on Model-Based Fault Diagnosis in Electric Drives Using Machine Learning Techniques"
+  },
+  "doi:10.55041/ijcope.v2i5.461": {
+    "source": "top_journal",
+    "title": "Privacy-Preserving Federated AI for Early CKD Detection and Progression Analysis"
+  },
+  "doi:10.1017/err.2026.10103": {
+    "source": "top_journal",
+    "title": "AI Agents in Payments: Applications, Risks and Regulations"
+  },
+  "doi:10.3390/w18101231": {
+    "source": "top_journal",
+    "title": "Deep Learning-Based Downstream Water Level Prediction Enhanced by Upstream Predict Information"
+  },
+  "doi:10.3390/en19102446": {
+    "source": "top_journal",
+    "title": "Perspective for Improving Energy Efficiency and Indoor Climate Towards Prediction of Energy Use: A Generalized LSTM-Based Model for Non-Residential Buildings"
+  },
+  "doi:10.22501/hub.3581523": {
+    "source": "top_journal",
+    "title": "Creative Fieldwork in Forest Plantations: seeking resonance in precarious landscapes"
+  },
+  "doi:10.17097/agricultureatauni.1777136": {
+    "source": "top_journal",
+    "title": "The Impact of Agricultural Value Added and Energy Consumption on Economic Growth in Türkiye: An Empirical Analysis"
+  },
+  "doi:10.1177/19429347261452106": {
+    "source": "top_journal",
+    "title": "Mycelial Knowing for Ecopsychology: Fungi and More-Than-Human Relations for Crisis Contexts"
+  },
+  "doi:10.5194/acp-26-6781-2026": {
+    "source": "top_journal",
+    "title": "Future volcanic eruptions may delay the recovery of lower stratospheric ozone over Antarctica and Southern Hemisphere mid-latitudes"
+  },
+  "doi:10.3389/fmars.2026.1840407": {
+    "source": "top_journal",
+    "title": "Large model-driven China-ASEAN mangrove protection and sustainable development framework: a case study of Guangxi, China"
+  },
+  "doi:10.1029/2025jd045190": {
+    "source": "top_journal",
+    "title": "Mean State Change‐Induced Differential Responses Between Strong Positive and Negative Events Reduce Indian Ocean Dipole Asymmetry Under Greenhouse Warming"
+  },
+  "doi:10.1088/1748-9326/ae6fd1": {
+    "source": "top_journal",
+    "title": "Attribution of the record-breaking February 2022 compound wet and cold event over Southern China"
+  },
+  "doi:10.65521/ijacte.v15i1.2942": {
+    "source": "top_journal",
+    "title": "AI-Driven Integrated Mental Health and Fitness Systems: A Comprehensive Review"
+  },
+  "doi:10.1093/treephys/tpag067": {
+    "source": "top_journal",
+    "title": "The effect of relative humidity and temperature on the response of stomatal conductance to vapor pressure deficit in tropical trees"
+  },
+  "doi:10.3390/info17050499": {
+    "source": "top_journal",
+    "title": "Tamper-Evident Data and Model Provenance for IoT-Based Machine Learning Using Blockchain and Off-Chain Storage"
+  },
+  "doi:10.3389/fnbot.2026.1799054": {
+    "source": "top_journal",
+    "title": "A cognitive synergetic hierarchical framework for UAV swarm combat via speculative inference and role-decoupled reinforcement learning"
+  },
+  "doi:10.64898/2026.05.15.725320": {
+    "source": "top_journal",
+    "title": "Development, dimorphism, and divergence of the oral dentition in threespine sticklebacks (Gasterosteus aculeatus)"
+  },
+  "doi:10.25258/ijddt.16.30s.30": {
+    "source": "top_journal",
+    "title": "Deep Learning for Abdominal Multi-Organ Segmentation: Methods, Evaluation, and Clinical Translation"
+  },
+  "doi:10.32782/2663-5941/2026.3.2/14": {
+    "source": "top_journal",
+    "title": "RADIO NETWORK COVERAGE PREDICTION METHODS USING DEEP LEARNING AND DECOMPOSITION APPROACH BASED ON CELLULAR AUTOMATA"
+  },
+  "doi:10.55041/ijcope.v2i5.540": {
+    "source": "top_journal",
+    "title": "A Review on Deepfake Detection Techniques using Machine Learning and Deep Learning"
+  },
+  "doi:10.1515/revce-2025-0047": {
+    "source": "top_journal",
+    "title": "Recent review on deep learning-based Dempster–Shafer decision-making framework for chemical process monitoring"
+  },
+  "doi:10.66280/ijair.v1i2.138": {
+    "source": "top_journal",
+    "title": "Advancing Model Transparency via Self-Explaining Deep Learning Architectures Integrating Symbolic Logic and Neural Representations"
+  },
+  "doi:10.22399/ijcesen.5251": {
+    "source": "top_journal",
+    "title": "Deep Learning-Based Melanoma Classification Using Hybrid DCNN-LSTM and DCNN-BiLSTM Architectures"
+  },
+  "doi:10.1002/aisy.70427": {
+    "source": "top_journal",
+    "title": "ParamNet: A Physics‐Guided Deep Learning Framework for Intelligent Self‐Inversion of Vacuum Optical Levitation Systems"
+  },
+  "doi:10.59562/jeeni.v3i2.12479": {
+    "source": "top_journal",
+    "title": "Performance and Challenges of Deep Learning-Based Face Recognition Systems: A Systematic Review"
+  },
+  "doi:10.59256/indjcst.20260502037": {
+    "source": "top_journal",
+    "title": "AI-Based Automated Race Winner Detection System"
+  },
+  "doi:10.48175/ijarsct-35541": {
+    "source": "top_journal",
+    "title": "Real - Time Air Writing Recognition"
+  },
+  "doi:10.12688/f1000research.181617.1": {
+    "source": "top_journal",
+    "title": "TECHNOLOGY INNOVATION TO ENHANCE COMMUNICATION SKILL IN HIGHER EDUCATION: A TRENDS OF BIBLIOMETRIC ANALYSIS IN DATABASE SCOPUS (2015-2026)"
+  },
+  "doi:10.37349/emed.2026.1001404": {
+    "source": "top_journal",
+    "title": "Artificial intelligence strategies for emotion recognition in cancer pain research"
+  },
+  "doi:10.63313/ssh.2010": {
+    "source": "top_journal",
+    "title": "A Study on the Strategies for High-Quality Development of Inbound Tourism in Yichang Under the Integration of Yichang - Jingzhou - Jingmen - Enshi Metropolitan Area"
+  },
+  "doi:10.1007/s10115-026-02782-6": {
+    "source": "top_journal",
+    "title": "A study of word embedding models for measuring topic coherence"
+  },
+  "doi:10.36948/ijfmr.2026.v08i03.78523": {
+    "source": "top_journal",
+    "title": "Fake Review Detection by Identifying CG and OR"
+  },
+  "doi:10.38124/ijisrt/26may484": {
+    "source": "top_journal",
+    "title": "MedBridgeAI: Context-Aware Multilingual NLP for Patient–Provider Communication Systems"
+  },
+  "doi:10.1371/journal.pone.0348819": {
+    "source": "top_journal",
+    "title": "Implicit bias in safety-aligned large language models: A multi-faceted evaluation of clinical decision-making and health equity"
+  },
+  "doi:10.3390/healthcare14101385": {
+    "source": "top_journal",
+    "title": "Gender-Attributed Persona Prompts and the Diagnostic Accuracy of Proprietary and Open-Weight Large Language Models in Chagas Disease and Visceral Leishmaniasis: A Paired Experimental Study"
+  },
+  "doi:10.3390/ai7050174": {
+    "source": "top_journal",
+    "title": "Human Evaluation of Large Language Models: A Review and Protocol Selection Framework"
+  },
+  "doi:10.1007/s10489-026-07270-6": {
+    "source": "top_journal",
+    "title": "A reinforcement learning decision-making method with multi-granularity semantic prompts from large language models"
+  },
+  "doi:10.66280/ijair.v1i2.131": {
+    "source": "top_journal",
+    "title": "Research on a Risk Prediction Model for Hypoxemia During Spontaneous Breathing Intravenous Anesthesia Using Endoscopic Nasal Masks Based on Machine Learning Algorithms"
+  },
+  "doi:10.35882/jeeemi.v8i3.1527": {
+    "source": "top_journal",
+    "title": "Intelligent Fusion of Multi-Modal Medical Imaging: A Comprehensive Review of Methods, Challenges, and Clinical Integration"
+  },
+  "doi:10.31499/2618-0715.2(17).2026.361255": {
+    "source": "top_journal",
+    "title": "SUPERVISION AS A TOOL FOR PREVENTING PROFESSIONAL BURNOUT OF SOCIAL WORK SPECIALISTS: ESSENCE, FORMS, METHODS, AND RESULTS OF AN EMPIRICAL STUDY"
+  },
+  "doi:10.1038/s41598-026-52537-0": {
+    "source": "top_journal",
+    "title": "A stochastic model for dynamic reconfiguration of multi-microgrid networks under demand and supply uncertainties"
+  },
+  "doi:10.1111/ijal.70234": {
+    "source": "top_journal",
+    "title": "Unraveling Student Anxiety in EFL Classrooms in China: The Roles of the Classroom Environment and Control–Value Appraisals"
+  },
+  "doi:10.1075/aral.25098.zho": {
+    "source": "top_journal",
+    "title": "Appraisal resource alignment in the iterative audiovisual-based speaking continuation tasks"
+  },
+  "doi:10.3390/jdad3020026": {
+    "source": "top_journal",
+    "title": "Counterfactual, Longitudinal, and Multimodal Explainable AI for MRI-Based Alzheimer’s Diagnosis: A Structured Review"
+  },
+  "doi:10.64898/2026.05.18.725976": {
+    "source": "top_journal",
+    "title": "Iconic Sound–Shape Correspondences in Aphasia"
+  },
+  "doi:10.64898/2026.05.17.26352870": {
+    "source": "top_journal",
+    "title": "An Interactive Trustworthy AI Pathology Copilot to Improve Biomarker-Driven Prognostic Stratification and Therapeutic Response Prediction"
+  },
+  "doi:10.65521/ijacte.v15i1.2944": {
+    "source": "top_journal",
+    "title": "AI-Generated Voice Detection Using Machine Learning and Deep Learning"
+  },
+  "doi:10.1088/2631-8695/ae7028": {
+    "source": "top_journal",
+    "title": "Satellite-Driven Prediction of Fine Particulate Matter (PM2.5\n \n ) Concentrations: Machine Learning and Explainable Artificial Intelligence"
+  },
+  "doi:10.3390/ijfs14050133": {
+    "source": "top_journal",
+    "title": "A Design Science Approach to Predicting ESG Performance Using Ensemble Machine Learning"
+  },
+  "doi:10.3390/mi17050623": {
+    "source": "top_journal",
+    "title": "Emerging Trends in Artificial Intelligence-Integrated Biochip Technologies for Biomedical Applications"
+  },
+  "doi:10.3390/bioengineering13050573": {
+    "source": "top_journal",
+    "title": "Artificial Intelligence-Enabled Bioengineering of Extracellular Vesicle Platforms in Cardiovascular Medicine"
+  },
+  "doi:10.64063/3049-1681.vol.3.issue5.17": {
+    "source": "top_journal",
+    "title": "Human-Robot Interaction (HRI) Focus: AI Managing The \"Bonding\" and Emotional/Sensory Experience of a Robot-Led Pregnancy"
+  },
+  "doi:10.70528/ijlrp.v7.i5.2203": {
+    "source": "top_journal",
+    "title": "ESP32-S3 AI Voice Assistant: A Cloud-Augmented Embedded System for Real-Time Voice Interaction"
+  },
+  "doi:10.55041/isjem07513": {
+    "source": "top_journal",
+    "title": "AI-POWERED PRODUCT RECOMMENDATION SYSTEM IN E-COMMERCE."
+  },
+  "doi:10.14419/qnk7fn90": {
+    "source": "top_journal",
+    "title": "AI Driven Operational Dashboards for Realtime Monitoringand ‎Crisis Decision Support in IT Systems"
+  },
+  "doi:10.1073/pnas.2524472123": {
+    "source": "top_journal",
+    "title": "Large language models pass a standard three-party Turing test"
+  },
+  "doi:10.25073/2588-1086/vnucsce.6588": {
+    "source": "top_journal",
+    "title": "Efficient English-Vietnamese Medical Machine Translation: Insights from the VLSP 2025 Shared Task"
+  },
+  "doi:10.9734/jabb/2026/v29i53967": {
+    "source": "top_journal",
+    "title": "AI-Driven Plant Disease and Pest Surveillance: Deep Learning, IoT, and Next-Generation Crop Protection"
+  },
+  "doi:10.1038/s41598-026-47380-2": {
+    "source": "top_journal",
+    "title": "Hybrid deep learning framework integrating CNNs, transformers, and adaptive optimization for accurate suspended sediment concentration prediction"
+  },
+  "doi:10.26898/0370-8799-2026-4-2": {
+    "source": "top_journal",
+    "title": "Classification of crop infestation with field bindweed using ResNet neural network architectures"
+  },
+  "doi:10.9734/acri/2026/v26i51918": {
+    "source": "top_journal",
+    "title": "Weed Management in Pulses: Recent Trends, Scientific Evidence and Future Directions"
+  },
+  "doi:10.1108/jchmsd-05-2025-0145": {
+    "source": "top_journal",
+    "title": "Sustainable artificial intelligence for historic building components classification: a case of UNESCO world heritage site in Congonhas, Brazil"
+  },
+  "doi:10.22501/hub.3551511": {
+    "source": "top_journal",
+    "title": "Incense Burning as Cultural Resonance in Hong Kong"
+  },
+  "doi:10.66280/ijair.v1i2.145": {
+    "source": "top_journal",
+    "title": "Advancing Backdoor Attack Detection in Transformer Models using Feature Squeezing and Statistical Anomaly Filtering Techniques"
+  },
+  "doi:10.3389/fpsyt.2026.1825357": {
+    "source": "top_journal",
+    "title": "Understanding the workplace needs of autistic adults in Singapore: insights to inform inclusive AI support"
+  },
+  "doi:10.30564/jees.v8i5.13247": {
+    "source": "top_journal",
+    "title": "Urban Geology: Challenges and Opportunities in Rapidly Expanding Cities"
+  },
+  "doi:10.55041/ijcope.v2i5.588": {
+    "source": "top_journal",
+    "title": "A Study on Indian Knowledge Systems (IKS) integrated into sustainable transport design, with a specific focus on electric two-wheelers"
+  },
+  "doi:10.25258/ijddt.16.30s.113": {
+    "source": "top_journal",
+    "title": "Comprehensive in Vitro, in Vivo, and Stability Evaluation of Optimized Modified-Release Bilayer Tablets of Empagliflozin and Metformin"
+  },
+  "doi:10.9734/ajaees/2026/v44i52942": {
+    "source": "top_journal",
+    "title": "Determinants and Constraints of Natural Farming Adoption among Arecanut Growers in Chikkamagaluru District, Karnataka, India"
+  },
+  "doi:10.3390/su18105109": {
+    "source": "top_journal",
+    "title": "Residential Tourism, Real Estate Urbanization, and Socio-Ecological Fragility: Rethinking Resilience in Isla Cortés, México"
+  },
+  "doi:10.3390/w18101225": {
+    "source": "top_journal",
+    "title": "Sustainable β-Cyclodextrin Modified Sawdust Biochar for Enhanced Organic Pollutant Removal in Circular Water Treatment"
+  },
+  "doi:10.25258/ijddt.16.30s.56": {
+    "source": "top_journal",
+    "title": "Formulation and Optimization of Floating MicrospongeBased Ranitidine Delivery System for Prolonged Gastric Retention and Improved Absorption"
+  },
+  "doi:10.1002/advs.75688": {
+    "source": "top_journal",
+    "title": "Practical Lithium–Sulfur Batteries: An Integrated Design Roadmap from High‐Loading Cathodes to High‐Energy Pouch Cells"
+  },
+  "doi:10.1088/1361-6501/ae6fda": {
+    "source": "top_journal",
+    "title": "A modified evidential deep learning fault diagnosis method for detecting out-of-distribution samples"
+  },
+  "doi:10.1177/08953996261433951": {
+    "source": "top_journal",
+    "title": "Simultaneous super resolution and denoising in X-ray CT using deep learning"
+  },
+  "doi:10.3389/fmars.2026.1802867": {
+    "source": "top_journal",
+    "title": "Deep learning-based sea level anomaly forecasting around Taiwan Island integrating ConvLSTM and attention mechanism"
+  },
+  "doi:10.1007/s41101-026-00523-y": {
+    "source": "top_journal",
+    "title": "A New Explainable Modeling of Water Quality by Deep Learning Approaches: Application to Dissolved Oxygen and pH Prediction"
+  },
+  "doi:10.1007/s42979-026-04983-w": {
+    "source": "top_journal",
+    "title": "Automated PI-RADS 3–5 Classification Using Multiparametric MRI: A Comparative Study of Radiomics and Deep Learning Approaches"
+  },
+  "doi:10.25073/2588-1086/vnucsce.6463": {
+    "source": "top_journal",
+    "title": "DRILL Shared Task 2025: The Challenge of Deep Retrieval in the Expansive Legal Landscape"
+  },
+  "doi:10.51594/csitrj.v7i5.2278": {
+    "source": "top_journal",
+    "title": "Machine learning for fraud detection and transaction monitoring in the U.S. banking sector"
+  },
+  "doi:10.21275/sr26514163038": {
+    "source": "top_journal",
+    "title": "Hybrid PCA and K-means (DBSCAN) for Addressing Imbalanced Data: A Framework for Enhancing Machine Learning Performance"
+  },
+  "doi:10.1215/10539867-12442796": {
+    "source": "top_journal",
+    "title": "Tunnel Vision at the Sentencing Commission: Why Public Health, Science, and Medicine Deserve a Permanent Seat at the Table"
+  },
+  "doi:10.1108/bij-11-2025-1075": {
+    "source": "top_journal",
+    "title": "Benchmarking human, digital and green performance: a novel adaptive Total Productive Maintenance 5.0 maturity framework"
+  },
+  "doi:10.48175/ijarsct-35538": {
+    "source": "top_journal",
+    "title": "An Intelligent Web-Based Health Insurance Claim Processing System Using Generative AI, Retrieval Augmented Generation, and Optical Character Recognition"
+  },
+  "doi:10.38124/ijisrt/26apr2217": {
+    "source": "top_journal",
+    "title": "JobHunter: AI-Powered Job Recommendation System"
+  },
+  "doi:10.1080/07366981.2026.2673165": {
+    "source": "top_journal",
+    "title": "Design and development of a domain-specific large language model for intelligent educational assistance"
+  },
+  "doi:10.1177/10567879261448899": {
+    "source": "top_journal",
+    "title": "Effect of the 7E Learning Cycle Model Integrated with Computer Animation on Students’ Science Process Skills"
+  },
+  "doi:10.3390/info17050501": {
+    "source": "top_journal",
+    "title": "Validating Large Language Models for Title-Abstract Screening in Low-Prevalence Systematic Reviews: An Environmental Science Case Study"
+  },
+  "doi:10.66887/jltl.v16i3.1077": {
+    "source": "top_journal",
+    "title": "Intercultural Communicative Competence in Pre-Service Language Teacher Education: A Scoping Review of Research Trends and Technology-Mediated Pedagogical Practices"
+  },
+  "doi:10.1002/widm.70099": {
+    "source": "top_journal",
+    "title": "A Review of\n EEG\n ‐Based Driver Fatigue Detection: Nonlinear Dynamics, Brain Networks, and Deep Learning Advances"
+  },
+  "doi:10.1159/000552594": {
+    "source": "top_journal",
+    "title": "Improving Diagnosis of Severe Paediatric Lymphobronchial Tuberculosis Using Segmentation and Deep Learning on Chest X-Rays"
+  },
+  "doi:10.4018/ijitsa.410591": {
+    "source": "top_journal",
+    "title": "Constructing an Intelligent Health Management Platform Under Deep Learning Frameworks"
+  },
+  "doi:10.51178/jetl.v8i2.3384": {
+    "source": "top_journal",
+    "title": "Digital Game-Based Learning in Education: Bibliometric Analysis of Research Trends, Game Types, and Thematic Focus on Student Engagement"
+  },
+  "doi:10.1038/s41598-026-53464-w": {
+    "source": "top_journal",
+    "title": "Deepfake face detection using hybrid bag-of-visual-words and multi-CNN feature fusion"
+  },
+  "doi:10.1002/advs.75240": {
+    "source": "top_journal",
+    "title": "The Polymers of Life: Exploring Cellular Function Through Polymer Concepts"
+  },
+  "doi:10.61255/jupiter.v4i2.1082": {
+    "source": "top_journal",
+    "title": "Development of Interactive Media Based on the STEAM Approach Through the NEARPOD Application to Improve Literacy Skills of Elementary School Students"
+  },
+  "doi:10.1002/ase.70262": {
+    "source": "top_journal",
+    "title": "The performance of\n ChatGPT\n and other large language models on multiple‐choice questions in biomedical disciplines: A meta‐analysis"
+  },
+  "doi:10.1108/ribs-04-2025-0053": {
+    "source": "top_journal",
+    "title": "The anatomy of SME international resilience: empirical evidence from an emerging market"
+  },
+  "doi:10.3389/fragi.2026.1742582": {
+    "source": "top_journal",
+    "title": "Building a framework for integrative longevity science: from rediscovery to innovation"
+  },
+  "doi:10.1111/jmi.70108": {
+    "source": "top_journal",
+    "title": "The ancient trading hubs of modern science: Bridging the divide between microscopists and data scientists"
+  },
+  "doi:10.1007/s10212-026-01136-8": {
+    "source": "top_journal",
+    "title": "Do motivational changes differ between academic disciplines? Investigating the context in situated expectancy-value theory"
+  },
+  "doi:10.1108/md-09-2025-2632": {
+    "source": "top_journal",
+    "title": "Yoga tourism: review and research agenda"
+  },
+  "doi:10.1007/s12065-026-01203-5": {
+    "source": "top_journal",
+    "title": "A multi-agent contextual memory-driven optimization framework with deep learning and intent-aware coordination for mobile robot path planning"
+  },
+  "doi:10.1177/13634593261434598": {
+    "source": "top_journal",
+    "title": "Social problems, technological solutions? German nursing care experts’ perspectives, evaluations, and imaginaries of care robotics research"
+  },
+  "doi:10.3389/fcteg.2026.1793880": {
+    "source": "top_journal",
+    "title": "AI-driven smart home optimization for sustainable energy and water management: a systematic review"
+  },
+  "doi:10.63816/dm0jq803": {
+    "source": "top_journal",
+    "title": "La robótica educativa como eje transversal para el fortalecimiento del aprendizaje basado en proyectos"
+  },
+  "doi:10.1007/s12599-026-01003-2": {
+    "source": "top_journal",
+    "title": "A Benchmark for Selecting Real-Time Scheduling Approaches for Fleets of Automated Guided Vehicles in Intralogistics"
+  },
+  "doi:10.1287/mnsc.2023.01838": {
+    "source": "top_journal",
+    "title": "Know Your Users via Image Analytics Before Developing Posts: Data-Driven Optimization Framework to Enhance Social Media Engagement"
+  },
+  "doi:10.1007/s10120-026-01756-5": {
+    "source": "top_journal",
+    "title": "Artificial intelligence–based anatomical recognition improves surgeon decision-making during robotic gastrectomy"
+  },
+  "doi:10.70315/uloap.ulmhs.2026.0402005": {
+    "source": "top_journal",
+    "title": "Designing a Next-Generation Smart Artificial Cornea from the Perspective of Bio-Robotic Resonance and Medical Thermodynamics: A Multidisciplinary Engineering Approach"
+  },
+  "doi:10.3390/electronics15102179": {
+    "source": "top_journal",
+    "title": "HOSG-Nav: Hierarchical Open-Vocabulary Semantic Graph Navigation for Language-Guided Global Planning in 3D Gaussian Scenes"
+  },
+  "doi:10.55041/ijcope.v2i5.283": {
+    "source": "top_journal",
+    "title": "SmartShop: A Local LLM-Based Conversational Kiosk for Product Navigation and Sales Assistance in Supermarkets"
+  },
+  "doi:10.3389/fdgth.2026.1766683": {
+    "source": "top_journal",
+    "title": "Artificial intelligence and ChatGPT literacy among surgical healthcare professionals: knowledge, attitudes, and perceived clinical utility"
+  },
+  "doi:10.22495/rgcv16i2p7": {
+    "source": "top_journal",
+    "title": "A fuzzy-RPA hybrid intelligence framework for dynamic risk assessment and continuous internal auditing"
+  },
+  "doi:10.1142/s0218348x2740007x": {
+    "source": "top_journal",
+    "title": "A Unified Multiscale Observer Framework for Complex Dynamical Systems: Fractal Geometry, Scaling Laws, and Artificial Intelligence"
+  },
+  "doi:10.55092/rl20260014": {
+    "source": "top_journal",
+    "title": "NoisyEQA: benchmarking Embodied Question Answering with imperfect queries from non-expert users"
+  },
+  "doi:10.20517/cdr.2026.27": {
+    "source": "top_journal",
+    "title": "Deep spatial proteomics reveals a suppressive immune niche linked to immune evasion in renal cell carcinoma"
+  },
+  "doi:10.64898/2026.05.16.725687": {
+    "source": "top_journal",
+    "title": "Histopathology-inferred spatial transcriptomics characterizes the tumor microenvironment in 1,500 head and neck tumors and predicts clinical outcomes"
+  },
+  "doi:10.25258/ijddt.16.29s.33": {
+    "source": "top_journal",
+    "title": "A Comprehensive Review of Deep Learning-Based Speaker Diarization Techniques for Real-World Applications"
+  },
+  "doi:10.65521/ijacte.v15i2s.2975": {
+    "source": "top_journal",
+    "title": "An Integrated Deep Learning Framework for Multi-Hazard Risk Assessment: Flood Prediction and Landslide Detection"
+  },
+  "doi:10.3390/app16105062": {
+    "source": "top_journal",
+    "title": "Aerodynamic Prediction and Optimization of Compressor Stators Based on Deep Learning"
+  },
+  "doi:10.65521/ijacte.v15i2s.2972": {
+    "source": "top_journal",
+    "title": "An Integrated Deep Learning-Based System for Plant Disease Detection and Smart Agriculture"
+  },
+  "doi:10.3847/1538-4365/ae610b": {
+    "source": "top_journal",
+    "title": "12 hr Forecast of the SYM-H Index under Strong Southward Interplanetary Magnetic Field Conditions Using Deep Learning"
+  },
+  "doi:10.55041/ijcope.v2i5.579": {
+    "source": "top_journal",
+    "title": "Human Attention Monitoring System Using Webcam"
+  },
+  "doi:10.25258/ijddt.16.30s.44": {
+    "source": "top_journal",
+    "title": "Pectin as a Multifunctional Biopolymer in Food Processing and Shelf-Life Enhancement: An Extensive Review"
+  },
+  "doi:10.65521/ijacte.v15i1.2931": {
+    "source": "top_journal",
+    "title": "Intelligent Job Application Tracker and Analyzer Using NLP, PySpark and Distributed Cloud Architecture"
+  },
+  "doi:10.1007/s10579-026-09915-x": {
+    "source": "top_journal",
+    "title": "A performance analysis of a large language model for Marathi language NLP tasks"
+  },
+  "doi:10.1038/s41746-026-02787-z": {
+    "source": "top_journal",
+    "title": "Expert perspectives on US regulatory approaches to large language models in healthcare"
+  },
+  "doi:10.1186/s13287-026-05063-9": {
+    "source": "top_journal",
+    "title": "Variable cMyBP-C expression from cell to cell in a MYBPC3c.927–2 A>G hiPSC-CM model recapitulates HCM patient phenotype"
+  },
+  "doi:10.1038/s43587-026-01125-y": {
+    "source": "top_journal",
+    "title": "A unifying model of stem cell dynamics explains age-related methylation patterns across mammals"
+  },
+  "doi:10.3390/foods15101795": {
+    "source": "top_journal",
+    "title": "AGREE-YOLO: A Framework for Seafood Recognition and Cross-Cultural Gastronomic Recommendation"
+  },
+  "doi:10.64898/2026.05.19.726141": {
+    "source": "top_journal",
+    "title": "ProtmRNA: Cross-Modal Knowledge Transfer from Proteins to Messenger RNA"
+  },
+  "doi:10.3389/fimmu.2026.1738156": {
+    "source": "top_journal",
+    "title": "The complex role of IL-37 in cancer pathogenesis: exploring its influence on hallmarks of cancer"
+  },
+  "doi:10.3389/fonc.2026.1738955": {
+    "source": "top_journal",
+    "title": "Performance of large language models on the radiation and cancer biology practice exam"
+  },
+  "doi:10.1002/yea.70026": {
+    "source": "top_journal",
+    "title": "One Yeast, Sixteen Synthetic Chromosomes, Infinite Possibilities"
+  },
+  "doi:10.1073/pnas.2601726123": {
+    "source": "top_journal",
+    "title": "A redox- and proton-coupled inner membrane transporter mediates copper import to the bacterial cytoplasm"
+  },
+  "doi:10.66280/ijair.v1i2.144": {
+    "source": "top_journal",
+    "title": "Securing Deep Learning Infrastructures via Certified Robustness Training against Adaptive Adversarial Attacks in Real Time Environments"
+  },
+  "doi:10.3390/bioengineering13050574": {
+    "source": "top_journal",
+    "title": "Quantifying the Contribution of Bone Morphology to Implant Selection in Shoulder Arthroplasty Using CT-Based Deep Learning"
+  },
+  "doi:10.1177/14759217261445344": {
+    "source": "top_journal",
+    "title": "Damage diagnosis of bridge structures using deep learning strategies: A hybrid neural networks practical tool"
+  },
+  "doi:10.3390/diagnostics16101546": {
+    "source": "top_journal",
+    "title": "SULBA: A Task-Agnostic Data Augmentation Framework for Deep Learning in Medical Image Analysis"
+  },
+  "doi:10.3390/atmos17050519": {
+    "source": "top_journal",
+    "title": "Single-Point Thunderstorm Forecasting Based on Second-Order Moist Potential Vorticity and Deep Learning"
+  },
+  "doi:10.61919/zym68s76": {
+    "source": "top_journal",
+    "title": "Efficacy and Safety of Aspirin Versus Low-Molecular-Weight Heparin for the Prevention of Pulmonary Embolism in High-Risk Orthopedic Surgery Patients: A Meta-Analysis"
   }
 }
