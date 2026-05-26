@@ -2246,5 +2246,129 @@
   "doi:10.61919/zym68s76": {
     "source": "top_journal",
     "title": "Efficacy and Safety of Aspirin Versus Low-Molecular-Weight Heparin for the Prevention of Pulmonary Embolism in High-Risk Orthopedic Surgery Patients: A Meta-Analysis"
+  },
+  "arxiv:2605.26112v1": {
+    "source": "arxiv",
+    "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI"
+  },
+  "arxiv:2605.26111v1": {
+    "source": "arxiv",
+    "title": "Squeezing Capacity from Multimodal Large Language Models for Subject-driven Generation"
+  },
+  "arxiv:2605.26110v1": {
+    "source": "arxiv",
+    "title": "Prism: A Plug-in Reproducible Infrastructure for Scalable Multimodal Continual Instruction Tuning"
+  },
+  "arxiv:2605.26106v1": {
+    "source": "arxiv",
+    "title": "Looped Diffusion Language Models"
+  },
+  "arxiv:2605.26102v1": {
+    "source": "arxiv",
+    "title": "InstructSAM: Segment Any Instance with Any Instructions"
+  },
+  "arxiv:2605.26099v1": {
+    "source": "arxiv",
+    "title": "Language Models Need Sleep"
+  },
+  "arxiv:2605.26095v1": {
+    "source": "arxiv",
+    "title": "Pixel-Level Pavement Distress Assessment Using Instance Segmentation"
+  },
+  "arxiv:2605.26092v1": {
+    "source": "arxiv",
+    "title": "OrpQuant: Geometric Orthogonal Residual Projection for Multiplier-Free Power-of-Two Transformer Quantization"
+  },
+  "arxiv:2605.26086v1": {
+    "source": "arxiv",
+    "title": "Claw-Anything: Benchmarking Always-On Personal Assistants with Broader Access to User's Digital World"
+  },
+  "arxiv:2605.26070v1": {
+    "source": "arxiv",
+    "title": "WhoSaidIt: Human-LLM Collaborative Annotation for Text-Based Multilingual Speaker-Attribute Classification"
+  },
+  "arxiv:2605.26064v1": {
+    "source": "arxiv",
+    "title": "Paris 2.0: A Decentralized Diffusion Model for Video Generation"
+  },
+  "arxiv:2605.26040v1": {
+    "source": "arxiv",
+    "title": "L2IR: Revealing Latent Intent in Graph Fraud Detection"
+  },
+  "arxiv:2605.26038v1": {
+    "source": "arxiv",
+    "title": "DRScaffold: Boosting Dense-Scene Reasoning in Lightweight Vision Language Models"
+  },
+  "arxiv:2605.26026v1": {
+    "source": "arxiv",
+    "title": "A Multimodal 3D Foundation Model for Light Sheet Fluorescence Microscopy Enables Few-Shot Segmentation, Classification, and Deblurring"
+  },
+  "arxiv:2605.26014v1": {
+    "source": "arxiv",
+    "title": "STORM: Internalized Modeling for Spatial-Temporal Reasoning in Video-Language Models"
+  },
+  "arxiv:2605.26004v1": {
+    "source": "arxiv",
+    "title": "MAGIC: Multimodal Alignment & Grounding-aware Instruction Coreset for Vision-Language Models"
+  },
+  "arxiv:2605.25998v1": {
+    "source": "arxiv",
+    "title": "Causal methods for LLM development and evaluation"
+  },
+  "arxiv:2605.25991v1": {
+    "source": "arxiv",
+    "title": "Fuzzy PyTorch: Rapid Numerical Variability Evaluation for Deep Learning Models"
+  },
+  "arxiv:2605.25984v1": {
+    "source": "arxiv",
+    "title": "SafeCtrl-RL: Inference-Time Adaptive Behaviour Control for LLM Dialogue via RL-Driven Prompt Optimisation"
+  },
+  "arxiv:2605.25979v1": {
+    "source": "arxiv",
+    "title": "LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence"
+  },
+  "arxiv:2605.25969v1": {
+    "source": "arxiv",
+    "title": "Triplet-Block Diffusion RWKV"
+  },
+  "arxiv:2605.25955v1": {
+    "source": "arxiv",
+    "title": "QUIET: A Multi-Blank Cascaded Story Cloze Benchmark for LLM Creative Generation Capability"
+  },
+  "arxiv:2605.25954v1": {
+    "source": "arxiv",
+    "title": "Step-TP: A Grounded, Step-Level Dataset with Chain-of-Thought Reasoning for LLM-Guided Tensor Program Optimization"
+  },
+  "arxiv:2605.25944v1": {
+    "source": "arxiv",
+    "title": "EchoPilot: Training-Free Ultrasound Video Segmentation via Scale-Space Semantic Prompting and Reliability-Gated Memory"
+  },
+  "arxiv:2605.25941v1": {
+    "source": "arxiv",
+    "title": "Where Concept Erasure Should Occur: Concept-Layer Alignment in Text-to-Video Diffusion Models"
+  },
+  "arxiv:2605.25922v1": {
+    "source": "arxiv",
+    "title": "Closed-Loop Bidirectional Prompting for Adversarial Robustness of Vision Language Models"
+  },
+  "arxiv:2605.25921v1": {
+    "source": "arxiv",
+    "title": "Curve Skeletonization in Continuous domain for Meshes and Point Clouds"
+  },
+  "arxiv:2605.25901v1": {
+    "source": "arxiv",
+    "title": "AgentGrounder: Zero-Shot 3D Visual Pointcloud Grounding using Multimodal Language Models"
+  },
+  "arxiv:2605.25894v1": {
+    "source": "arxiv",
+    "title": "Predicting Stock Price Direction on Earnings Announcement Days using Multi-modal Deep Learning"
+  },
+  "arxiv:2605.25893v1": {
+    "source": "arxiv",
+    "title": "$D^2$-Monitor: Dynamic Safety Monitoring for Diffusion LLMs via Hesitation-Aware Routing"
+  },
+  "doi:10.64898/2026.05.19.726257": {
+    "source": "top_journal",
+    "title": "Replicability of unsupervised deep learning derived image phenotypes"
   }
 }
