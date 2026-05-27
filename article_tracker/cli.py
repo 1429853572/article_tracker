@@ -82,15 +82,22 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
     filtered = classifier.filter_by_tiers(unique_articles)
     logger.info(f"  After tier filter: {len(filtered)} papers")
 
-    # 5b. Fallback when empty
-    if not filtered and config.freshness.fallback_when_empty:
-        logger.info("Step 5b: No new papers, falling back to recent top papers...")
-        all_screened = classifier.filter_by_tiers(unique_articles) if unique_articles else []
-        if not all_screened:
-            classifier.classify(all_articles)
-            all_screened = classifier.filter_by_tiers(all_articles)
-        filtered = all_screened[:config.freshness.fallback_top_n]
-        logger.info(f"  Fallback: showing top {len(filtered)} recent papers")
+    # 5b. Fallback when insufficient
+    min_papers = config.freshness.fallback_top_n if config.freshness.fallback_when_empty else 0
+    if len(filtered) < min_papers:
+        logger.info(f"Step 5b: Only {len(filtered)} papers (min {min_papers}), filling from recent papers...")
+        seen_ids = {a.doi or a.arxiv_id or a.title for a in filtered}
+        pool = unique_articles if unique_articles else all_articles
+        if pool:
+            classifier.classify(pool)
+            pool_filtered = classifier.filter_by_tiers(pool)
+            for a in pool_filtered:
+                aid = a.doi or a.arxiv_id or a.title
+                if aid not in seen_ids and len(filtered) < min_papers:
+                    seen_ids.add(aid)
+                    a._fallback = True
+                    filtered.append(a)
+        logger.info(f"  After fallback: {len(filtered)} papers (minimum {min_papers})")
 
     # 6. Enrich: LLM bilingual summary (after screening, only for filtered papers)
     if config.llm.enabled:

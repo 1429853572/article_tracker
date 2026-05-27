@@ -186,7 +186,7 @@ schedule:
 freshness:
   since_days: 7                                    # 只看最近 N 天内新论文（1=近24h，3650≈10年全量）
   max_age_days: 365                                # 论文最大年龄（超过则过滤）
-  fallback_when_empty: false                       # 当无新增时，是否回退展示最近的 Top N 论文
+  fallback_when_empty: true                        # 当新增不足 fallback_top_n 篇时，补足至该数量（保底）
   fallback_top_n: 10                               # 回退时展示的论文数
 
 # ---------- 外部 API 配置 ----------
