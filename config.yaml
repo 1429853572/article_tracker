@@ -8,18 +8,21 @@ arxiv:
   categories: ["cs.CV", "cs.AI", "cs.LG", "cs.CL", "cs.RO"] # arXiv 学科分类
   keywords:                                        # 搜索关键词（与 categories 取 AND/OR）
     - "3D reconstruction"
+    - "Gaussian splatting"
+    - "neural radiance field"
+    - "NeRF"
+    - "SLAM"
     - "feed-forward 3D"
     - "dynamic reconstruction"
     - "streaming reconstruction"
-    - "SLAM"
-    - "lidar"
     - "LiDAR"
+    - "lidar"
     - "large language model"
   exclude_keywords:                                # 排除关键词
     - "survey"
     - "review"
   logic: "AND"                                     # 关键词逻辑：AND / OR
-  max_results: 30                                  # 最大返回论文数
+  max_results: 100                                 # 最大返回论文数
   sort_by: "submittedDate"                         # 排序字段：submittedDate / lastUpdatedDate
   sort_order: "descending"                         # 排序方向：descending / ascending
 
