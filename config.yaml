@@ -5,12 +5,15 @@
 # ---------- arXiv 预印本源 ----------
 arxiv:
   enabled: true                                    # 是否启用 arXiv 源
-  categories: ["cs.CV", "cs.AI", "cs.LG", "cs.CL"] # arXiv 学科分类
+  categories: ["cs.CV", "cs.AI", "cs.LG", "cs.CL", "cs.RO"] # arXiv 学科分类
   keywords:                                        # 搜索关键词（与 categories 取 AND/OR）
-    - "diffusion model"
-    - "vision-language"
-    - "segmentation"
-    - "deep learning"
+    - "3D reconstruction"
+    - "feed-forward 3D"
+    - "dynamic reconstruction"
+    - "streaming reconstruction"
+    - "SLAM"
+    - "lidar"
+    - "LiDAR"
     - "large language model"
   exclude_keywords:                                # 排除关键词
     - "survey"
@@ -61,28 +64,33 @@ screening:
   output_tiers: ["core", "proxy", "eco"]           # 输出哪些层级（noise 不输出）
   # --- Core：核心领域，高度相关 ---
   core_keywords:
-    - "deep learning"
-    - "computer vision"
-    - "natural language processing"
+    - "3D reconstruction"
+    - "feed-forward 3D"
+    - "dynamic reconstruction"
+    - "streaming reconstruction"
+    - "SLAM"
+    - "lidar"
+    - "LiDAR"
     - "large language model"
-    - "diffusion model"
-    - "vision-language"
+    - "neural radiance field"
+    - "Gaussian splatting"
   # --- Proxy：方法相关但领域不同 ---
   proxy_keywords:
-    - "representation learning"
-    - "self-supervised learning"
-    - "contrastive learning"
-    - "generative model"
-    - "reinforcement learning"
-    - "graph neural network"
+    - "point cloud"
+    - "depth estimation"
+    - "multi-view stereo"
+    - "structure from motion"
+    - "visual odometry"
+    - "scene understanding"
+    - "neural rendering"
   # --- Eco：领域相关但方法不同 ---
   eco_keywords:
-    - "optimization"
-    - "Bayesian inference"
-    - "causal inference"
-    - "federated learning"
-    - "neural architecture search"
-    - "knowledge distillation"
+    - "computer vision"
+    - "deep learning"
+    - "representation learning"
+    - "self-supervised learning"
+    - "graph neural network"
+    - "transformer"
   # --- Exclusion：排除关键词 ---
   exclusion_keywords:
     - "survey"

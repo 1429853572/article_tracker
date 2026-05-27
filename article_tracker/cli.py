@@ -94,7 +94,7 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
 
     # 6. Enrich: LLM bilingual summary (after screening, only for filtered papers)
     if config.llm.enabled:
-        llm_limit = config.llm.max_papers
+        llm_limit = min(max(config.llm.max_papers, config.output.max_papers), len(filtered))
         llm_articles = filtered[:llm_limit]
         logger.info(f"Step 6: Generating LLM bilingual summaries for up to {llm_limit} papers...")
         llm_enricher = LLMEnricher(config.llm)
