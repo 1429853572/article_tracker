@@ -7,7 +7,7 @@ on:
 
 concurrency:
   group: tracker-daily
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 permissions:
   contents: write
