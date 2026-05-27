@@ -78,9 +78,10 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
     log.screening = screen_stats
     logger.info(f"  Core: {screen_stats['core']}, Proxy: {screen_stats['proxy']}, Eco: {screen_stats['eco']}, Noise: {screen_stats['noise']}")
 
-    # Filter by tiers
+    # Filter by tiers and sort by relevance score
     filtered = classifier.filter_by_tiers(unique_articles)
-    logger.info(f"  After tier filter: {len(filtered)} papers")
+    filtered.sort(key=lambda a: a.relevance_score, reverse=True)
+    logger.info(f"  After tier filter: {len(filtered)} papers (sorted by relevance score)")
 
     # 5b. Fallback when insufficient
     min_papers = config.freshness.fallback_top_n if config.freshness.fallback_when_empty else 0
