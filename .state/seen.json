@@ -3422,5 +3422,213 @@
   "doi:10.1002/cbh2.70068": {
     "source": "top_journal",
     "title": "Artificial Intelligence Tools for Carbon Nanotube Research: Opportunities From Synthesis to Applications"
+  },
+  "arxiv:2605.27372v1": {
+    "source": "arxiv",
+    "title": "G3T Up! Gravity Aligned Coordinate Frames Simplify Pointmap Processing"
+  },
+  "arxiv:2605.27141v1": {
+    "source": "arxiv",
+    "title": "VitaBench 2.0: Evaluating Personalized and Proactive Agents in Long-Term User Interactions"
+  },
+  "arxiv:2605.27130v1": {
+    "source": "arxiv",
+    "title": "DEI: Diversity in Evolutionary Inference for Quality-Diversity Search"
+  },
+  "arxiv:2605.27110v1": {
+    "source": "arxiv",
+    "title": "BAIT: Boundary-Guided Disclosure Escalation via Self-Conditioned Reasoning"
+  },
+  "arxiv:2605.27101v1": {
+    "source": "arxiv",
+    "title": "Pop-Up Distractions Reveal Bag-of-Events Behavior in Video Large Language Models"
+  },
+  "arxiv:2605.27083v1": {
+    "source": "arxiv",
+    "title": "On the Hidden Costs of Counterfactual Knowledge Training in LLM Unlearning"
+  },
+  "arxiv:2605.27074v1": {
+    "source": "arxiv",
+    "title": "IPIBench: Evaluating Interactive Proactive Intelligence of MLLMs under Continuous Streams"
+  },
+  "arxiv:2605.27071v1": {
+    "source": "arxiv",
+    "title": "Traceable Knowledge Graph Reasoning Enables LLM-Assisted Decision Support for Industrial VOCs in the Steel Industry"
+  },
+  "arxiv:2605.27068v1": {
+    "source": "arxiv",
+    "title": "QUACK: Questioning, Understanding, and Auditing Communicated Knowledge in Multimodal Social Deduction Agents"
+  },
+  "arxiv:2605.27066v1": {
+    "source": "arxiv",
+    "title": "Large Language Model-Powered Query-Driven Event Timeline Summarization in Industrial Search"
+  },
+  "arxiv:2605.27051v1": {
+    "source": "arxiv",
+    "title": "ConVer: Using Contracts and Loop Invariant Synthesis for Scalable Formal Software Verification"
+  },
+  "arxiv:2605.27033v1": {
+    "source": "arxiv",
+    "title": "Tracing Computation Density in LLMs"
+  },
+  "arxiv:2605.27030v1": {
+    "source": "arxiv",
+    "title": "Share More, Search Less: Collaborative Parallel Thinking for Efficient Test-Time Scaling"
+  },
+  "arxiv:2605.27025v1": {
+    "source": "arxiv",
+    "title": "Attribute-Based Diagnosis of LLM Alignment with Hate Speech Annotations"
+  },
+  "doi:10.1007/s12518-026-00748-5": {
+    "source": "top_journal",
+    "title": "A unified framework for 3D building surface reconstruction from fused LiDAR and photogrammetric data"
+  },
+  "doi:10.3390/s26103225": {
+    "source": "top_journal",
+    "title": "HydroAir: An Air-Propelled Surface Vehicle for Autonomous Navigation and 3D Reconstruction in Shallow and Obstacle-Rich Aquatic Environments"
+  },
+  "arxiv:2605.20827": {
+    "source": "top_journal",
+    "title": "HyDAR-Pano3D: A Hybrid Disentangled Anatomical Recovery Framework for Panoramic-to-3D Reconstruction"
+  },
+  "arxiv:2605.20940": {
+    "source": "top_journal",
+    "title": "3D Reconstruction and Knowledge Distillation to Improve Multi-View Image Models to Explore Spike Volume Estimation in Wheat"
+  },
+  "doi:10.1088/1361-6501/ae70c8": {
+    "source": "top_journal",
+    "title": "A dual-branch stereo image super-resolution reconstruction network integrating internal and external view information"
+  },
+  "doi:10.3390/s26103231": {
+    "source": "top_journal",
+    "title": "An Underwater Polarization Image Fusion Algorithm Based on Information Entropy and a Hierarchical-Adaptive Fusion Framework"
+  },
+  "doi:10.64898/2026.05.18.725892": {
+    "source": "top_journal",
+    "title": "From 3D Time-of-Flight Angiography to Accelerated 4D Arterial Spin Labeling Angiography: A Fast Few-Shot Transfer Learning Approach"
+  },
+  "doi:10.70917/ijcisim-2026-1005": {
+    "source": "top_journal",
+    "title": "Engineering Animated Characters for Cross-Cultural Markets: AI-Assisted Parametric Modeling and Cultural Identity Adaptation"
+  },
+  "arxiv:2605.21835": {
+    "source": "top_journal",
+    "title": "An Open Multi-Center Whole-Body FDG PET/CT Foundation Model for Tumor Segmentation"
+  },
+  "doi:10.64898/2026.05.17.725083": {
+    "source": "top_journal",
+    "title": "Benchmarking Static Gene Regulatory Network Reconstruction and Dynamic Transition Probing in Single-Cell Foundation Models"
+  },
+  "arxiv:2605.21032": {
+    "source": "top_journal",
+    "title": "Towards Physically Consistent 4D Scene Reconstruction for Closed-loop Autonomous Driving Simulation"
+  },
+  "doi:10.3390/rs18101643": {
+    "source": "top_journal",
+    "title": "TCF-VQGAN: Two-Stage Codebook Fusion Vector-Quantized GAN for Multimodal Remote Sensing Image Cloud Removal"
+  },
+  "doi:10.3390/app16105113": {
+    "source": "top_journal",
+    "title": "An Adaptive Audiovisual Fusion Method Based on Prediction Confidence for Fine Granularity Bird Species Recognition"
+  },
+  "arxiv:2605.24019": {
+    "source": "top_journal",
+    "title": "MGVQ: Synergizing Multi-dimensional Sensitivity-Aware and Gradient-Hessian Fusion for Vector Quantization"
+  },
+  "doi:10.3390/surgeries7020061": {
+    "source": "top_journal",
+    "title": "From Imaging to Implementation: Computed-Tomography-Based Surgical Artificial Intelligence Using DIEP Flap Reconstruction as a Model System"
+  },
+  "doi:10.3390/jcm15103928": {
+    "source": "top_journal",
+    "title": "The Contemporary Role of Oral Maxillofacial Surgeons in Head and Neck Reconstructions"
+  },
+  "doi:10.1002/ejic.70230": {
+    "source": "top_journal",
+    "title": "Atomically Dispersed Iron: The Next Frontier in Green Catalysis"
+  },
+  "doi:10.37497/eaglesustainable.v16i.653": {
+    "source": "top_journal",
+    "title": "Competitive Intelligence Architecture in Higher Education and the Role of Digital Technologies and Artificial Intelligence in Strategic Decision-Making"
+  },
+  "doi:10.3390/info17050503": {
+    "source": "top_journal",
+    "title": "Positioning Artificial Intelligence Research in East Asia and Latin America: A Comparative Bibliometric Analysis"
+  },
+  "doi:10.1002/adma.73447": {
+    "source": "top_journal",
+    "title": "Dynamic Smart Membranes: Real‐Time Perception, Self‐Response, and AI‐Driven Optimization for High‐Safety Lithium‐Based Batteries"
+  },
+  "doi:10.3389/fonc.2026.1848190": {
+    "source": "top_journal",
+    "title": "The translational paradox of AI in hepatocellular carcinoma: from algorithmic over-engineering to real-world clinical utility"
+  },
+  "doi:10.47392/irjaeh.2026.0512": {
+    "source": "top_journal",
+    "title": "Agentic Generative AI for Real-Time Fraud Detection: Integrating RAG, MLOps, and Behavioral Analytics in Financial Systems"
+  },
+  "doi:10.47392/irjaeh.2026.0519": {
+    "source": "top_journal",
+    "title": "The Rise of Intelligent Supply Chains AI-Powered Demand Planning for Cloud and GenAI Infrastructure"
+  },
+  "doi:10.3389/fonc.2026.1825904": {
+    "source": "top_journal",
+    "title": "Intelligent therapeutic robotic-assisted surgery as the next frontier of precision oncology"
+  },
+  "doi:10.3389/frsen.2026.1812291": {
+    "source": "top_journal",
+    "title": "3D convolution attention-based multi-scale fusion network for hyperspectral image classification"
+  },
+  "doi:10.1002/lpor.202502483": {
+    "source": "top_journal",
+    "title": "Photon‐Level Single‐Pixel Imaging for Full‐Field Sensing and Dynamic Region of Interest Adaptive Capture"
+  },
+  "doi:10.28924/2291-8639-24-2026-157": {
+    "source": "top_journal",
+    "title": "Compactness Theory in Complex Neutrosophic Soft Spaces and Its Application to Visual Cosine Similarity Analysis"
+  },
+  "doi:10.1186/s12870-026-08985-x": {
+    "source": "top_journal",
+    "title": "Integrated transcriptome analysis identifies disease resistance genes and implicates ROP small GTPases in tomato defense against Phytophthora infestans"
+  },
+  "doi:10.2337/db26-0171": {
+    "source": "top_journal",
+    "title": "Comment on Shah and Ayala. Interpreting Stage-Dependent Changes in Semaglutide Response: From Patterns to Mechanisms"
+  },
+  "doi:10.3390/agriculture16101118": {
+    "source": "top_journal",
+    "title": "Visitor Perceptions of Tea Agricultural Heritage Systems in Fujian, China: A Landsenses Ecology Perspective"
+  },
+  "doi:10.1111/jan.70644": {
+    "source": "top_journal",
+    "title": "An Ecological and Processual Understanding of Family Resilience in Dementia: A Qualitative Meta‐Synthesis"
+  },
+  "doi:10.1038/s41598-026-53408-4": {
+    "source": "top_journal",
+    "title": "Reduced-order modeling of nonlinear multiscale industrial systems via sparse regression in latent representations"
+  },
+  "doi:10.3389/fbuil.2026.1825552": {
+    "source": "top_journal",
+    "title": "Research on AI-assisted generation of jiangnan classical garden architectural scenes based on LLM and LDM"
+  },
+  "doi:10.1088/1361-6501/ae70d1": {
+    "source": "top_journal",
+    "title": "DTFRC-net: Application of a coal gangue identification model incorporating acoustic vibration information in a dual-end linked system"
+  },
+  "doi:10.3390/s26103229": {
+    "source": "top_journal",
+    "title": "A Multi-Dimensional Vision-Based System for External Thread Defect Detection with Integrated Security Defense"
+  },
+  "doi:10.1186/s41747-026-00739-6": {
+    "source": "top_journal",
+    "title": "Effect of quantum iterative reconstruction on coronary stent assessment in ultra-high resolution photon-counting detector CT: a phantom study"
+  },
+  "arxiv:2605.20856": {
+    "source": "top_journal",
+    "title": "DISC: Decoupling Instruction from State-Conditioned Control via Policy Generation"
+  },
+  "doi:10.3390/app16105120": {
+    "source": "top_journal",
+    "title": "MSIFT+: A Mahalanobis Distance- and BBF-Based Feature Matching Framework for Vision-Guided Robotic Grasping"
   }
 }
