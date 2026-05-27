@@ -1,0 +1,186 @@
+# ============================================
+# Article Tracker — 土壤酸化主题配置文件
+# ============================================
+
+# ---------- arXiv 预印本源 ----------
+arxiv:
+  enabled: true
+  categories: ["q-bio.QM", "physics.geo-ph", "eess.SP", "cs.LG"] # 生态建模/地球物理/遥感/机器学习
+  keywords:
+    - "soil acidification"
+    - "soil pH"
+    - "soil acid"
+    - "acid deposition"
+    - "soil remediation"
+    - "alkalinity"
+    - "cation exchange capacity"
+    - "soil buffering"
+  exclude_keywords:
+    - "survey"
+    - "review"
+  logic: "AND"
+  max_results: 100
+  sort_by: "submittedDate"
+  sort_order: "descending"
+
+# ---------- 顶刊正式论文源 ----------
+top_journal:
+  enabled: true
+  since_days: 7
+  max_per_journal: 10
+  watchlist:
+    ## Q1 — 土壤学核心
+    - name: "Geoderma"
+    - name: "Soil Biology and Biochemistry"
+    - name: "European Journal of Soil Science"
+    - name: "Soil Science Society of America Journal"
+    - name: "Catena"
+    ## Q1 — 环境化学/酸沉降
+    - name: "Environmental Science and Technology"
+    - name: "Water Air and Soil Pollution"
+    - name: "Atmospheric Environment"
+    - name: "Science of the Total Environment"
+    - name: "Environmental Pollution"
+    ## Q1 — 农业土壤
+    - name: "Agriculture Ecosystems and Environment"
+    - name: "Field Crops Research"
+    - name: "Agricultural Water Management"
+    ## Q1 — 地球化学/矿物
+    - name: "Chemical Geology"
+    - name: "Applied Geochemistry"
+    - name: "Geochimica et Cosmochimica Acta"
+    ## Q1 — 生态/生物地球化学
+    - name: "Global Biogeochemical Cycles"
+    - name: "Biogeochemistry"
+    - name: "Ecological Applications"
+    ## Q1 — 遥感监测
+    - name: "Remote Sensing of Environment"
+    - name: "ISPRS Journal of Photogrammetry and Remote Sensing"
+    ## Q1 — 综合顶刊
+    - name: "Nature"
+    - name: "Science"
+    - name: "PNAS"
+    - name: "Nature Geoscience"
+
+# ---------- 去重策略 ----------
+dedup:
+  seen_path: ".state/seen.json"
+  title_threshold: 0.85
+  prefer_source: "top_journal"
+
+# ---------- 筛选策略（四层分类） ----------
+screening:
+  output_tiers: ["core", "proxy", "eco"]
+  # --- Core：土壤酸化核心（前3个用于S2搜索） ---
+  core_keywords:
+    - "soil acidification"
+    - "soil pH"
+    - "acid deposition"
+    - "soil acid"
+    - "soil buffering"
+    - "cation exchange capacity"
+    - "aluminum toxicity"
+    - "base saturation"
+  # --- Proxy：相关过程与驱动因子 ---
+  proxy_keywords:
+    - "nitrification"
+    - "acid rain"
+    - "sulfur deposition"
+    - "nitrogen deposition"
+    - "soil remediation"
+    - "liming"
+    - "alkalinity"
+    - "proton"
+    - "weathering"
+    - "leaching"
+  # --- Eco：扩展相关 ---
+  eco_keywords:
+    - "soil organic matter"
+    - "heavy metal"
+    - "soil contamination"
+    - "cropland"
+    - "forest soil"
+    - "paddy soil"
+    - "soil quality"
+    - "greenhouse gas"
+    - "nutrient cycling"
+  # --- Exclusion ---
+  exclusion_keywords:
+    - "survey"
+    - "review"
+  must_track_journals: []
+
+# ---------- LLM 双语摘要 ----------
+llm:
+  enabled: true
+  base_url: "https://api.deepseek.com"
+  model: "deepseek-v4-flash"
+  max_papers: 20
+  api_key_env: "DS_API_KEY"
+  api_key: ""
+  system_prompt_en: |
+    You are a senior paper-reading assistant specializing in soil science and environmental chemistry.
+    Based on the given metadata and abstract, write ONE concise paragraph in English that covers:
+    research motivation, main method, and key experimental findings. Be objective and specific;
+    avoid marketing language. Preserve any provided links, but do NOT repeat them in the paragraph.
+  system_prompt_zh: |
+    你是资深土壤科学与环境化学论文阅读助手。基于给定的论文元信息与摘要，用中文写「一段」简洁的总结，
+    包含研究动机、核心方法与关键实验结果。保持客观、术语准确；避免营销式表述。
+    如有链接请保留，但不要在总结里重复链接。
+  timeout: 60
+
+# ---------- 输出通道 ----------
+output:
+  dir: "outputs"
+  max_papers: 30
+  json_enabled: true
+  md_enabled: true
+  pdf_enabled: false
+  excel_enabled: false
+  html_table_enabled: true
+  obsidian_enabled: false
+  obsidian_vault: ""
+  zotero_enabled: false
+  email:
+    enabled: true
+    sender_env: "EMAIL_SENDER"
+    to_env: "EMAIL_TO"
+    smtp_server: "smtp.qq.com"
+    smtp_port: 465
+    smtp_pass_env: "SMTP_PASS"
+    tls_mode: "ssl"
+    subject_prefix: "Soil Acidification Tracker"
+  ghpages:
+    enabled: true
+    output_dir: "docs"
+    keep_runs: 30
+    accent: "#16a34a"
+    theme_mode: "auto"
+
+# ---------- 调度 ----------
+schedule:
+  enabled: true
+  cron: "0 23 * * *"
+  timezone: "Asia/Shanghai"
+
+# ---------- 新鲜度与回退 ----------
+freshness:
+  since_days: 7
+  max_age_days: 365
+  fallback_when_empty: true
+  fallback_top_n: 10
+
+# ---------- 外部 API 配置 ----------
+s2:
+  api_key_env: "S2_API_KEY"
+  api_key: ""
+  base_url: "https://api.semanticscholar.org/graph/v1"
+openalex:
+  email_env: "OPENALEX_EMAIL"
+  email: ""
+  base_url: "https://api.openalex.org"
+
+# ---------- 运行参数 ----------
+source_filter: "all"
+dry_run: false
+verbose: false
