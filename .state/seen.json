@@ -3750,5 +3750,313 @@
   "doi:10.31648/paom/208673": {
     "source": "top_journal",
     "title": "Effects of using lower limb exoskeleton on function and psychosocial well-being of stroke survivors: A review"
+  },
+  "arxiv:2605.26830v1": {
+    "source": "arxiv",
+    "title": "The Kalman Evolve: Closing the Gap in Kalman Filtering via Interpretable Algorithm Discovery"
+  },
+  "arxiv:2605.26642v1": {
+    "source": "arxiv",
+    "title": "Adaptation-Free Heterogeneous Collaborative Perception with Unseen Agent Configurations"
+  },
+  "arxiv:2605.26629v1": {
+    "source": "arxiv",
+    "title": "DelowlightSplat: Feed-Forward Gaussian Splatting for Lowlight 3D Scene Reconstruction"
+  },
+  "arxiv:2605.26616v1": {
+    "source": "arxiv",
+    "title": "Gaussian-Voxel Duet: A Dual-Scaffolding Hybrid Representation for Fast and Accurate Monocular Surface Reconstruction"
+  },
+  "arxiv:2605.26576v1": {
+    "source": "arxiv",
+    "title": "TrackRef3D: Multi-View Consistent Track-then-Label for Open-World Referring Segmentation in 3D Gaussian Splatting"
+  },
+  "arxiv:2605.26519v1": {
+    "source": "arxiv",
+    "title": "$R^3$: 3D Reconstruction via Relative Regression"
+  },
+  "arxiv:2605.26500v1": {
+    "source": "arxiv",
+    "title": "3D Gaussian Map with Open-Set Semantic Grouping for Vision-Language Navigation"
+  },
+  "arxiv:2605.26456v1": {
+    "source": "arxiv",
+    "title": "Sparse-LiDAR Prompting of Monocular Geometry Foundations: An Empirical Study Toward Long-Range Driving Depth"
+  },
+  "arxiv:2605.26447v1": {
+    "source": "arxiv",
+    "title": "Underwater360: Reconstructing Underwater Scenes from Panoramic Images with Omnidirectional Gaussian Splatting"
+  },
+  "arxiv:2605.26370v1": {
+    "source": "arxiv",
+    "title": "Joint Instance Segmentation and Geometric Attribute Regression for Roof Structures in Aerial Imagery"
+  },
+  "arxiv:2605.26368v1": {
+    "source": "arxiv",
+    "title": "Unified Panoramic Geometry Estimation via Multi-View Foundation Models"
+  },
+  "arxiv:2605.26230v1": {
+    "source": "arxiv",
+    "title": "Geometry-Aware Representation Denoising for Robust Multi-view 3D Reconstruction"
+  },
+  "arxiv:2605.26115v1": {
+    "source": "arxiv",
+    "title": "TriSplat: Simulation-Ready Feed-Forward 3D Scene Reconstruction"
+  },
+  "arxiv:2605.26113v1": {
+    "source": "arxiv",
+    "title": "AnyScene: Towards Highly Controllable Driving Scene Generation at Anywhere and Beyond"
+  },
+  "arxiv:2605.26103v2": {
+    "source": "arxiv",
+    "title": "Global Structure-from-Motion Meets Feedforward Reconstruction"
+  },
+  "arxiv:2605.25975v1": {
+    "source": "arxiv",
+    "title": "F-RNG: Feed-Forward Relightable Neural Gaussians"
+  },
+  "arxiv:2605.25909v1": {
+    "source": "arxiv",
+    "title": "R5DGS: Semantic-Aware 4D Gaussian Splatting with Rigid Body Constraints for Efficient Dynamic Scene Reconstruction"
+  },
+  "arxiv:2605.25751v1": {
+    "source": "arxiv",
+    "title": "SplitAvatar: One-shot Head Avatar with Autoregressive Gaussian Splitting"
+  },
+  "arxiv:2605.25646v1": {
+    "source": "arxiv",
+    "title": "G-DRAGON: Geospatial Reasoning and Dynamic Planning for Retrieval-Augmented Outdoor Navigation"
+  },
+  "arxiv:2605.25563v1": {
+    "source": "arxiv",
+    "title": "CodecSplat: Ultra-Compact Latent Coding for Feed-Forward 3D Gaussian Splatting"
+  },
+  "arxiv:2605.25373v1": {
+    "source": "arxiv",
+    "title": "Physics-Aware 3D Gaussian Editing for Driving Scene Generation"
+  },
+  "arxiv:2605.25345v1": {
+    "source": "arxiv",
+    "title": "Depth Peeling for High-Fidelity Gaussian-Enhanced Surfel Rendering"
+  },
+  "arxiv:2605.25293v1": {
+    "source": "arxiv",
+    "title": "Neuromorphic LiDAR-based Bird's Eye View Object Detection using Energy-efficient Spiking Neural Networks"
+  },
+  "arxiv:2605.25279v1": {
+    "source": "arxiv",
+    "title": "GreenSeg: Ground Segmentation Algorithm for Agricultural Robots in Mediterranean Greenhouses using RGB-D Point Clouds"
+  },
+  "arxiv:2605.25262v1": {
+    "source": "arxiv",
+    "title": "Semantics-Guided Multimodal Masked Autoencoder Pretraining for 3D BEV Object Detection"
+  },
+  "arxiv:2605.25239v1": {
+    "source": "arxiv",
+    "title": "FusionCore: A 23-State Unscented Kalman Filter for IMU, Wheel Encoder, GPS, and Visual SLAM Fusion in ROS 2"
+  },
+  "arxiv:2605.25211v1": {
+    "source": "arxiv",
+    "title": "Evolving Causal Regulatory Networks (ECR-Net)"
+  },
+  "arxiv:2605.25051v1": {
+    "source": "arxiv",
+    "title": "A Decentralized LiDAR-SLAM System with Certifiably Optimal Pose Graph Optimization"
+  },
+  "arxiv:2605.25029v2": {
+    "source": "arxiv",
+    "title": "ParkingWorld: End-to-End Autonomous Parking Reinforcement Learning from Corrective Experience in 3DGS Simulation"
+  },
+  "arxiv:2605.24964v1": {
+    "source": "arxiv",
+    "title": "ConFi-GS Confidence-Guided High-Frequency Injection for 3D Gaussian Splatting Super-Resolution"
+  },
+  "arxiv:2605.24959v1": {
+    "source": "arxiv",
+    "title": "Three-Step Conditional Diffusion 3D Reconstruction for Light-Field Microscopy"
+  },
+  "arxiv:2605.24950v1": {
+    "source": "arxiv",
+    "title": "ARCANE-PedSynth: Synthetic Multi-Pedestrian Datasets with Behavioural Crossing Annotations"
+  },
+  "arxiv:2605.24777v1": {
+    "source": "arxiv",
+    "title": "MR-LiDAR: A Multi-Resolution Roadside LiDAR Benchmark for Perception Diagnostics and Deployment Guidance"
+  },
+  "arxiv:2605.24753v1": {
+    "source": "arxiv",
+    "title": "Ghosts in the Point Clouds: De-glaring LiDAR in the Transient Domain"
+  },
+  "arxiv:2605.24642v1": {
+    "source": "arxiv",
+    "title": "Understanding the Impact of Geometric Foundation Models on Vision-Language-Action Models"
+  },
+  "arxiv:2605.24630v1": {
+    "source": "arxiv",
+    "title": "DexSIM: Real-time Dexterous Simulation with Unified Causal Video Diffusion"
+  },
+  "arxiv:2605.24495v1": {
+    "source": "arxiv",
+    "title": "Elevator-LIO: Robust LiDAR-Inertial Odometry for Multi-Floor Navigation under Elevator-Induced Non-Inertial Motion"
+  },
+  "arxiv:2605.24304v1": {
+    "source": "arxiv",
+    "title": "ArtSplat: Feed-Forward Articulated 3D Gaussian Splatting from Sparse Multi-State Uncalibrated Views"
+  },
+  "arxiv:2605.24114v1": {
+    "source": "arxiv",
+    "title": "COSY: Compositional 3DGS Synthesis for Disentangled Human Head Editing"
+  },
+  "arxiv:2605.24098v1": {
+    "source": "arxiv",
+    "title": "D2-V2X: Depth-Driven Cooperative V2X Reasoning for Autonomous Driving"
+  },
+  "arxiv:2605.23892v1": {
+    "source": "arxiv",
+    "title": "Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers"
+  },
+  "arxiv:2605.23889v1": {
+    "source": "arxiv",
+    "title": "HorizonStream: Long-Horizon Attention for Streaming 3D Reconstruction"
+  },
+  "arxiv:2605.23845v1": {
+    "source": "arxiv",
+    "title": "Learning a Particle Dynamics Model with Real-world Videos"
+  },
+  "arxiv:2605.23832v1": {
+    "source": "arxiv",
+    "title": "SFG-ROS: A Resource-Aware Framework for Dense Multi-Agent Perception"
+  },
+  "arxiv:2605.24074v1": {
+    "source": "arxiv",
+    "title": "WideDepth: Millimeter-Accurate Benchmark for Fisheye Depth Estimation"
+  },
+  "arxiv:2605.23672v1": {
+    "source": "arxiv",
+    "title": "RiGS: Rigid-aware 4D Gaussian Splatting from a Single Monocular Video"
+  },
+  "arxiv:2605.23580v1": {
+    "source": "arxiv",
+    "title": "Calibration-Informative Region Selection for Online LiDAR--Camera Calibration in Agricultural Environments"
+  },
+  "arxiv:2605.23406v1": {
+    "source": "arxiv",
+    "title": "RS2AD-LiDAR: End-to-End Autonomous Driving LiDAR Data Generation from Roadside Sensor Observations"
+  },
+  "arxiv:2605.23397v1": {
+    "source": "arxiv",
+    "title": "Joint Target-Less Intrinsic and Extrinsic Camera-LiDAR Calibration using Deep Point Correspondences"
+  },
+  "arxiv:2605.23386v1": {
+    "source": "arxiv",
+    "title": "Droneulator: A Portable UAV Simulator for Agricultural Workflows with RotorPy and Godot 4"
+  },
+  "arxiv:2605.23287v1": {
+    "source": "arxiv",
+    "title": "LangFlash: Feed-forward 3D Language Gaussian Splatting from Sparse Unposed Images"
+  },
+  "arxiv:2605.22814v1": {
+    "source": "arxiv",
+    "title": "Remember to be Curious: Episodic Context and Persistent Worlds for 3D Exploration"
+  },
+  "arxiv:2605.22809v2": {
+    "source": "arxiv",
+    "title": "Sensor2Sensor: Cross-Embodiment Sensor Conversion for Autonomous Driving"
+  },
+  "arxiv:2605.22536v1": {
+    "source": "arxiv",
+    "title": "SpaceDG: Benchmarking Spatial Intelligence under Visual Degradation"
+  },
+  "arxiv:2605.22359v1": {
+    "source": "arxiv",
+    "title": "GazePrior: Zero-Shot AR/VR Eye Tracking via Learned 3D Gaze Reconstruction"
+  },
+  "arxiv:2605.24037v1": {
+    "source": "arxiv",
+    "title": "Mode-as-Sequence: Translating Multimodal Motion Prediction into Unified Sequential Mode Modeling"
+  },
+  "arxiv:2605.22342v1": {
+    "source": "arxiv",
+    "title": "4D-GSW: Kinematic-Aware Spatio-Temporal Consistent Watermarking for 4D Gaussian Splatting"
+  },
+  "arxiv:2605.22328v1": {
+    "source": "arxiv",
+    "title": "3D LULC classification using multispectral LiDAR and deep learning: current and prospective schemes"
+  },
+  "arxiv:2605.22190v1": {
+    "source": "arxiv",
+    "title": "No Pose, No Problem in 4D: Feed-Forward Dynamic Gaussians from Unposed Multi-View Videos"
+  },
+  "arxiv:2605.22147v1": {
+    "source": "arxiv",
+    "title": "Flow-based Gaussian Splatting for Continuous-Scale Remote Sensing Image Super-Resolution"
+  },
+  "arxiv:2605.22069v1": {
+    "source": "arxiv",
+    "title": "TWINGS: Thin Plate Splines Warp-aligned Initialization for Sparse-View Gaussian Splatting"
+  },
+  "arxiv:2605.22036v1": {
+    "source": "arxiv",
+    "title": "GA-VLN: Geometry-Aware BEV Representation for Efficient Vision-Language Navigation"
+  },
+  "arxiv:2605.22020v2": {
+    "source": "arxiv",
+    "title": "ForeSplat: Optimization-Aware Foresight for Feed-Forward 3D Gaussian Splatting"
+  },
+  "arxiv:2605.22018v1": {
+    "source": "arxiv",
+    "title": "FRED: A Multi-Modal Autonomous Driving Dataset for Flooded Road Environments"
+  },
+  "arxiv:2605.21935v1": {
+    "source": "arxiv",
+    "title": "Learning to Evolve: Multi-modal Interactive Fields for Robust Humanoid Navigation in Dynamic Environments"
+  },
+  "arxiv:2605.21747v1": {
+    "source": "arxiv",
+    "title": "Improving 3D Labeling in Self-Driving by Inferring Vehicle Information using Vision Language Models"
+  },
+  "arxiv:2605.21150v1": {
+    "source": "arxiv",
+    "title": "EllipseLIO: Adaptive LiDAR Inertial Odometry with an Ellipsoid Representation"
+  },
+  "arxiv:2605.21112v1": {
+    "source": "arxiv",
+    "title": "RCGDet3D: Rethinking 4D Radar-Camera Fusion-based 3D Object Detection with Enhanced Radar Feature Encoding"
+  },
+  "arxiv:2605.21007v1": {
+    "source": "arxiv",
+    "title": "LiteViLNet: Lightweight Vision-LiDAR Fusion Network for Efficient Road Segmentation"
+  },
+  "arxiv:2605.20997v1": {
+    "source": "arxiv",
+    "title": "Hybrid Machine Learning Model for Forest Height Estimation from TanDEM-X and Landsat Data"
+  },
+  "arxiv:2605.20940v1": {
+    "source": "arxiv",
+    "title": "3D Reconstruction and Knowledge Distillation to Improve Multi-View Image Models to Explore Spike Volume Estimation in Wheat"
+  },
+  "arxiv:2605.20917v1": {
+    "source": "arxiv",
+    "title": "SubTGraph: Large-Scale Subterranean Environment Synthesis with Controllable Topological Variability for Robotic Autonomy Validation"
+  },
+  "arxiv:2605.20872v1": {
+    "source": "arxiv",
+    "title": "CAdam: Context-Adaptive Moment Estimation for 3D Gaussian Densification in Generative Distillation"
+  },
+  "arxiv:2605.20827v1": {
+    "source": "arxiv",
+    "title": "HyDAR-Pano3D: A Hybrid Disentangled Anatomical Recovery Framework for Panoramic-to-3D Reconstruction"
+  },
+  "arxiv:2605.20820v1": {
+    "source": "arxiv",
+    "title": "AIR: Amortized Image Reconstruction Framework for Self-Supervised Feed-Forward 2D Gaussian Splatting"
+  },
+  "arxiv:2605.20752v1": {
+    "source": "arxiv",
+    "title": "GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation"
+  },
+  "arxiv:2605.20733v1": {
+    "source": "arxiv",
+    "title": "Sketch2MinSurf: Vision-Language Guided Generation of Editable Minimal Surfaces from Hand-Drawn Sketches"
   }
 }
