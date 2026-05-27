@@ -29,29 +29,28 @@ top_journal:
   since_days: 7                                    # 回溯天数（1=仅当天）
   max_per_journal: 10                              # 每个期刊最大返回数
   watchlist:                                       # 追踪的期刊家族（内联，无需单独文件）
-    ## Nature 家族
-    - name: "Nature"
-    - name: "Nature Communications"
-    - name: "Nature Climate Change"
-    - name: "Nature Ecology & Evolution"
-    - name: "Nature Methods"
-    - name: "Nature Geoscience"
+    ## 计算机视觉 / 3D 视觉
+    - name: "International Journal of Computer Vision"
+    - name: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    - name: "Computer Vision and Image Understanding"
+    - name: "Journal of Mathematical Imaging and Vision"
+    ## 机器人 / SLAM
+    - name: "IEEE Transactions on Robotics"
+    - name: "IEEE Robotics and Automation Letters"
+    - name: "International Journal of Robotics Research"
+    - name: "Robotics and Autonomous Systems"
+    - name: "Journal of Field Robotics"
+    ## 3D 重建 / 遥感 / 测绘
+    - name: "ISPRS Journal of Photogrammetry and Remote Sensing"
+    - name: "Remote Sensing"
+    - name: "IEEE Transactions on Geoscience and Remote Sensing"
+    ## 图形学 / 渲染
+    - name: "ACM Transactions on Graphics"
+    - name: "IEEE Transactions on Visualization and Computer Graphics"
+    ## 综合顶刊（保留少数可能发 3D/SLAM 的）
     - name: "Nature Machine Intelligence"
-    - name: "Nature Sustainability"
-    ## Science 家族
-    - name: "Science"
-    - name: "Science Advances"
     - name: "Science Robotics"
-    ## Cell 家族
-    - name: "Cell"
-    - name: "Nature Cell Biology"
-    ## PNAS
-    - name: "Proceedings of the National Academy of Sciences"
-    ## 其他顶刊
-    - name: "The Lancet"
-    - name: "New England Journal of Medicine"
-    - name: "JAMA"
-    - name: "BMJ"
+    - name: "PNAS"
 
 # ---------- 去重策略 ----------
 dedup:
@@ -83,6 +82,13 @@ screening:
     - "visual odometry"
     - "scene understanding"
     - "neural rendering"
+    - "3D Gaussian"
+    - "NeRF"
+    - "voxel"
+    - "mesh reconstruction"
+    - "occupancy network"
+    - "signed distance function"
+    - "differentiable rendering"
   # --- Eco：领域相关但方法不同 ---
   eco_keywords:
     - "computer vision"
@@ -91,6 +97,12 @@ screening:
     - "self-supervised learning"
     - "graph neural network"
     - "transformer"
+    - "image synthesis"
+    - "optical flow"
+    - "camera pose"
+    - "feature matching"
+    - "robotics"
+    - "autonomous driving"
   # --- Exclusion：排除关键词 ---
   exclusion_keywords:
     - "survey"
