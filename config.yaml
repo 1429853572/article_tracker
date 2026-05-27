@@ -29,28 +29,51 @@ top_journal:
   since_days: 7                                    # 回溯天数（1=仅当天）
   max_per_journal: 10                              # 每个期刊最大返回数
   watchlist:                                       # 追踪的期刊家族（内联，无需单独文件）
-    ## 计算机视觉 / 3D 视觉
-    - name: "International Journal of Computer Vision"
-    - name: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    ## Q1 顶刊 — 多模态/融合
+    - name: "Information Fusion"
+    ## Q1 顶刊 — 综述型强刊
+    - name: "Artificial Intelligence Review"
+    ## Q1 顶刊 — 摄影测量/LiDAR
+    - name: "ISPRS Journal of Photogrammetry and Remote Sensing"
+    ## Q1 顶刊 — 机器人/工业应用
+    - name: "Robotics and Computer-Integrated Manufacturing"
+    ## Q1 顶刊 — 图形学核心（4DGS/动态高斯/在线渲染）
+    - name: "ACM Transactions on Graphics"
+    ## Q1 顶刊 — 3D人体/前馈隐式表示
+    - name: "Pattern Recognition"
+    ## Q1 顶刊 — 可视化/渲染/三维重建
+    - name: "IEEE Transactions on Visualization and Computer Graphics"
+    ## Q1 顶刊 — 视觉任务3D重建
+    - name: "Image and Vision Computing"
+    ## Q1 顶刊 — CV导向3D/多视图/稀疏视角
     - name: "Computer Vision and Image Understanding"
-    - name: "Journal of Mathematical Imaging and Vision"
-    ## 机器人 / SLAM
+    ## Q1 顶刊 — 3DGS与RGB-D重建综述集中
+    - name: "Computational Visual Media"
+    ## Q2+ — Eurographics STAR/非刚性3D/前馈综述
+    - name: "Computer Graphics Forum"
+    ## Q2 — 嵌入式实时3D重建/系统
+    - name: "The Visual Computer"
+    ## Q2 — NeRF数据增强/渲染成像
+    - name: "Journal of Visual Communication and Image Representation"
+    ## Q2 — 机器视觉应用3D重建
+    - name: "Machine Vision and Applications"
+    ## Q2+ — RGB-D视频/医疗NeRF
+    - name: "International Journal of Computer Assisted Radiology and Surgery"
+    ## Q2 — 神经渲染/文化遗产重建
+    - name: "Digital Applications in Archaeology and Cultural Heritage"
+    ## Q2 — 图形学系统/动态高斯/NeRF应用
+    - name: "Computers and Graphics"
+    ## Q1 顶刊 — CV/3D视觉经典
+    - name: "International Journal of Computer Vision"
+    ## Q1 顶刊 — CV综合
+    - name: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    ## Q1 顶刊 — 机器人/SLAM
     - name: "IEEE Transactions on Robotics"
     - name: "IEEE Robotics and Automation Letters"
     - name: "International Journal of Robotics Research"
-    - name: "Robotics and Autonomous Systems"
-    - name: "Journal of Field Robotics"
-    ## 3D 重建 / 遥感 / 测绘
-    - name: "ISPRS Journal of Photogrammetry and Remote Sensing"
-    - name: "Remote Sensing"
-    - name: "IEEE Transactions on Geoscience and Remote Sensing"
-    ## 图形学 / 渲染
-    - name: "ACM Transactions on Graphics"
-    - name: "IEEE Transactions on Visualization and Computer Graphics"
-    ## 综合顶刊（保留少数可能发 3D/SLAM 的）
+    ## 综合保留
     - name: "Nature Machine Intelligence"
     - name: "Science Robotics"
-    - name: "PNAS"
 
 # ---------- 去重策略 ----------
 dedup:
