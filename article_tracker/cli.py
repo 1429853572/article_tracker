@@ -26,7 +26,7 @@ def _setup_logging(verbose: bool) -> None:
     logging.basicConfig(level=level, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 
 
-def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_run: bool) -> RunLog:
+def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_run: bool, no_dedup: bool = False) -> RunLog:
     log = RunLog()
     logger = logging.getLogger("article_tracker")
 
@@ -51,12 +51,17 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
         return log
 
     # 2. Deduplicate
-    logger.info("Step 2: Deduplicating...")
-    seen_store = SeenStore(config.dedup.seen_path)
-    dedup = Deduplicator(seen_store, config.dedup.title_threshold, config.dedup.prefer_source)
-    unique_articles, dedup_stats = dedup.deduplicate(all_articles)
-    log.dedup = dedup_stats
-    logger.info(f"  After dedup: {len(unique_articles)} new papers (removed {dedup_stats['dedup_doi'] + dedup_stats['dedup_arxiv_id'] + dedup_stats['dedup_title']})")
+    if no_dedup:
+        logger.info("Step 2: Dedup skipped (--no-dedup mode, treating all as new)")
+        unique_articles = all_articles
+        log.dedup = {"dedup_doi": 0, "dedup_arxiv_id": 0, "dedup_title": 0}
+    else:
+        logger.info("Step 2: Deduplicating...")
+        seen_store = SeenStore(config.dedup.seen_path)
+        dedup = Deduplicator(seen_store, config.dedup.title_threshold, config.dedup.prefer_source)
+        unique_articles, dedup_stats = dedup.deduplicate(all_articles)
+        log.dedup = dedup_stats
+        logger.info(f"  After dedup: {len(unique_articles)} new papers (removed {dedup_stats['dedup_doi'] + dedup_stats['dedup_arxiv_id'] + dedup_stats['dedup_title']})")
 
     # 3. Enrich: abstract fallback
     logger.info("Step 3: Enriching abstracts (S2 → OpenAlex → Crossref)...")
@@ -130,8 +135,9 @@ def _run_track(config: UnifiedConfig, source: str, since_days: int | None, dry_r
             logger.info(f"  {ch}: {result}")
 
         # Persist seen store
-        seen_store.persist()
-        logger.info(f"  Seen store persisted ({seen_store.count} records)")
+        if not no_dedup:
+            seen_store.persist()
+            logger.info(f"  Seen store persisted ({seen_store.count} records)")
     else:
         logger.info("Step 7: Dry run, skipping output.")
 
@@ -155,7 +161,8 @@ def cli():
 @click.option("--verbose", is_flag=True, help="Debug logging")
 @click.option("--out-dir", default=None, help="Override output directory")
 @click.option("--profile", "profile_path", default=None, help="Override research profile path")
-def track(config_path, source, since_days, dry_run, verbose, out_dir, profile_path):
+@click.option("--no-dedup", is_flag=True, help="Skip dedup (test mode: treat all papers as new)")
+def track(config_path, source, since_days, dry_run, verbose, out_dir, profile_path, no_dedup):
     _setup_logging(verbose)
     try:
         cfg = Config.load(config_path)
@@ -170,7 +177,7 @@ def track(config_path, source, since_days, dry_run, verbose, out_dir, profile_pa
     if dry_run:
         cfg.dry_run = True
 
-    run_log = _run_track(cfg, source, since_days, dry_run)
+    run_log = _run_track(cfg, source, since_days, dry_run, no_dedup=no_dedup)
 
     if not dry_run:
         log_path = Path(cfg.output.dir) / "run_log.json"
