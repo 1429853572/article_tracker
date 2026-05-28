@@ -5,7 +5,7 @@ from typing import Any, Dict, Optional
 
 import httpx
 
-DEFAULT_TIMEOUT = float(os.getenv("AT_HTTP_TIMEOUT", "30"))
+DEFAULT_TIMEOUT = float(os.getenv("AT_HTTP_TIMEOUT", "60"))
 MAX_RETRIES = int(os.getenv("AT_HTTP_MAX_RETRIES", "3"))
 BASE_DELAY = float(os.getenv("AT_HTTP_BASE_DELAY", "1.0"))
 RETRYABLE_STATUS = {429, 500, 502, 503, 504}

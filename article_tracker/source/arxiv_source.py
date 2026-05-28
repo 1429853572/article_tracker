@@ -186,7 +186,7 @@ class ArxivSource(BaseSource):
         all_articles: List[Article] = []
         start = 0
         page_size = min(self.config.max_results, 200)
-        INTER_BATCH_DELAY = 3.0
+        INTER_BATCH_DELAY = 5.0
         MAX_429_RETRIES = 5
 
         while start < self.config.max_results:
