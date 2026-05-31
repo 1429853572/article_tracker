@@ -48,7 +48,9 @@ def _card(a: Article) -> str:
     parts = [f'<div class="card"><div class="title">{_esc(a.title)}{tier_html}{score_html}{fallback_html}</div>']
 
     if a.authors:
-        parts.append(f'<div class="meta-line">Authors: {_esc(", ".join(a.authors[:5]))}{"..." if len(a.authors) > 5 else ""}</div>')
+        parts.append(
+            f'<div class="meta-line">Authors: {_esc(", ".join(a.authors[:5]))}{"..." if len(a.authors) > 5 else ""}</div>'
+        )
     if a.venue:
         parts.append(f'<div class="meta-line">Venue: {_esc(a.venue)}</div>')
     if a.published:
@@ -60,12 +62,14 @@ def _card(a: Article) -> str:
     if a.pdf_url:
         links.append(f'<a href="{_esc(a.pdf_url)}">PDF</a>')
     for i, u in enumerate(a.code_links[:3]):
-        links.append(f'<a href="{_esc(u)}">Code{i+1}</a>')
+        links.append(f'<a href="{_esc(u)}">Code{i + 1}</a>')
     if links:
         parts.append(f'<div class="links" style="margin-top:8px">{" · ".join(links)}</div>')
 
     if a.abstract:
-        parts.append(f'<div class="section"><h4>Abstract</h4><div style="white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px">{_esc(a.abstract)}</div></div>')
+        parts.append(
+            f'<div class="section"><h4>Abstract</h4><div style="white-space:pre-wrap;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px">{_esc(a.abstract)}</div></div>'
+        )
 
     if a.digest_en or a.digest_zh:
         inner = ""
@@ -76,9 +80,11 @@ def _card(a: Article) -> str:
         parts.append(f'<div class="section"><h4>Summary / 总结</h4>{inner}</div>')
 
     if a.title_zh:
-        parts.append(f'<div class="section"><h4>中文标题</h4><div style="white-space:pre-wrap">{_esc(a.title_zh)}</div></div>')
+        parts.append(
+            f'<div class="section"><h4>中文标题</h4><div style="white-space:pre-wrap">{_esc(a.title_zh)}</div></div>'
+        )
 
-    parts.append('</div>')
+    parts.append("</div>")
     return "\n".join(parts)
 
 
@@ -110,21 +116,36 @@ def send_email(articles: List[Article], config: EmailConfig, subject_prefix: str
     msg["Subject"] = f"{subject_prefix} — {datetime.now().strftime('%Y-%m-%d')}"
     msg.attach(MIMEText(html_body, "html", "utf-8"))
 
+    timeout = 30
+    ctx = ssl.create_default_context()
+
+    def _send_ssl():
+        with smtplib.SMTP_SSL(config.smtp_server, config.smtp_port, context=ctx, timeout=timeout) as s:
+            s.login(config.smtp_user, config.smtp_pass)
+            s.sendmail(msg["From"], config.to, msg.as_string())
+
+    def _send_starttls(port: int):
+        with smtplib.SMTP(config.smtp_server, port, timeout=timeout) as s:
+            s.ehlo()
+            s.starttls(context=ctx)
+            s.ehlo()
+            s.login(config.smtp_user, config.smtp_pass)
+            s.sendmail(msg["From"], config.to, msg.as_string())
+
     try:
         if config.tls_mode == "ssl" or (config.tls_mode == "auto" and config.smtp_port == 465):
-            ctx = ssl.create_default_context()
-            with smtplib.SMTP_SSL(config.smtp_server, config.smtp_port, context=ctx, timeout=20) as s:
-                s.login(config.smtp_user, config.smtp_pass)
-                s.sendmail(msg["From"], config.to, msg.as_string())
+            try:
+                _send_ssl()
+            except (smtplib.SMTPServerDisconnected, ConnectionError, ssl.SSLError, OSError) as e:
+                logger.warning(
+                    f"SMTP_SSL on port {config.smtp_port} failed ({e}), retrying with STARTTLS on port 587..."
+                )
+                _send_starttls(587)
         else:
-            ctx = ssl.create_default_context()
-            with smtplib.SMTP(config.smtp_server, config.smtp_port, timeout=20) as s:
-                s.ehlo()
-                s.starttls(context=ctx)
-                s.ehlo()
-                s.login(config.smtp_user, config.smtp_pass)
-                s.sendmail(msg["From"], config.to, msg.as_string())
+            _send_starttls(config.smtp_port)
         return "sent"
     except Exception as e:
-        logger.warning(f"Email send failed: {e}")
+        logger.warning(
+            f"Email send failed (server={config.smtp_server}, port={config.smtp_port}, tls={config.tls_mode}, user={config.smtp_user}): {e}"
+        )
         return f"failed: {e}"

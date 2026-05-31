@@ -122,25 +122,40 @@ class LLMEnricher:
     def translate(self, article: Article) -> None:
         if not self.api_key:
             return
-        sys_prompt = "You are a precise academic translator. Translate to Simplified Chinese concisely and faithfully; keep technical terms."
+        if not article.title and not article.abstract:
+            logger.debug("Translate skipped: no title or abstract")
+            return
+        sys_prompt = "You are a precise academic translator. Translate to Simplified Chinese concisely and faithfully; keep technical terms in English."
+        payload = {}
+        if article.title:
+            payload["title"] = article.title
+        if article.abstract:
+            payload["abstract"] = article.abstract
+        user_content = (
+            'Translate the following academic text to Simplified Chinese. '
+            'Keep technical terms (e.g., NeRF, SLAM, LiDAR) in English. '
+            'Return STRICT JSON with keys "title_zh" and "abstract_zh" (omit abstract_zh if no abstract provided).\n\n'
+            f'DATA: {json.dumps(payload, ensure_ascii=False)}'
+        )
         messages = [
             {"role": "system", "content": sys_prompt},
-            {"role": "user", "content":
-                f'Translate the following to Simplified Chinese. Return ONLY JSON: {{"title_zh":"...","abstract_zh":"..."}}\n\n'
-                f'DATA: {json.dumps({"title": article.title, "abstract": article.abstract}, ensure_ascii=False)}'
-            },
+            {"role": "user", "content": user_content},
         ]
-        try:
-            text = _chat_request(
-                self.config.base_url, self.api_key, self.config.model,
-                messages, temperature=0.0, max_tokens=1024, timeout=self.config.timeout,
-            )
-            data = _json_loose(text)
-            if data.get("title_zh"):
-                article.title_zh = data["title_zh"].strip()
-            if data.get("abstract_zh"):
-                article.abstract_zh = data["abstract_zh"].strip()
-            if not data.get("title_zh") and not data.get("abstract_zh"):
-                logger.warning(f"LLM translate returned empty for: {article.title[:60]}")
-        except Exception as e:
-            logger.warning(f"Translation failed: {e}")
+        max_retries = 2
+        for attempt in range(1, max_retries + 1):
+            try:
+                text = _chat_request(
+                    self.config.base_url, self.api_key, self.config.model,
+                    messages, temperature=0.1, max_tokens=2048, timeout=self.config.timeout,
+                )
+                data = _json_loose(text)
+                if data.get("title_zh"):
+                    article.title_zh = data["title_zh"].strip()
+                if data.get("abstract_zh"):
+                    article.abstract_zh = data["abstract_zh"].strip()
+                if data.get("title_zh") or data.get("abstract_zh"):
+                    return
+                logger.warning(f"LLM translate returned empty (attempt {attempt}/{max_retries}) for: {article.title[:60]}. Raw: {text[:200]}")
+            except Exception as e:
+                logger.warning(f"Translation attempt {attempt}/{max_retries} failed: {e}")
+        logger.warning(f"LLM translate all attempts failed for: {article.title[:60]}")
