@@ -4546,5 +4546,125 @@
   "doi:10.3390/w18111299": {
     "source": "top_journal",
     "title": "Water Pollution and Its Impact on the Cardiovascular System in the Context of Current Data on These Pollutants in Poland and Uzbekistan—Preliminary Reports"
+  },
+  "arxiv:2605.30328": {
+    "source": "top_journal",
+    "title": "Supercharging Thermal Gaussian Splatting with Depth Estimation"
+  },
+  "arxiv:2606.03254v1": {
+    "source": "arxiv",
+    "title": "FreeStreamGS: Online Feed-forward 3D Gaussian Splatting from Unposed Streaming Inputs"
+  },
+  "arxiv:2606.02937v1": {
+    "source": "arxiv",
+    "title": "BEAST3D: Animal behavioral analysis and neural encoding from multi-view video via Gaussian splatting"
+  },
+  "arxiv:2605.30488": {
+    "source": "top_journal",
+    "title": "CoMo3R-SLAM: Collaborative Monocular Dense SLAM with Learned 3D Reconstruction Priors for Outdoor Multi-Agent Systems"
+  },
+  "arxiv:2606.03877v1": {
+    "source": "arxiv",
+    "title": "MLP Splatting: Object-Centric Neural Fields"
+  },
+  "arxiv:2605.29997": {
+    "source": "top_journal",
+    "title": "FRUC: Feedforward Dynamic Scene Reconstruction from Uncalibrated Collaborative Driving Views"
+  },
+  "arxiv:2606.03120v1": {
+    "source": "arxiv",
+    "title": "KC-3DGS: Kurtosis-Constrained Gaussian Splatting for High-Fidelity View Synthesis"
+  },
+  "arxiv:2606.02979v1": {
+    "source": "arxiv",
+    "title": "Towards Compact Autonomous Driving Perception with Balanced Learning and Multi-sensor Fusion"
+  },
+  "arxiv:2606.02956v1": {
+    "source": "arxiv",
+    "title": "The Road Ahead in Autonomous Driving: The KITScenes Multimodal Dataset"
+  },
+  "doi:10.21428/d82e957c.55fdd97f": {
+    "source": "top_journal",
+    "title": "xModel-KD: Cross-modal Knowledge Distillation for 3D Scene Perception using LiDAR"
+  },
+  "arxiv:2605.30215": {
+    "source": "top_journal",
+    "title": "D\\'ej\\`a View: Looping Transformers for Multi-View 3D Reconstruction"
+  },
+  "arxiv:2606.03992v1": {
+    "source": "arxiv",
+    "title": "Exploring Easy Boosts for Lidar Semantic Scene Completion"
+  },
+  "arxiv:2606.03915v1": {
+    "source": "arxiv",
+    "title": "PatchScene: Patch-based Voxel Diffusion for Large-Scale Scene Completion"
+  },
+  "arxiv:2606.03909v1": {
+    "source": "arxiv",
+    "title": "SparseStreet: Sparse Gaussian Splatting for Real-Time Street Scene Simulation"
+  },
+  "arxiv:2606.03905v1": {
+    "source": "arxiv",
+    "title": "Semantic-weighted ICP for LiDAR Odometry: Class-Aware Residual Reweighting for Robust Scan Registration"
+  },
+  "arxiv:2606.03682v1": {
+    "source": "arxiv",
+    "title": "GN0: Toward a Unified Paradigm for Generation, Evaluation, and Policy Learning in Visual-Language Navigation"
+  },
+  "arxiv:2606.03581v1": {
+    "source": "arxiv",
+    "title": "UnsOcc: 3D Semantic Occupancy Prediction in Unstructured Scene via Rendering Fusion"
+  },
+  "arxiv:2606.03499v1": {
+    "source": "arxiv",
+    "title": "Characterizing Detectability in 3DGS Poisoning: A Stage-wise Benchmark"
+  },
+  "arxiv:2606.03479v1": {
+    "source": "arxiv",
+    "title": "PersistGS: Differentiable Physics for Object Permanence in 4D Gaussian Splatting"
+  },
+  "arxiv:2605.29879": {
+    "source": "top_journal",
+    "title": "DGSG-Mind: Dynamic 3D Gaussian Scene Graphs for Long-Term Scene Understanding and Grounding"
+  },
+  "arxiv:2606.02924v1": {
+    "source": "arxiv",
+    "title": "ATLAS: A Large-Scale Evaluation Benchmark for Adversarial LiDAR Perception"
+  },
+  "arxiv:2606.03994v1": {
+    "source": "arxiv",
+    "title": "SimuScene: Simulation-Ready Compositional 3D Scene Reconstruction from a Single Image"
+  },
+  "arxiv:2606.03568v1": {
+    "source": "arxiv",
+    "title": "Learned Non-Maximum Suppression for 3D Object Detection"
+  },
+  "arxiv:2606.03509v1": {
+    "source": "arxiv",
+    "title": "EvoMemNav: Efficient Self-Evolving Fine-Grained Memory for Zero-Shot Embodied Navigation"
+  },
+  "arxiv:2606.03287v1": {
+    "source": "arxiv",
+    "title": "BA-T: An Iterative Transformer for Two-View Bundle Adjustment"
+  },
+  "arxiv:2606.00936v1": {
+    "source": "arxiv",
+    "title": "One Channel to Rule Them All: Rethinking Input Representation for Visual Place Recognition"
+  },
+  "arxiv:2606.00637v1": {
+    "source": "arxiv",
+    "title": "Global-Local Attention Decomposition for Terrain Encoding in Humanoid Perceptive Locomotion"
+  },
+  "arxiv:2606.00248v1": {
+    "source": "arxiv",
+    "title": "Geodesic Flow Matching for Denoising High-Dimensional Structured Representations"
+  },
+  "arxiv:2605.30855v2": {
+    "source": "arxiv",
+    "title": "Robust Dreamer: Deviation-Aware Latent Gaussian Memory for Action-Controlled AR Video Generation"
+  },
+  "arxiv:2606.00153v1": {
+    "source": "arxiv",
+    "title": "DiffCrossGait: Trajectory-Level Alignment for 2D-3D Cross-Modal Gait Recognition via Latent Diffusion"
   }
 }
