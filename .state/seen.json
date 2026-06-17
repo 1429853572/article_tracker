@@ -5986,5 +5986,125 @@
   "doi:10.1111/1365-2435.70375": {
     "source": "top_journal",
     "title": "Organ‐specific ozone and nitrogen legacies strengthen substrate control over litter decomposition"
+  },
+  "arxiv:2606.16638v1": {
+    "source": "arxiv",
+    "title": "MVM-IOD: An Industrial Object-Centric Benchmark Dataset for the Evaluation of 3D Reconstruction Methods"
+  },
+  "arxiv:2606.16881v1": {
+    "source": "arxiv",
+    "title": "SGM-SLAM: Scene Graph Matching for Data-Efficient Distributed SLAM"
+  },
+  "arxiv:2606.16278v1": {
+    "source": "arxiv",
+    "title": "RealityBridge: Bridging Editable 3D Gaussian Splatting Driving Simulations and Real-World Videos"
+  },
+  "arxiv:2606.16048v1": {
+    "source": "arxiv",
+    "title": "PointDiffusion: Diffusion-Based Scene Completion in the Point Cloud Domain"
+  },
+  "doi:10.1145/3816072": {
+    "source": "top_journal",
+    "title": "Echoes of the Prior: A Computational Phenomenology of Forgetting"
+  },
+  "arxiv:2606.16570v1": {
+    "source": "arxiv",
+    "title": "Automated Digital Twin Construction for Highway Scenarios Using LiDAR Point Clouds and OpenStreetMap"
+  },
+  "arxiv:2606.16566v1": {
+    "source": "arxiv",
+    "title": "Local-GS: Accelerating 3D Gaussian Splatting via Tile-Local Warp Coherence"
+  },
+  "arxiv:2606.16479v1": {
+    "source": "arxiv",
+    "title": "Uncertainty Quality of VGGT: An Analysis on the DTU Benchmark Dataset"
+  },
+  "arxiv:2606.16474v1": {
+    "source": "arxiv",
+    "title": "MVOFormer: Flow-Semantic Transformer for Robust Monocular Visual Odometry"
+  },
+  "arxiv:2606.16232v1": {
+    "source": "arxiv",
+    "title": "PolyMerge: Compressing 3D Gaussian Splats with Polytope Coverings for Provably Safe Resource-Constrained Navigation"
+  },
+  "arxiv:2606.16168v1": {
+    "source": "arxiv",
+    "title": "Fi-Gaussian: Frequency-Aware Implicit Gaussian Splatting for Single Image Dehazing"
+  },
+  "arxiv:2606.15924v1": {
+    "source": "arxiv",
+    "title": "TurboGS: Accelerating 3D Gaussian Splatting via Error-Guided Sparse Pixel Sampling and Optimization"
+  },
+  "arxiv:2606.15848v1": {
+    "source": "arxiv",
+    "title": "EmoZone-Talker: Regional Semantic Control of Audio-Driven 3DGS Talking Heads via Facial Action Units"
+  },
+  "arxiv:2606.15681v1": {
+    "source": "arxiv",
+    "title": "3D Consistency Optimization for Self-Supervised Monocular Video Depth Estimation"
+  },
+  "arxiv:2606.15659v1": {
+    "source": "arxiv",
+    "title": "SpatialAvatar-0: High-Quality 4D Head Avatar with Multi-Stage Reconstruction"
+  },
+  "arxiv:2606.14811v1": {
+    "source": "arxiv",
+    "title": "S23DR 2026: End-to-End 3D Wireframe Prediction via DETR-Style Set Prediction with Contrastive Denoising"
+  },
+  "doi:10.1088/2631-8695/ae7bb7": {
+    "source": "top_journal",
+    "title": "DRDR：Doubly-Robust dynamic CAD model reconstruction for point cloud scenes"
+  },
+  "arxiv:2606.16960v1": {
+    "source": "arxiv",
+    "title": "SurroundNEXO: Ego-Centric Metric Bridging for Spatially Consistent Geometry in Autonomous Driving"
+  },
+  "arxiv:2606.16354v1": {
+    "source": "arxiv",
+    "title": "GraphBEV++: Multi-Modal Feature Alignment for Autonomous Driving"
+  },
+  "arxiv:2606.16057v1": {
+    "source": "arxiv",
+    "title": "A Smart-Scheduled Hybrid (SSH) EKF-FGO State Estimation"
+  },
+  "arxiv:2606.16935v1": {
+    "source": "arxiv",
+    "title": "CrossMaps: Confidence-Aware Open-Vocabulary Semantic Mapping for Rover Navigation"
+  },
+  "arxiv:2606.16163v1": {
+    "source": "arxiv",
+    "title": "Dehaze-GaussianImage: Zero-Shot Dehazing via Efficient 2D Gaussian Splatting Representation"
+  },
+  "arxiv:2606.16159v1": {
+    "source": "arxiv",
+    "title": "Continuous Splatting meets Retinex: Continuous Gaussian Splatting and Implicit Reflectance Modeling for Low-Light Image Enhancement"
+  },
+  "arxiv:2606.15896v1": {
+    "source": "arxiv",
+    "title": "LoComposition: Terrain-Adaptive Energy-Efficient Quadruped Locomotion without Gait Priors"
+  },
+  "arxiv:2606.15491v1": {
+    "source": "arxiv",
+    "title": "FD-SLAM: Fast Dense Radar-Inertial SLAM with Frequency-Domain Loop Closure and Pose Graph Optimization"
+  },
+  "arxiv:2606.15431v1": {
+    "source": "arxiv",
+    "title": "A Corridor-Scale CARLA-VISSIM Co-Simulation Framework for Multi-Intersection Urban Traffic"
+  },
+  "arxiv:2606.15287v1": {
+    "source": "arxiv",
+    "title": "G2IA: Geometry-Guided Instance-Aware Retrieval and Refinement for Cross-Modal Place Recognition"
+  },
+  "arxiv:2606.15010v1": {
+    "source": "arxiv",
+    "title": "LV-Calib: LiDAR-Camera Extrinsic Calibration with Boundary-Response Modeling"
+  },
+  "arxiv:2606.13655v2": {
+    "source": "arxiv",
+    "title": "Flex4DHuman: Flexible Multi-view Video Diffusion for 4D Human Reconstruction"
+  },
+  "doi:10.3390/a19060473": {
+    "source": "top_journal",
+    "title": "A Multi-Modal Remote Sensing Image Classification Method Based on Physics-Guided Feature Decoupling and Adaptive Collaborative Fusion of HSI–LiDAR"
   }
 }
