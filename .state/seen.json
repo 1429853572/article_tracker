@@ -6326,5 +6326,97 @@
   "doi:10.1038/s41598-026-57077-1": {
     "source": "top_journal",
     "title": "Multifactorial modeling of nematode-soil interactions associated with citrus decline and implications for sustainable orchard management in southern Iran."
+  },
+  "arxiv:2606.18734v1": {
+    "source": "arxiv",
+    "title": "Point-Cloud-Assistant Localized Statistical Channel Prediction by Tangent Gaussian Splatting"
+  },
+  "arxiv:2606.18948v1": {
+    "source": "arxiv",
+    "title": "C-ARC: Continuous-Adaptive Range Clustering for Non-Repetitive LiDAR Sensors"
+  },
+  "arxiv:2606.19156v1": {
+    "source": "arxiv",
+    "title": "Hand-4DGS: Feed-Forward 3D Gaussian Splatting for 4D Hand Reconstruction from Egocentric Videos"
+  },
+  "arxiv:2606.19019v1": {
+    "source": "arxiv",
+    "title": "FlowObject: Flow Steering for Bridging Generative Priors and Reconstruction Fidelity"
+  },
+  "arxiv:2606.18952v1": {
+    "source": "arxiv",
+    "title": "SP-TransientBench: A Real-Captured Single Photon Perception Benchmark"
+  },
+  "arxiv:2606.19190v1": {
+    "source": "arxiv",
+    "title": "FAST-LIVGO: A Degeneracy-Robust LiDAR-Inertial-Visual-GNSS Fusion Odometry"
+  },
+  "arxiv:2606.19067v1": {
+    "source": "arxiv",
+    "title": "Sensor Configuration Matters: A Systematic Evaluation of Multimodal SLAM on Quadruped Robots"
+  },
+  "arxiv:2606.19316v1": {
+    "source": "arxiv",
+    "title": "NeuMesh++: Towards Versatile and Efficient Volumetric Editing with Disentangled Neural Mesh-based Implicit Field"
+  },
+  "arxiv:2606.19154v1": {
+    "source": "arxiv",
+    "title": "Viking Hill Dataset: A Lidar-Radar-Camera Dataset for Detection and Segmentation in Forest Scenes"
+  },
+  "arxiv:2606.18826v1": {
+    "source": "arxiv",
+    "title": "EDoF-NeRF: extended depth-of-field neural radiance fields using a coded aperture camera"
+  },
+  "arxiv:2606.18623v1": {
+    "source": "arxiv",
+    "title": "Intrinsic 4D Gaussian Segmentation from Scene Cues"
+  },
+  "arxiv:2606.18588v1": {
+    "source": "arxiv",
+    "title": "Splaxel: Efficient Distributed Training of 3D Gaussian Splatting for Large-scale Scene Reconstruction via Pixel-level Communication"
+  },
+  "arxiv:2606.18583v1": {
+    "source": "arxiv",
+    "title": "Aerial-ground LiDAR place recognition with patch-level self-supervised learning and expanded reciprocal re-ranking"
+  },
+  "doi:10.1109/tmi.2026.3703335": {
+    "source": "top_journal",
+    "title": "Structurally-Informed 3D Gaussian Splatting for Limited-Angle CBCT."
+  },
+  "arxiv:2606.19122v1": {
+    "source": "arxiv",
+    "title": "Monocular 3D Occupancy Perception for Robots on Sidewalks via Hybrid 2D-3D Learning"
+  },
+  "arxiv:2606.18951v1": {
+    "source": "arxiv",
+    "title": "A High-accuracy Event-based Underwater SLAM System"
+  },
+  "arxiv:2606.14307": {
+    "source": "top_journal",
+    "title": "Pano3D: Unified 3D Reconstruction and Panoptic Segmentation"
+  },
+  "doi:10.3390/app16125983": {
+    "source": "top_journal",
+    "title": "UDF-3D: Uncertainty-Driven Decision-Level Fusion for Camera–LiDAR 3D Object Detection"
+  },
+  "arxiv:2606.14534": {
+    "source": "top_journal",
+    "title": "A Lightweight Fiducial-Based Pipeline for 3D Hyperspectral Mapping of ex-vivo Lumpectomy Specimens"
+  },
+  "arxiv:2606.14562": {
+    "source": "top_journal",
+    "title": "NEST3D: A High-Resolution Multimodal Dataset of Sociable Weaver Tree Nests"
+  },
+  "arxiv:2606.14699": {
+    "source": "top_journal",
+    "title": "Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control"
+  },
+  "arxiv:2606.14344": {
+    "source": "top_journal",
+    "title": "More with LESS -- Local Scene Representations for Tactile Imaging"
+  },
+  "doi:10.1007/s10055-026-01392-5": {
+    "source": "top_journal",
+    "title": "GeneraBioXR: a novel AI-based framework for the authoring of 3D biophilic models in XR environments"
   }
 }
