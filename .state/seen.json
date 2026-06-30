@@ -7534,5 +7534,29 @@
   "doi:10.1002/jat.70312": {
     "source": "top_journal",
     "title": "Metal(loid)s Contamination in the Soil-Rice System: Health Risk Assessment Based on Source Analysis and Monte Carlo Simulation."
+  },
+  "doi:10.64898/2026.06.17.732938": {
+    "source": "top_journal",
+    "title": "Self-Calibrated Hyperspectral Neural Radiance Fields for 3D Reconstruction of Bone and Bone Analogues"
+  },
+  "arxiv:2606.24628": {
+    "source": "top_journal",
+    "title": "ArtiTwinSplat: Interactable Digital Twin Reconstruction via Gaussian Splatting from RGB-D videos"
+  },
+  "arxiv:2606.24232": {
+    "source": "top_journal",
+    "title": "FiCA: Feed-forward instant Gaussian Codec Avatars from a Single Portrait Image"
+  },
+  "doi:10.1038/s41598-026-55770-9": {
+    "source": "top_journal",
+    "title": "Self-supervised cross frame-rate event-frame depth learning without ground truth."
+  },
+  "arxiv:2606.24214": {
+    "source": "top_journal",
+    "title": "MorVess: Morphology-Aware Pulmonary Vessel Segmentation Network"
+  },
+  "doi:10.1016/j.plantsci.2026.113297": {
+    "source": "top_journal",
+    "title": "Digital dimension of plant science research: A bird's eye view of AI integration."
   }
 }
