@@ -9838,5 +9838,105 @@
   "doi:10.7717/peerj.21443": {
     "source": "top_journal",
     "title": "Green-synthesized manganese nanoparticles for antibiotic and heavy metal remediation: integrated experimental and computational evaluation"
+  },
+  "arxiv:2607.08408": {
+    "source": "top_journal",
+    "title": "Track2Map: Online Deformable SLAM with Motion-Aware Pose Optimization in Robotic Surgery"
+  },
+  "arxiv:2607.12785v2": {
+    "source": "arxiv",
+    "title": "ExtraGS: Enhancing Endoscopic View Extrapolation via Diffusion-Guided 3D Gaussian Splatting"
+  },
+  "arxiv:2607.08772": {
+    "source": "top_journal",
+    "title": "Wat3R: Underwater 3D Geometry Learning without Annotations"
+  },
+  "arxiv:2607.08808": {
+    "source": "top_journal",
+    "title": "StereoSplat+: Feed-Forward Stereo Gaussian Splatting with Diffusion-Assisted Progressive Inference"
+  },
+  "arxiv:2607.13524v1": {
+    "source": "arxiv",
+    "title": "COLMAR: Cooperative View Policy Learning for Multi-Agent Active 3D Reconstruction"
+  },
+  "arxiv:2607.08948": {
+    "source": "top_journal",
+    "title": "SplatCtrl: Perception-Action Coupling via Gaussian Scene Representations and Reactive Robot Control"
+  },
+  "arxiv:2607.13516v1": {
+    "source": "arxiv",
+    "title": "Improving Map Consistency in Graph-Based LiDAR SLAM Through Information-Aware Odometry and Retroactive Loop Closure"
+  },
+  "arxiv:2607.08711": {
+    "source": "top_journal",
+    "title": "LTM: Large-scale Terrain Model for Wildfire-prone Landscapes"
+  },
+  "arxiv:2607.13449v1": {
+    "source": "arxiv",
+    "title": "DreamSat-Pose: Spacecraft Pose Estimation from Single-View 3D Reconstructions and Learned 2D-3D Feature Matching"
+  },
+  "arxiv:2607.13808v1": {
+    "source": "arxiv",
+    "title": "Bake It Till You Make It: Ultrafast Spatial Texture-Atlas Splatting"
+  },
+  "arxiv:2607.13451v1": {
+    "source": "arxiv",
+    "title": "Learning Physics-Guided Residual Dynamics for Deformable Object Simulation"
+  },
+  "arxiv:2607.13405v1": {
+    "source": "arxiv",
+    "title": "WNOJ-LIO: A White-Noise-on-Jerk Motion-Prior EKF for High-Dynamic LiDAR-IMU Fusion"
+  },
+  "arxiv:2607.13265v1": {
+    "source": "arxiv",
+    "title": "Differentiable Polarized Path Tracing"
+  },
+  "arxiv:2607.11285v2": {
+    "source": "arxiv",
+    "title": "SalientGS: Unified SfM-to-3DGS with Importance-Guided MCMC Gaussian Allocation"
+  },
+  "arxiv:2607.13067v1": {
+    "source": "arxiv",
+    "title": "A 3DGS-Driven Dynamic Viewpoint and Vibrotactile Framework for Subsea Teleoperation Validated via fNIRS"
+  },
+  "doi:10.1109/tpami.2026.3712736": {
+    "source": "top_journal",
+    "title": "On the Design of Mixture-of-Experts for Dynamic Gaussian Splatting."
+  },
+  "arxiv:2607.13682v1": {
+    "source": "arxiv",
+    "title": "Calibrated Closed-Form Uncertainty for Radiative Gaussian Splatting in Sparse-View CT"
+  },
+  "arxiv:2607.12818v2": {
+    "source": "arxiv",
+    "title": "Breaking Déjà Vu: Independent Auditing of Visual Place Recognition through Vision-Language Reasoning"
+  },
+  "arxiv:2607.14005v1": {
+    "source": "arxiv",
+    "title": "M$^\\text{4}$World: A Multi-view Multimodal Driving World Model for Interactive Object Manipulation and Minute-long Streaming"
+  },
+  "arxiv:2607.13492v1": {
+    "source": "arxiv",
+    "title": "CASA-SDF: Curriculum-Aware Spatial Adaptation with Curvature-Guided Density for Neural Implicit Surface Reconstruction"
+  },
+  "arxiv:2607.13154v1": {
+    "source": "arxiv",
+    "title": "Worlds in One Demo: A Synthetic Data Engine for Learning Open-World Mobile Manipulation"
+  },
+  "arxiv:2607.13010v2": {
+    "source": "arxiv",
+    "title": "DermDepth: Toward Monocular Metric Scale 3D Reconstruction Models for Dermatology"
+  },
+  "doi:10.1109/tpami.2026.3711593": {
+    "source": "top_journal",
+    "title": "Language-4D Cross-Boosting for Generalized Zero-Shot 6DoF Tracking and 3D Reconstruction."
+  },
+  "doi:10.17586/2226-1494-2026-26-3-587-596": {
+    "source": "top_journal",
+    "title": "Photogrammetry-based free jet trajectory 3D reconstruction technology"
+  },
+  "doi:10.1109/tpami.2026.3711850": {
+    "source": "top_journal",
+    "title": "Study of Full-View Finger Vein Biometrics on Redundancy-compensated 3D Reconstruction and Frequency-Spatial Coupling Feature Extraction."
   }
 }
