@@ -10126,5 +10126,25 @@
   "doi:10.1002/ldr.70622": {
     "source": "top_journal",
     "title": "Editorial of the Special Issue: Anthropogenic Impacts on Land Degradation in a Changing World"
+  },
+  "arxiv:2607.11184": {
+    "source": "top_journal",
+    "title": "GeoGS-SLAM: Online Monocular Reconstruction Using Gaussian Splatting with Geometric Priors"
+  },
+  "doi:10.3390/electronics15143066": {
+    "source": "top_journal",
+    "title": "Distortion-Aware Bi-Projection Fusion for 360∘ Monocular Depth Estimation via Coordinate Attention"
+  },
+  "doi:10.3390/jmse14141280": {
+    "source": "top_journal",
+    "title": "Memory-Efficient 3D LiDAR Graph SLAM for Ballast Water Tank Inspection Robots Using Robust Hierarchical Bundle Adjustment and a Kaczmarz Backend"
+  },
+  "doi:10.1117/12.3119358": {
+    "source": "top_journal",
+    "title": "Dynamic gesture command interpretation method based on visual algorithm in intelligent environment"
+  },
+  "doi:10.64898/2026.07.11.26357421": {
+    "source": "top_journal",
+    "title": "A retrospective study of a Chinese vision-language large model for emergency 3D brain CT interpretation"
   }
 }
