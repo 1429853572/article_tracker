@@ -10222,5 +10222,49 @@
   "doi:10.1111/plb.70259": {
     "source": "top_journal",
     "title": "Silicon dioxide nanoparticles mitigate cadmium sulfide phytotoxicity in spinach: a metabolomic and physiological investigation."
+  },
+  "arxiv:2607.15727v1": {
+    "source": "arxiv",
+    "title": "Event3R: Asynchronous-to-Global 3D Reconstruction from Event Camera via Spatial-Temporal Feature Aggregation"
+  },
+  "arxiv:2607.15542v1": {
+    "source": "arxiv",
+    "title": "ImprovedVBGS: Real-time Continual Variational Bayes Gaussian Splatting"
+  },
+  "arxiv:2607.16128v1": {
+    "source": "arxiv",
+    "title": "Toward Semantic Communication for Real-time Mobile 3D Reconstruction"
+  },
+  "arxiv:2607.15889v1": {
+    "source": "arxiv",
+    "title": "Hardware-triggered Time Synchronization of Roadside Multi-lidar, Multi-camera Measurement System for Accurate Data Alignment"
+  },
+  "arxiv:2607.15828v1": {
+    "source": "arxiv",
+    "title": "Beyond Frontiers: Scene-Anomaly Guided Autonomous Exploration"
+  },
+  "arxiv:2607.15806v1": {
+    "source": "arxiv",
+    "title": "HybridSim: A Physics-Learning Hybrid Digital Twin for mmWave Human Sensing"
+  },
+  "arxiv:2607.15536v1": {
+    "source": "arxiv",
+    "title": "E3DGS: Unified Geometric-Photometric Equivariance for 3D Gaussian Splatting via Color-as-Geometry Embedding"
+  },
+  "arxiv:2607.16156v1": {
+    "source": "arxiv",
+    "title": "PRISA: Proactive Infrastructure LiDAR Framework for Intersection Safety Assessment"
+  },
+  "arxiv:2607.16154v1": {
+    "source": "arxiv",
+    "title": "CLIFE: Camera-LiDAR Fusion Framework for Edge-Deployable Roadside VRU Perception"
+  },
+  "arxiv:2607.15652v1": {
+    "source": "arxiv",
+    "title": "CSS-BA: Gate-Guided Column Space Search for Bundle Adjustment"
+  },
+  "arxiv:2607.13154v2": {
+    "source": "arxiv",
+    "title": "Worlds in One Demo: A Synthetic Data Engine for Learning Open-World Mobile Manipulation"
   }
 }
