@@ -10538,5 +10538,61 @@
   "doi:10.1016/j.jhazmat.2026.143004": {
     "source": "top_journal",
     "title": "Milk vetch activates low-grade phosphate rock for phosphorus supply and cadmium mitigation in paddy fields."
+  },
+  "arxiv:2607.19228v1": {
+    "source": "arxiv",
+    "title": "IGGT4D: Streaming 4D Instance-Grounded Geometry Transformer"
+  },
+  "arxiv:2607.19100v1": {
+    "source": "arxiv",
+    "title": "FlexiAvatar: Unified 3D Gaussian Human Avatars Under Arbitrary Body Visibility"
+  },
+  "arxiv:2607.18801v1": {
+    "source": "arxiv",
+    "title": "ZeroSplat: Generalized Referring Segmentation in 3D Gaussian Splatting"
+  },
+  "arxiv:2607.18578v1": {
+    "source": "arxiv",
+    "title": "Two-Stage Extrinsic Calibration of a Static Line-Scanning Lidar with a Rotary Platform"
+  },
+  "arxiv:2607.13449": {
+    "source": "top_journal",
+    "title": "DreamSat-Pose: Spacecraft Pose Estimation from Single-View 3D Reconstructions and Learned 2D-3D Feature Matching"
+  },
+  "arxiv:2607.18539v1": {
+    "source": "arxiv",
+    "title": "AniGS: Bridging Rendering and Diffusion Prior for 3D Scene Animation"
+  },
+  "doi:10.1088/1361-6501/ae8b0c": {
+    "source": "top_journal",
+    "title": "A mask-based adaptive fringe generation method for 3D shape measurement of highly reflective objects"
+  },
+  "arxiv:2607.14228": {
+    "source": "top_journal",
+    "title": "SeeSE3: Emergence of 3D Space in Vision Features"
+  },
+  "arxiv:2607.13808": {
+    "source": "top_journal",
+    "title": "Bake It Till You Make It: Ultrafast Spatial Texture-Atlas Splatting"
+  },
+  "arxiv:2607.19146v1": {
+    "source": "arxiv",
+    "title": "Sarus: Privacy-Preserving Multi-Vendor Perception Fusion via Homomorphic Encryption"
+  },
+  "arxiv:2607.18630v1": {
+    "source": "arxiv",
+    "title": "Seeing Before Generating: Object Perception Enhances Single-View 3D Reconstruction"
+  },
+  "arxiv:2607.18466v1": {
+    "source": "arxiv",
+    "title": "ECoNGS: Efficient Compressive Neural Gaussian Splats for Volume Visualization"
+  },
+  "doi:10.3389/fonc.2026.1887289": {
+    "source": "top_journal",
+    "title": "The role of preoperative 3D reconstruction in optimizing surgical planning and intraoperative guidance during laparoscopic distal pancreatectomy: a pilot study"
+  },
+  "doi:10.34248/bsengineering.1971136": {
+    "source": "top_journal",
+    "title": "Privacy-Aware Adaptive Differential Privacy for Semantic Retrieval: A Pii-Aware Dynamic Budget Allocation Framework"
   }
 }
