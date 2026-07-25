@@ -10790,5 +10790,77 @@
   "doi:10.1016/j.jhazmat.2026.143016": {
     "source": "top_journal",
     "title": "Airborne microplastics as concentrators of anthropogenic heavy metals: Differentiation of intrinsic additive-derived metals and post-emission enrichment."
+  },
+  "arxiv:2607.21416v1": {
+    "source": "arxiv",
+    "title": "GLAM-SLAM: Real-time Gaussian Large-scale Mapping via Flow Densification and Spatial Decomposition"
+  },
+  "arxiv:2607.20789v1": {
+    "source": "arxiv",
+    "title": "3D-GIMP: When 3D Gaussian Inpainting Meets PatchMatch"
+  },
+  "arxiv:2607.20628v1": {
+    "source": "arxiv",
+    "title": "RealVDeblur: One-Step Diffusion for Generalizable Real-World Video Deblurring"
+  },
+  "arxiv:2607.15727": {
+    "source": "top_journal",
+    "title": "Event3R: Asynchronous-to-Global 3D Reconstruction from Event Camera via Spatial-Temporal Feature Aggregation"
+  },
+  "arxiv:2607.21438v1": {
+    "source": "arxiv",
+    "title": "DAPM: UAV Monocular Depth Estimation from Any Height, Pitch, Roll and FOV"
+  },
+  "arxiv:2607.21023v1": {
+    "source": "arxiv",
+    "title": "WAT3R: Feedforward Underwater 3D Reconstruction"
+  },
+  "arxiv:2607.15542": {
+    "source": "top_journal",
+    "title": "ImprovedVBGS: Real-time Continual Variational Bayes Gaussian Splatting"
+  },
+  "arxiv:2607.21448v1": {
+    "source": "arxiv",
+    "title": "GrainGS: Gradient-Decoupled Gaussian Splatting for Efficient Dynamic Novel View Synthesis"
+  },
+  "arxiv:2607.21138v1": {
+    "source": "arxiv",
+    "title": "DTIF: Robust Loop Closure Detection via Delaunay Triangle Topology in Complex Forests"
+  },
+  "arxiv:2607.16128": {
+    "source": "top_journal",
+    "title": "Toward Semantic Communication for Real-time Mobile 3D Reconstruction"
+  },
+  "arxiv:2607.15828": {
+    "source": "top_journal",
+    "title": "Beyond Frontiers: Scene-Anomaly Guided Autonomous Exploration"
+  },
+  "arxiv:2607.21309v1": {
+    "source": "arxiv",
+    "title": "Factorized Spatio-Temporal Convolutions for Human Pose Estimation from Planar Lidar"
+  },
+  "arxiv:2607.20813v1": {
+    "source": "arxiv",
+    "title": "SubSplat: High-Resolution Pixel-aligned 3DGS via Sub-pixel Gaussian Reparameterization"
+  },
+  "doi:10.1088/1361-6501/ae8c67": {
+    "source": "top_journal",
+    "title": "High-precision and efficient single-shot color fringe projection profilometry via implicit spectral extraction and fusion network"
+  },
+  "doi:10.3390/infrastructures11070243": {
+    "source": "top_journal",
+    "title": "Automated Spatiotemporal Tracking of Crack Evolution in Concrete Structures Using UAV and Point Clouds"
+  },
+  "arxiv:2607.21485v1": {
+    "source": "arxiv",
+    "title": "Recurrent Sinusoidal INRs for Efficient High-Fidelity Representation"
+  },
+  "doi:10.1088/2631-8695/ae8cc1": {
+    "source": "top_journal",
+    "title": "3D Point Cloud Reconstruction and Defect Detection of Mechanical Parts Based on Recognition Feedback-Optimized VoteNet"
+  },
+  "arxiv:2607.16352": {
+    "source": "top_journal",
+    "title": "Clarify Before Executing: A Self-Evolving Agent for Resolving Intent Asymmetry in 3D Tool Orchestration"
   }
 }
