@@ -10890,5 +10890,13 @@
   "doi:10.47191/ijcsrr/v9-i7-31": {
     "source": "top_journal",
     "title": "Environmental and Public Health Impact Assessment if Solid Waste Management Practices in Ovia North East, Edo State, Nigeria"
+  },
+  "arxiv:2607.16838": {
+    "source": "top_journal",
+    "title": "TopoGS: Planar Reconstruction via Topology-aware 3D Gaussian Splatting"
+  },
+  "arxiv:2607.16896": {
+    "source": "top_journal",
+    "title": "PERA: A Perceive-Reason-Act Interface Bridging Sensing, Cognitive Reasoning, and Trustworthy Agentic Response for 6G"
   }
 }
