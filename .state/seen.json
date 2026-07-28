@@ -10994,5 +10994,81 @@
   "doi:10.3390/microorganisms14071581": {
     "source": "top_journal",
     "title": "Stage-Specific Differences in Fungal Community Structure and Functional Potential During Litter Decomposition in a Lava Plateau"
+  },
+  "arxiv:2607.17803": {
+    "source": "top_journal",
+    "title": "FF-ProCams: Feed-Forward Gaussian Splatting for Projector-Camera System"
+  },
+  "arxiv:2607.22147v1": {
+    "source": "arxiv",
+    "title": "Visual Relocalization from Sparse Views in Aliased and Low-Texture Environments via Novel View Synthesis"
+  },
+  "arxiv:2607.21986v1": {
+    "source": "arxiv",
+    "title": "Mag4D-SLAM Dataset: A Repeated-Traversal Multi-Modal 4D Geomagnetic Dataset for Localization and Mapping"
+  },
+  "doi:10.4018/ijkm.416288": {
+    "source": "top_journal",
+    "title": "Knowledge-Intensive 3D Reconstruction for Ancient Chinese Architecture"
+  },
+  "arxiv:2607.22172v1": {
+    "source": "arxiv",
+    "title": "JustDepth: Real-Time Radar-Camera Depth Estimation with Single-Scan LiDAR Supervision"
+  },
+  "arxiv:2607.22078v1": {
+    "source": "arxiv",
+    "title": "CommandLM: Data driven behavior level descriptor for ego vehicles"
+  },
+  "arxiv:2607.21448v2": {
+    "source": "arxiv",
+    "title": "GrainGS: Gradient-Decoupled Gaussian Splatting for Efficient Dynamic Novel View Synthesis"
+  },
+  "arxiv:2607.21675v1": {
+    "source": "arxiv",
+    "title": "Hash-QNeRF: Multiresolution Hash Encoding for Quantum Neural Radiance Fields"
+  },
+  "doi:10.1109/tip.2026.3713021": {
+    "source": "top_journal",
+    "title": "ThermalGate-GS: Frequency-Gated Graph Splatting for Thermal Novel View Synthesis."
+  },
+  "doi:10.54097/ybd75q69": {
+    "source": "top_journal",
+    "title": "UA-CF: Uncertainty-Aware Camera-LiDAR Fusion for Robust 3D Object Detection Under Adverse Weather"
+  },
+  "arxiv:2607.18153": {
+    "source": "top_journal",
+    "title": "Robust Multimodal Dynamic Object Segmentation"
+  },
+  "arxiv:2607.22534v1": {
+    "source": "arxiv",
+    "title": "SM4RT: Learning Structured Motion Geometry for 4D Reconstruction"
+  },
+  "arxiv:2607.22226v1": {
+    "source": "arxiv",
+    "title": "Offline Vision-Language Navigation with Geometric Goal Localization for Outdoor Environments"
+  },
+  "arxiv:2607.22145v1": {
+    "source": "arxiv",
+    "title": "Flight-Ready LiDAR-Inertial Odometry for Embedded Drone Platforms"
+  },
+  "doi:10.4018/ijswis.416291": {
+    "source": "top_journal",
+    "title": "Ontology-Enhanced Structure-Prior and View-Consistent 3D Reconstruction for Semantic Visual Systems"
+  },
+  "doi:10.3390/robotics15070136": {
+    "source": "top_journal",
+    "title": "SAR-SLAM: Semantic-Aware Recognition for Dynamic SLAM in Robotic Applications"
+  },
+  "doi:10.3390/heritage9070285": {
+    "source": "top_journal",
+    "title": "Dino-Lite Micro-Photogrammetry: A Versatile Tool for Multi-Material Applications in Cultural Heritage"
+  },
+  "doi:10.1007/s12194-026-01093-3": {
+    "source": "top_journal",
+    "title": "Quantifying the spatial information loss of Dose-Volume Histograms in Gamma Knife radiosurgery via unsupervised 3D dose geometry embedding."
+  },
+  "doi:10.64898/2026.07.17.26358319": {
+    "source": "top_journal",
+    "title": "Dual-Filament 3D Printing of Patient-Specific CT Phantoms with Embedded Implants and Tunable Metal-Artifact Intensity"
   }
 }
