@@ -11318,5 +11318,69 @@
   "doi:10.9734/ajee/2026/v25i8993": {
     "source": "top_journal",
     "title": "Groundwater Quality Assessment, Trace Element Pollution, and Health Risk Assessment of Hand-Dug Wells within Ladoke Akintola University of Technology Campus and Environs, Ogbomoso, Southwestern Nigeria"
+  },
+  "arxiv:2607.20417v2": {
+    "source": "arxiv",
+    "title": "ATSplat: Compact Feed-forward 3D Gaussian Splatting with Adaptive Token Expansion"
+  },
+  "arxiv:2607.20628": {
+    "source": "top_journal",
+    "title": "RealVDeblur: One-Step Diffusion for Generalizable Real-World Video Deblurring"
+  },
+  "doi:10.5194/isprs-archives-xlix-b1-2026-41-2026": {
+    "source": "top_journal",
+    "title": "UAV-Assisted Collaborative Positioning in GNSS-Denied Environments"
+  },
+  "arxiv:2607.20325": {
+    "source": "top_journal",
+    "title": "MR-Compare: A Mixed-Reality Framework for Spatially Grounded Visual Comparison of 3D Gaussian Splatting and Mesh Reconstructions with the Physical Environment"
+  },
+  "arxiv:2607.25219v1": {
+    "source": "arxiv",
+    "title": "SONG: A Photorealistic 3D Gaussian Simulation Platform for Benchmarking Social Navigation"
+  },
+  "arxiv:2607.25569v1": {
+    "source": "arxiv",
+    "title": "CORF-GS: Real-Time Wireless Radiance Field Reconstruction via Coupled Optical-RF Gaussian Splatting"
+  },
+  "arxiv:2607.25389v1": {
+    "source": "arxiv",
+    "title": "HOME: Robust Hough-space Matching Method for Structured and Textureless Videos"
+  },
+  "arxiv:2607.25728v1": {
+    "source": "arxiv",
+    "title": "Shared Voxel-Map-Based Cooperative Indoor UAV Guidance with a Multi-Agent Soft Actor-Critic Controller"
+  },
+  "doi:10.5194/isprs-archives-xlix-b1-2026-575-2026": {
+    "source": "top_journal",
+    "title": "Single-image to model registration for semantic enrichment of indoor BIM"
+  },
+  "arxiv:2607.25895v1": {
+    "source": "arxiv",
+    "title": "HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone"
+  },
+  "doi:10.1520/jte20250063": {
+    "source": "top_journal",
+    "title": "Multiview Image Defuzzification and 3D Reconstruction Algorithm Based on Virtual Reality"
+  },
+  "doi:10.3390/s26144635": {
+    "source": "top_journal",
+    "title": "Graph Enhanced Multi-Modal Network of 4-D Radar-Camera Fusion for Perception in Autonomous Systems."
+  },
+  "doi:10.5194/isprs-archives-xlix-b1-2026-71-2026": {
+    "source": "top_journal",
+    "title": "CMLGF-LIO: A Cross-Modal Local-Global Fusion Framework for Robust LiDAR-Inertial Odometry"
+  },
+  "doi:10.64898/2026.07.17.739167": {
+    "source": "top_journal",
+    "title": "Tangerine: A Python framework for dynamic gene regulation analysis from transcriptomic time series"
+  },
+  "doi:10.1007/s13369-026-11543-0": {
+    "source": "top_journal",
+    "title": "Multi-view Point‑Cloud 3D Reconstruction and Deep Segmentation of Tomato Plants for Harvesting Robot Obstacle Avoidance"
+  },
+  "arxiv:2607.20169": {
+    "source": "top_journal",
+    "title": "A simplified reconstruction of Positron Emission Tomography image using Time of Flight simulated data in Gate 10"
   }
 }
