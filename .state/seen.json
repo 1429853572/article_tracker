@@ -11442,5 +11442,113 @@
   "doi:10.1007/s00704-026-06440-3": {
     "source": "top_journal",
     "title": "Understanding eco-hydrological processes in winter wheat croplands through physically consistent modelling"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-367-2026": {
+    "source": "top_journal",
+    "title": "Evaluating 3D Scene Representations for Aerial Photogrammetry across Diverse Cityscapes"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-1345-2026": {
+    "source": "top_journal",
+    "title": "Learning-based Monocular Depth Estimation for Photogrammetric 3D Reconstruction"
+  },
+  "arxiv:2607.26595v1": {
+    "source": "arxiv",
+    "title": "SpatialQ: Understanding 3D Gaussian Splatting Scene Quality via Visual-based MLLM"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-143-2026": {
+    "source": "top_journal",
+    "title": "Pixel-Accurate Registration of Photogrammetric Images and LiDAR in a Hybrid Airborne Oblique Imaging System"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-451-2026": {
+    "source": "top_journal",
+    "title": "Photogrammetry and 3D Gaussian Splatting for Cultural Heritage. Pros, Cons and Main Differences"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-1363-2026": {
+    "source": "top_journal",
+    "title": "Combining Photogrammetry and Gaussian Splatting"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-375-2026": {
+    "source": "top_journal",
+    "title": "Evaluating the synergy of hand-crafted and AI-driven feature matching in Structure-from-Motion 3D Reconstruction"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-1021-2026": {
+    "source": "top_journal",
+    "title": "In-Situ Gaussian Splatting-generated 3D Thermal Mesh Visualization for Urban Trees in Augmented Reality"
+  },
+  "arxiv:2607.27139v1": {
+    "source": "arxiv",
+    "title": "SeasonStereo: Robust Dense Stereo Matching for Multi-Date Satellite Imagery via Generative AI"
+  },
+  "arxiv:2607.26645v1": {
+    "source": "arxiv",
+    "title": "FPSGen: Flexible Point Cloud Scene Generation with BEV-Supported Transport Flows"
+  },
+  "arxiv:2607.26578v1": {
+    "source": "arxiv",
+    "title": "3DGBGS: 3D Granular Ball Gaussian Splatting for Compact Novel View Synthesis"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-997-2026": {
+    "source": "top_journal",
+    "title": "Enhanced DUSt3R for Underwater 3D Reconstruction in Shallow Water Environments"
+  },
+  "arxiv:2607.21023": {
+    "source": "top_journal",
+    "title": "WAT3R: Feedforward Underwater 3D Reconstruction"
+  },
+  "arxiv:2607.26980v1": {
+    "source": "arxiv",
+    "title": "Dense Soft Weighting for Radar Ego-Velocity Estimation"
+  },
+  "arxiv:2607.26889v1": {
+    "source": "arxiv",
+    "title": "StructureGS: Structure-aware Gaussian Splatting for Articulated Object Reconstruction"
+  },
+  "arxiv:2607.26646v1": {
+    "source": "arxiv",
+    "title": "Genie Sim PanoWorld: An Infinite Indoor 3D World Generation Pipeline via Panoramic Scene Modeling and Simulation"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-1085-2026": {
+    "source": "top_journal",
+    "title": "Automated Detection of Box-Girder Bridge Deterioration Using Cylindrical Projection from Multi-Camera 3D Reconstruction and Deep Learning"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-551-2026": {
+    "source": "top_journal",
+    "title": "A Hybrid Approach using Gaussian Splatting and Parametric Models based on 3D Renders for Real-Time Visualisation"
+  },
+  "arxiv:2607.27194v1": {
+    "source": "arxiv",
+    "title": "VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-1283-2026": {
+    "source": "top_journal",
+    "title": "Monocular 3D Reconstruction for Martian Terrain Based on Diffusion Model"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-539-2026": {
+    "source": "top_journal",
+    "title": "Spherical Vision meets 3D Semantics: towards efficient LOD3 Model Generation for Smart Cities"
+  },
+  "doi:10.47392/10.47392/irjaeh.2026.0631": {
+    "source": "top_journal",
+    "title": "From Pixels to Polygons: A Lightweight AI Framework for Single-Image 3D Reconstruction and WebAR Visualization"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-509-2026": {
+    "source": "top_journal",
+    "title": "Affine Invariant OpenCV Descriptors and the Effects on Aerial Photogrammetry"
+  },
+  "doi:10.3389/froh.2026.1885521": {
+    "source": "top_journal",
+    "title": "Accuracy of working length determination using endodontic motors with integrated electronic apex locators: an in vitro study"
+  },
+  "doi:10.1117/12.3119630": {
+    "source": "top_journal",
+    "title": "Design and simulation of an underwater image enhancement algorithm based on polarization and sonar fusion"
+  },
+  "doi:10.5194/isprs-archives-xlix-b2-2026-305-2026": {
+    "source": "top_journal",
+    "title": "Conjugate Feature-Guided Dense Stereo Matching for High-Precision Attribute-Enriched Urban Point Clouds"
+  },
+  "doi:10.47392/10.47392/irjaeh.2026.0627": {
+    "source": "top_journal",
+    "title": "Proactive Pedestrian Risk Prediction under Dynamic Environmental Conditions"
   }
 }
