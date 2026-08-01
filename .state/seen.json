@@ -11690,5 +11690,25 @@
   "arxiv:2607.22771": {
     "source": "top_journal",
     "title": "Cheap Probes Predict Expensive Training in 3D-CT Vision--Language Models"
+  },
+  "doi:10.1016/j.celrep.2026.117738": {
+    "source": "top_journal",
+    "title": "A multi-organism interaction system under soil acidification drives root rot aggravation in Torreya."
+  },
+  "doi:10.1016/j.jenvman.2026.130573": {
+    "source": "top_journal",
+    "title": "Re-evaluating forest carbon sinks under nitrogen deposition: Acidification drives passive carbon accumulation via decoupling microbial manganese oxidation."
+  },
+  "doi:10.1007/s10661-026-15701-7": {
+    "source": "top_journal",
+    "title": "Soil heavy metal uptake and distribution in silver birch plantations on former agricultural land"
+  },
+  "doi:10.1007/s42832-026-0479-3": {
+    "source": "top_journal",
+    "title": "Amendment-driven regulation of soil organic matter accumulation and soil health enhancement"
+  },
+  "doi:10.1007/s42832-026-0475-7": {
+    "source": "top_journal",
+    "title": "Green manure and chemical fertilizer optimization to mitigate greenhouse gas emission: A solution towards sustainable and climate-resilient agriculture"
   }
 }
