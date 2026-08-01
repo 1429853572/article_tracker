@@ -11606,5 +11606,89 @@
   "doi:10.1002/jpln.70101": {
     "source": "top_journal",
     "title": "Effects of Pine Nut Shell Biochar Activation State, Particle Size, and Dose on Peat Substrate Properties and Arugula Microgreen Performance"
+  },
+  "arxiv:2607.28132v1": {
+    "source": "arxiv",
+    "title": "Convolutional Neural Shading for High-Quality 3D Reconstruction from Multi-View Images"
+  },
+  "arxiv:2607.28164v1": {
+    "source": "arxiv",
+    "title": "S-Avatar: Diffusion-Guided Gaussian Head Avatars from a Single Image"
+  },
+  "arxiv:2607.28032v1": {
+    "source": "arxiv",
+    "title": "Split and Drive: Dual-Axis Disentanglement for Real-Time Gaussian Head Avatars"
+  },
+  "doi:10.1371/journal.pone.0353953": {
+    "source": "top_journal",
+    "title": "Robust point cloud lightweighting with multi-scale adaptive filtering and entropy-driven subdivision"
+  },
+  "arxiv:2607.28442v1": {
+    "source": "arxiv",
+    "title": "ViewMind3D: Modular View-Aware Inference for Training-Free 3D-QA"
+  },
+  "arxiv:2607.28256v1": {
+    "source": "arxiv",
+    "title": "When Robots Exchange Meaning: A Demo of Goal-Oriented Semantic Communications for Collaborative Robotics"
+  },
+  "arxiv:2607.27825v1": {
+    "source": "arxiv",
+    "title": "Endo-NeRF++: Uncertainty-Aware Neural Rendering with Multi-Resolution Hash Encoding for Dynamic Surgical Scene Reconstruction"
+  },
+  "arxiv:2607.28416v1": {
+    "source": "arxiv",
+    "title": "FasTac: A Curved Multispectral Vision-Based Tactile Sensor for High-Speed High-Precision 3D Shape and Force Perception"
+  },
+  "arxiv:2607.28320v1": {
+    "source": "arxiv",
+    "title": "AdaAnchor4D: Anchor-Conditioned Spatiotemporal Feature Aggregation for Monocular UAV 4D Reconstruction"
+  },
+  "arxiv:2607.28261v1": {
+    "source": "arxiv",
+    "title": "TARS: Timestep-Aware Data Scaling for 3D-Free Video Re-Shooting"
+  },
+  "arxiv:2607.28049v1": {
+    "source": "arxiv",
+    "title": "TSOG: A Format For Temporally And Spatially Ordered Gaussians"
+  },
+  "arxiv:2607.27922v1": {
+    "source": "arxiv",
+    "title": "Learning Social Robot Navigation By Sensing Human Legs"
+  },
+  "arxiv:2607.27634v1": {
+    "source": "arxiv",
+    "title": "4DHumanDiff: Direct Text-to-4DGS Generation for Consistent 360-Degree Dynamic Humans"
+  },
+  "doi:10.1117/12.3119862": {
+    "source": "top_journal",
+    "title": "An end-to-end single-shot fringe projection profilometry network for 3D reconstruction of translucent objects"
+  },
+  "doi:10.1117/12.3119845": {
+    "source": "top_journal",
+    "title": "High-resolution three-dimensional diffraction tomography based on confocal microscopy"
+  },
+  "doi:10.1007/s10439-026-04293-5": {
+    "source": "top_journal",
+    "title": "Simultaneous 3D Quantification of Fluid-Structure Interaction in a Patient-Averaged Left Ventricle: A Lagrangian Experimental Framework."
+  },
+  "doi:10.1117/12.3119755": {
+    "source": "top_journal",
+    "title": "π3-LEGS: a lightweight and fast geometry system for long- sequence 3D reconstruction"
+  },
+  "arxiv:2607.22773": {
+    "source": "top_journal",
+    "title": "Metric Surface Reconstruction of Neurosurgical Scenes from Monocular Operating Microscope Images and Microscope Pose"
+  },
+  "doi:10.1117/12.3120408": {
+    "source": "top_journal",
+    "title": "A multistage progressive image restoration network for single image deraining"
+  },
+  "doi:10.3390/a19080620": {
+    "source": "top_journal",
+    "title": "PMS-Net: A Real-Time Instance Segmentation Framework with Large Receptive Fields for Urban Driving Scenes"
+  },
+  "arxiv:2607.22771": {
+    "source": "top_journal",
+    "title": "Cheap Probes Predict Expensive Training in 3D-CT Vision--Language Models"
   }
 }
