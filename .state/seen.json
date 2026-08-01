@@ -11710,5 +11710,21 @@
   "doi:10.1007/s42832-026-0475-7": {
     "source": "top_journal",
     "title": "Green manure and chemical fertilizer optimization to mitigate greenhouse gas emission: A solution towards sustainable and climate-resilient agriculture"
+  },
+  "arxiv:2607.23189": {
+    "source": "top_journal",
+    "title": "Fashion-3DLR: A Controllable 3D Garment Generation Using Pairwise Fashion Elements for Intelligent Design"
+  },
+  "arxiv:2607.22997": {
+    "source": "top_journal",
+    "title": "Real2Sim2Real for Vision-Language-Action Manipulation: An AMD ROCm-Based Pipeline"
+  },
+  "doi:10.64898/2026.07.21.739890": {
+    "source": "top_journal",
+    "title": "Optimized cryo-FIB milling strategy to generate thin, minimally damaged biological lamellae"
+  },
+  "doi:10.3390/w18151805": {
+    "source": "top_journal",
+    "title": "Evaluation of Representative Elementary Volumes for Characterizing Tight Sandstone Microstructure via 3D CT Reconstruction"
   }
 }
