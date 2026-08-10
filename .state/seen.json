@@ -12726,5 +12726,69 @@
   "doi:10.1016/j.envres.2026.125376": {
     "source": "top_journal",
     "title": "Tracing heavy metal pathways from soil to silkworm: Bioaccumulation, trophic transfer, and ecological risk in wasteland based Eri silkworm farming."
+  },
+  "arxiv:2608.07144v1": {
+    "source": "arxiv",
+    "title": "InstanceSplat: Instance-Aware Feed-Forward 3D Gaussian Splatting for Scene Understanding"
+  },
+  "arxiv:2608.02191": {
+    "source": "top_journal",
+    "title": "DerainSplat: Feed-Forward Clean 3D Gaussian Splatting from Sparse Rainy Views"
+  },
+  "doi:10.1117/12.3120226": {
+    "source": "top_journal",
+    "title": "Research on the development and practical application of an intelligent management system for coal yards in thermal power plants"
+  },
+  "arxiv:2608.07106v1": {
+    "source": "arxiv",
+    "title": "Synthetic LiDAR Data Generation and Deterministic Downsampling for Point Cloud Classification on the Edge"
+  },
+  "arxiv:2608.06919v1": {
+    "source": "arxiv",
+    "title": "Vernata: Self-Supervised Learning of LiDAR Point Representations"
+  },
+  "arxiv:2608.06801v1": {
+    "source": "arxiv",
+    "title": "AdvTiles: Physical Adversarial Camouflage Clothing against Person Detectors via Learnable Tiles"
+  },
+  "arxiv:2608.01726": {
+    "source": "top_journal",
+    "title": "G-Skin: Learning to Bind 3D Gaussians with Generative Visual Priors"
+  },
+  "arxiv:2608.07154v1": {
+    "source": "arxiv",
+    "title": "Representation Handoffs for OpenArm-Based Laboratory Mobile Manipulation"
+  },
+  "arxiv:2608.06412v1": {
+    "source": "arxiv",
+    "title": "Beyond Visibility: Real-Time Surface Accessibility Fields from Sparse LiDAR"
+  },
+  "arxiv:2608.02016": {
+    "source": "top_journal",
+    "title": "Beyond Global Latents: Chunk-Based Sparse Grid VAE for Scalable 3D Modeling"
+  },
+  "arxiv:2608.06833v1": {
+    "source": "arxiv",
+    "title": "Unordered Landmark Visual Navigation"
+  },
+  "doi:10.47689/2181-3663-vol5-iss4-78-85": {
+    "source": "top_journal",
+    "title": "Современное состояние проблемы диагностики переломов проксимального отдела плечевой кости у военнослужащих"
+  },
+  "doi:10.1117/12.3120394": {
+    "source": "top_journal",
+    "title": "CFRM-MERNet: a multimodal fusion network with cross-modal feature matching and reconstruction for micro-expression recognition"
+  },
+  "doi:10.1117/12.3120495": {
+    "source": "top_journal",
+    "title": "Study on monocular ranging and scale recovery method based on UniK3D"
+  },
+  "doi:10.1117/12.3120221": {
+    "source": "top_journal",
+    "title": "Dynamic characteristic testing of fluorine-free environmental circuit breaker drive system"
+  },
+  "doi:10.1117/12.3120266": {
+    "source": "top_journal",
+    "title": "Optical-flow-aided laser speckle digital image correlation for non-contact dynamic displacement measurement"
   }
 }
