@@ -16038,5 +16038,49 @@
   "doi:10.1134/s1063783426601207": {
     "source": "top_journal",
     "title": "Thermally Stable Perpendicular Magnetic Anisotropy in MgO-Free CoFeB/Heavy Metal Bilayers Grown by Pulsed Laser Deposition"
+  },
+  "arxiv:2609.05925v1": {
+    "source": "arxiv",
+    "title": "AVSplat: Dense-View Feed-Forward 3D Gaussian Splatting with Assist-View Preconditioning"
+  },
+  "doi:10.1109/tpami.2026.3729984": {
+    "source": "top_journal",
+    "title": "GAPrompt++: Multi-Granular Geometry-Aware Point Cloud Prompt for 3D Vision Model."
+  },
+  "arxiv:2609.06017v1": {
+    "source": "arxiv",
+    "title": "FujinSplat: Seeing Through Smoke with RAW-Domain Gaussian Splatting"
+  },
+  "arxiv:2609.05583v1": {
+    "source": "arxiv",
+    "title": "An overview of 3D Vision-Language Models"
+  },
+  "arxiv:2609.06195v1": {
+    "source": "arxiv",
+    "title": "EgoNeMo: Transferable Map of Pedestrian Dynamics via Egocentric LiDAR Scan"
+  },
+  "arxiv:2609.06157v1": {
+    "source": "arxiv",
+    "title": "From Splats to Silicon: Rethinking Computational Efficiency of 3DGS"
+  },
+  "arxiv:2609.05888v1": {
+    "source": "arxiv",
+    "title": "UniFusion: Sparse-View 4D Reconstruction via Unified Spatio-temporal Depth Alignment"
+  },
+  "arxiv:2609.05744v1": {
+    "source": "arxiv",
+    "title": "Gaussian Linear Functional Manifold Method for Massive Point Cloud Data"
+  },
+  "arxiv:2609.06261v1": {
+    "source": "arxiv",
+    "title": "Adapting Vision Foundation Models to Acoustics for Pose-Free 3D Sonar Reconstruction"
+  },
+  "arxiv:2609.05941v1": {
+    "source": "arxiv",
+    "title": "Moment-Matching Probabilistic Data Association for Optimization-Based SLAM"
+  },
+  "arxiv:2609.02243": {
+    "source": "top_journal",
+    "title": "Mus siliconus: A Neuro-Musculoskeletal Digital Twin of the Mouse Integrating Neural Dynamics, Biomechanics, and Tactile Sensing"
   }
 }
