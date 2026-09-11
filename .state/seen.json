@@ -16322,5 +16322,17 @@
   "arxiv:2609.06723v1": {
     "source": "arxiv",
     "title": "ADELE - Adaptive Delaunay Grids for High-Fidelity Mesh-Native Reconstruction"
+  },
+  "doi:10.3390/f17091060": {
+    "source": "top_journal",
+    "title": "Spatial Patterns of Soil Water-Holding Capacity and Their Environmental Drivers in Spruce-Fir-Korean Pine Forest of the Xiaoxing’an Mountains"
+  },
+  "doi:10.1016/j.colsurfb.2026.116128": {
+    "source": "top_journal",
+    "title": "Construction of Pt/TiO2 heterojunction composite supported on N, P-Co-doped hollow carbon and study on the electrochemical sensing performance for Cu2."
+  },
+  "doi:10.64477/502577-585": {
+    "source": "top_journal",
+    "title": "KUPAS Inovasi Mulsa Lembaran Biokomposit Berbasis Kulit Singkong (Manihot esculenta) dan PCL (Polycaprolactone) untuk Optimalisasi Produktivitas Pertanian"
   }
 }
