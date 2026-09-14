@@ -16426,5 +16426,33 @@
   "doi:10.38211/joarps.2026.07.353": {
     "source": "top_journal",
     "title": "Soil Spatial Variability Mapping of District Badin, Sindh"
+  },
+  "arxiv:2609.07274": {
+    "source": "top_journal",
+    "title": "LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure"
+  },
+  "arxiv:2609.07346": {
+    "source": "top_journal",
+    "title": "From Explicit References to Scene Manifolds: Distributional Fidelity and Realism for Radiance Field Quality Assessment"
+  },
+  "arxiv:2609.07231": {
+    "source": "top_journal",
+    "title": "Generalizable 6D Pose Estimation of Textureless Objects with Planar-based Gaussian Splatting"
+  },
+  "arxiv:2609.07298": {
+    "source": "top_journal",
+    "title": "KODAMA: Multimodal Digital Twin Reconstruction for Urban RF Propagation Modelling"
+  },
+  "arxiv:2609.07497": {
+    "source": "top_journal",
+    "title": "Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs"
+  },
+  "arxiv:2609.07532": {
+    "source": "top_journal",
+    "title": "PhysReal: Learning Real-World Deformable Object Physics via Hybrid Constitutive Modeling"
+  },
+  "doi:10.3390/electronics15174042": {
+    "source": "top_journal",
+    "title": "ALNet: An Adaptive Lateral-Interaction Spiking Neural Network for Event-Based Motion Deblurring"
   }
 }
