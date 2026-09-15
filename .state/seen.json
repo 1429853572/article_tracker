@@ -16494,5 +16494,33 @@
   "doi:10.1007/s44274-026-00982-z": {
     "source": "top_journal",
     "title": "Ecological risk assessment and spatial distribution of heavy metals in soils surrounding urban abattoir waste systems in southwestern Nigeria"
+  },
+  "doi:10.1088/2631-8695/aea472": {
+    "source": "top_journal",
+    "title": "Two-Stage 3D Object Detection Architecture via Integrated Attention Mechanism and Voxel Aggregation"
+  },
+  "arxiv:2609.09418": {
+    "source": "top_journal",
+    "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration"
+  },
+  "arxiv:2609.08493": {
+    "source": "top_journal",
+    "title": "AURORA: Active Uncertainty-Driven Re-Orientation for In-Hand Reconstruction"
+  },
+  "arxiv:2609.09394": {
+    "source": "top_journal",
+    "title": "OmniPoint: Universal Monocular Metric Pointcloud from Any Camera"
+  },
+  "doi:10.1007/s41651-026-00283-2": {
+    "source": "top_journal",
+    "title": "CSRF: A Robust 3D Reconstruction Framework for Crowdsourced Street View Videos"
+  },
+  "arxiv:2609.08802": {
+    "source": "top_journal",
+    "title": "Graph-Based Safe Reinforcement Learning for Multi-Agent Systems with Time-Varying Topology"
+  },
+  "arxiv:2609.08841": {
+    "source": "top_journal",
+    "title": "Leveraging Visual and Geometric Priors for Metric-scale and Complete Vehicle Gaussian Reconstruction from Limited Views"
   }
 }
