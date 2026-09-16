@@ -16590,5 +16590,125 @@
   "doi:10.3390/molecules31183161": {
     "source": "top_journal",
     "title": "Production and Characterization of a Lipopeptide Biosurfactant from Bacillus velezensis SHB.28 Using Date Syrup for Heavy Metal Removal"
+  },
+  "arxiv:2609.15098v1": {
+    "source": "arxiv",
+    "title": "LG-VLN: A Zero-Shot Vision-and-Language Navigation Framework with LangGraph State Orchestration"
+  },
+  "arxiv:2609.15550v1": {
+    "source": "arxiv",
+    "title": "Multi-Stage NeRF for Efficient 3D Coronary Artery Reconstruction from Two Narrow-Angle Angiographic Projections"
+  },
+  "arxiv:2609.14634v1": {
+    "source": "arxiv",
+    "title": "SCOUT-SLAM: Structurally-Coupled Dual Uncertainty-Aware 3DGS SLAM in the Wild"
+  },
+  "arxiv:2609.10376": {
+    "source": "top_journal",
+    "title": "Shape-guided Gaussian Splatting for Sparse-View X-ray 3D Reconstruction"
+  },
+  "arxiv:2609.14899v1": {
+    "source": "arxiv",
+    "title": "What Makes a 3D Scene Editable? A Factorized Benchmark of Fidelity, Locality, Consistency, and Preservation"
+  },
+  "arxiv:2609.17039v1": {
+    "source": "arxiv",
+    "title": "Bi-FlowGS: Bridging Generative View Completion and Gaussian Geometry through Bidirectional Flow Co-Refinement"
+  },
+  "arxiv:2609.16852v1": {
+    "source": "arxiv",
+    "title": "CoAdapt: An LLM-based Framework for Adaptive Collaborative Perception in IIoT Robotic Swarms"
+  },
+  "arxiv:2609.15795v1": {
+    "source": "arxiv",
+    "title": "SURE-Map: Self-Correcting Streaming Geometric Foundation Model"
+  },
+  "arxiv:2609.13991v1": {
+    "source": "arxiv",
+    "title": "Mind2Cloud: EEG-to-Point Cloud Generation with Two-Granularity Diffusion Decoding"
+  },
+  "arxiv:2609.13903v1": {
+    "source": "arxiv",
+    "title": "SkyAnchor: Updating Metric-scale Aerial 3D Gaussian Scenes from Unposed Ground-View Sequences"
+  },
+  "arxiv:2609.13504v1": {
+    "source": "arxiv",
+    "title": "RIGOR: Rig-Informed Geometry for Omnidirectional Reconstruction"
+  },
+  "arxiv:2609.12837v1": {
+    "source": "arxiv",
+    "title": "Parameter Sensitivity Analysis for Aerial LiDAR-Inertial Odometries in low-altitude flights"
+  },
+  "arxiv:2609.12682v1": {
+    "source": "arxiv",
+    "title": "NOVA-GS: Noise-Aware View-Consistent Gaussian Splatting for Low-Light Novel View Synthesis"
+  },
+  "arxiv:2609.12614v1": {
+    "source": "arxiv",
+    "title": "ProClosure: Hierarchical Room-Object Assignment using Progressive Boundary Closure from Monocular Video"
+  },
+  "arxiv:2609.12557v1": {
+    "source": "arxiv",
+    "title": "DRS-VPT: Directly Relocalizing in a Scan with Vision Point Transformers"
+  },
+  "arxiv:2609.12221v1": {
+    "source": "arxiv",
+    "title": "Chain-SLAM: Globally Consistent Backend for Multi-Session LiDAR SLAM via Chained Loop Closure"
+  },
+  "arxiv:2609.11766v2": {
+    "source": "arxiv",
+    "title": "Visual-SLAM for the detection of hidden tomatoes in greenhouses by Hierarchical Localization and GLOMAP for robotized harvesting"
+  },
+  "arxiv:2609.16926v1": {
+    "source": "arxiv",
+    "title": "Evaluating Mesh Reconstruction Methods for Crop Phenotyping"
+  },
+  "arxiv:2609.16772v1": {
+    "source": "arxiv",
+    "title": "HLC-GS: Risk-Map-Guided Height-Layer Consistency Gaussian Splatting for DSM Reconstruction from Optical Satellite Imagery"
+  },
+  "arxiv:2609.16662v1": {
+    "source": "arxiv",
+    "title": "SAVTrack: Selective Vote Aggregation for Reliability-Aware Point Cloud Tracking"
+  },
+  "arxiv:2609.16443v1": {
+    "source": "arxiv",
+    "title": "The Neverwhere Visual Parkour Benchmark Suite"
+  },
+  "arxiv:2609.16378v1": {
+    "source": "arxiv",
+    "title": "Geometry vs Structure: Graph-Based Diagnostics for LiDAR Point-Cloud Simulation Fidelity"
+  },
+  "arxiv:2609.16233v1": {
+    "source": "arxiv",
+    "title": "SceneBench: A Hierarchical Benchmark for Vision-Language Understanding of 3D Scenes"
+  },
+  "arxiv:2609.15228v1": {
+    "source": "arxiv",
+    "title": "Unsupervised Point Cloud Registration via Training-Time Semantic Guidance"
+  },
+  "arxiv:2609.14469v1": {
+    "source": "arxiv",
+    "title": "PRI-Net: A Lightweight Multimodal Framework for 3D UAV Localization"
+  },
+  "arxiv:2609.12395v1": {
+    "source": "arxiv",
+    "title": "Is Gaussian Splatting Becoming Neural Again? A Taxonomy and Controlled Study of Learned Parameterization"
+  },
+  "arxiv:2609.12343v1": {
+    "source": "arxiv",
+    "title": "VS-Splat: Voxel-Selective feed-forward Gaussian Splatting for end-to-end 3D object reconstruction from sparse-views"
+  },
+  "arxiv:2609.16310v1": {
+    "source": "arxiv",
+    "title": "Racing in Volume with Flow Ensembles"
+  },
+  "arxiv:2609.15667v1": {
+    "source": "arxiv",
+    "title": "Tracking the Ground: Online Lidar Identification of Robot-Induced Soil Deformation in Agricultural Environments"
+  },
+  "arxiv:2609.15227v1": {
+    "source": "arxiv",
+    "title": "Closed-form Bayesian homography estimation from noisy point correspondences"
   }
 }
