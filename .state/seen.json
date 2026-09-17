@@ -16766,5 +16766,125 @@
   "doi:10.3390/agronomy16181761": {
     "source": "top_journal",
     "title": "Parent Material, Water Regime Shifts, and Fertilization Regulate Aggregate Stability and Cadmium Adsorption in Typical Subtropical Paddy Soils"
+  },
+  "arxiv:2609.17387v1": {
+    "source": "arxiv",
+    "title": "PanoGS-SLAM: Panoramic 3D Gaussian Splatting SLAM"
+  },
+  "arxiv:2609.18465v1": {
+    "source": "arxiv",
+    "title": "GeoCond: A Conditioning-Aware Reliability Adapter for Feed-Forward 3D Reconstruction"
+  },
+  "arxiv:2609.17302v1": {
+    "source": "arxiv",
+    "title": "Online Geometric Change Detection via Scene Decomposition"
+  },
+  "arxiv:2609.18493v1": {
+    "source": "arxiv",
+    "title": "Semantic-ITC: A Frame-wise Indoor Mobile Laser Scanning Dataset and Benchmark for Semantic Segmentation"
+  },
+  "arxiv:2609.18473v1": {
+    "source": "arxiv",
+    "title": "CADSplat: Sparse-View 3D Gaussian Splatting Aided by CAD Models for Robust, Photorealistic Digital-Twin Reconstruction"
+  },
+  "arxiv:2609.18082v1": {
+    "source": "arxiv",
+    "title": "PESTO: Formally Correct Registration of LiDAR Point Clouds with Limited Overlap"
+  },
+  "arxiv:2609.17413v1": {
+    "source": "arxiv",
+    "title": "SSC-Priors: Exploring Semantic and Visibility Priors to Boost Lidar Semantic Scene Completion"
+  },
+  "arxiv:2609.17230v1": {
+    "source": "arxiv",
+    "title": "DecoGS: Adaptive Static-Dynamic Decoupling of 3D Gaussians for Free-Viewpoint Video Streaming"
+  },
+  "arxiv:2609.17757v1": {
+    "source": "arxiv",
+    "title": "Imitation Learning for Autonomous Driving in CARLA"
+  },
+  "arxiv:2609.17198v1": {
+    "source": "arxiv",
+    "title": "TIO-Former: Ultra-Lightweight 6-Directional ToF-Inertial Odometry for Nano-UAVs via a Streaming Causal Transformer"
+  },
+  "arxiv:2609.14936v1": {
+    "source": "arxiv",
+    "title": "Comparing Trajectories from Positions Alone: Curvature-Based Time Alignment and Drift Error Metric"
+  },
+  "arxiv:2609.14543v1": {
+    "source": "arxiv",
+    "title": "NavPatch: Evidence-Guided Object-Level Costmap Correction with Vision-Language Models"
+  },
+  "arxiv:2609.12871v1": {
+    "source": "arxiv",
+    "title": "A Multi-Vehicle Dataset with Camera, LiDAR, and Radar Sensors and Scanned 3D Models for Custom Auto-Annotation using RTK-GNSS"
+  },
+  "arxiv:2609.18451v1": {
+    "source": "arxiv",
+    "title": "VLM-MPPI: Grounding Natural Language in Behaviorally Diverse Trajectories for Aerial Navigation"
+  },
+  "arxiv:2609.18191v1": {
+    "source": "arxiv",
+    "title": "OmniRisk: Omnidirectional Trajectory-Risk Learning for Agile Quadrotor Dynamic Avoidance"
+  },
+  "arxiv:2609.17820v1": {
+    "source": "arxiv",
+    "title": "CALIPER: Metric-Grounded Model-Free Recognition of Visually Similar Industrial Parts"
+  },
+  "arxiv:2609.17810v1": {
+    "source": "arxiv",
+    "title": "Wind on Trees: Testing Physical Grounding in Dynamic 4D Gaussian Splatting"
+  },
+  "arxiv:2609.17168v1": {
+    "source": "arxiv",
+    "title": "HuMemSLAM: Efficient Human-Inspired Semantic Place Recognition for Robust Visual SLAM"
+  },
+  "arxiv:2609.17145v2": {
+    "source": "arxiv",
+    "title": "LiLi: Lie Theory Based 3D LiDAR Scan Alignment Degeneracy Detection"
+  },
+  "arxiv:2609.17021v1": {
+    "source": "arxiv",
+    "title": "sensVLA: Spatially-Grounded Vision-Language-Action Model for Autonomous Wheel Loader"
+  },
+  "arxiv:2609.16695v1": {
+    "source": "arxiv",
+    "title": "MAETrack: Unleashing the Potential of Pretrained Geometric Priors for 3D Single Object Tracking"
+  },
+  "arxiv:2609.16672v1": {
+    "source": "arxiv",
+    "title": "Lesion-centered 3D mapping of colonoscopy procedures: validation of a hierarchical ensemble pipeline on public benchmark videos"
+  },
+  "arxiv:2609.15770v1": {
+    "source": "arxiv",
+    "title": "JEPLO: Joint-Embedding Predictive Learning for LiDAR-Based Legged Locomotion"
+  },
+  "arxiv:2609.15475v1": {
+    "source": "arxiv",
+    "title": "P-POSEMEM: Projective Semantic Memory for Consistent Language Grounding under Pose-Graph Rewrites"
+  },
+  "arxiv:2609.15018v2": {
+    "source": "arxiv",
+    "title": "G-ray: Ray-Level Relative Geometric Position Encoding in Multi-View Vision Transformers under Camera Heterogeneity"
+  },
+  "arxiv:2609.14903v1": {
+    "source": "arxiv",
+    "title": "HydroMap: Probabilistic Water Surface Elevation Mapping for Semantic Scene Representation in Inland Waterways"
+  },
+  "arxiv:2609.14619v1": {
+    "source": "arxiv",
+    "title": "ESAFusion: LiDAR--4-D Radar Fusion via Local Geometric Complementation and Multiscale Adaptive Interaction for 3-D Object Detection"
+  },
+  "arxiv:2609.14567v1": {
+    "source": "arxiv",
+    "title": "Learning Multi-Agent Task Assignment and Navigation in the Factory: from Simulation to Real Robots"
+  },
+  "arxiv:2609.14426v1": {
+    "source": "arxiv",
+    "title": "Learning-Based Dynamic Obstacle Avoidance for a UAV Using Only Three Range Sensors"
+  },
+  "arxiv:2609.14183v1": {
+    "source": "arxiv",
+    "title": "DreamSat-Bench: Development and Initial Testing of a Testbed for AI-Based Pose Estimation from 3D Reconstruction"
   }
 }
