@@ -16974,5 +16974,77 @@
   "doi:10.56201/ijgem.vol.12.no3.2026.pg189.201": {
     "source": "top_journal",
     "title": "Integrated Assessment of Water Quality and Public Health Risks in the Ossah River, Southeastern Nigeria: Implications For Sustainable Water Resource Management"
+  },
+  "arxiv:2609.18737v1": {
+    "source": "arxiv",
+    "title": "Geometry beneath the Waves: Dense Priors for Sparse-View Underwater 3D Gaussian Splatting"
+  },
+  "arxiv:2609.18898v1": {
+    "source": "arxiv",
+    "title": "NormLift: From Lifted Features To Semantic Reliability In 3D Gaussian Splatting"
+  },
+  "arxiv:2609.13504": {
+    "source": "top_journal",
+    "title": "RIGOR: Rig-Informed Geometry for Omnidirectional Reconstruction"
+  },
+  "arxiv:2609.12557": {
+    "source": "top_journal",
+    "title": "DRS-VPT: Directly Relocalizing in a Scan with Vision Point Transformers"
+  },
+  "arxiv:2609.18738v1": {
+    "source": "arxiv",
+    "title": "Active perception for robotic harvesting: 3D reconstruction and localisation of tomatoes hidden within clusters in a Mediterranean greenhouse"
+  },
+  "arxiv:2609.18819v1": {
+    "source": "arxiv",
+    "title": "SEAM: Submap-Anchored Evidence for Lifelong LiDAR Mapping under Trajectory Deformation"
+  },
+  "doi:10.1117/12.3122251": {
+    "source": "top_journal",
+    "title": "Deep learning-based tunnel surface defects 3D reconstruction and spatial location mapping method"
+  },
+  "arxiv:2609.18893v1": {
+    "source": "arxiv",
+    "title": "SOL-SLAM: Inverse Compositional Gauss-Newton Direct Registration for Fast Sonar-Only Local SLAM"
+  },
+  "arxiv:2609.18732v1": {
+    "source": "arxiv",
+    "title": "PASSAGE: Scaling Scene-Aligned Motion Learning for Perceptive Humanoid Traversal in Cluttered Environments"
+  },
+  "arxiv:2609.14129v1": {
+    "source": "arxiv",
+    "title": "Deformable 2D Gaussian Splatting for Efficient 4K Video Compression"
+  },
+  "arxiv:2609.13941v1": {
+    "source": "arxiv",
+    "title": "BLInD: Learning Driver Intent as a Distribution over Future Ego Trajectories"
+  },
+  "arxiv:2609.13675v2": {
+    "source": "arxiv",
+    "title": "Does Online Gravity Estimation Matter? Revisiting a Silent Design Split in LiDAR-Inertial Odometry"
+  },
+  "doi:10.1364/oe.610652": {
+    "source": "top_journal",
+    "title": "Adaptive Highlight Suppression 3D Reconstruction Method Based on Binary-Coded Fringe Patterns"
+  },
+  "arxiv:2609.14521v1": {
+    "source": "arxiv",
+    "title": "CGGT: Curve-Grounded Geometry Transformer for 3D Parametric Curve Reconstruction"
+  },
+  "arxiv:2609.12898": {
+    "source": "top_journal",
+    "title": "UniPart: Towards Zero-shot Language-Grounded 3D Part Segmentation for Embodied Interaction"
+  },
+  "arxiv:2609.17106v1": {
+    "source": "arxiv",
+    "title": "BRAVE-6D: Benchmark for Robotic Active Vision in 6DOF Pose Estimation"
+  },
+  "doi:10.4271/2026-99-1117": {
+    "source": "top_journal",
+    "title": "3D Dynamic Object Detection with Multi-Modal Temporal Fusion"
+  },
+  "doi:10.1113/jp290463": {
+    "source": "top_journal",
+    "title": "High-throughput, high-fidelity reconstruction of whole mouse-heart cytoarchitecture at cellular scale."
   }
 }
