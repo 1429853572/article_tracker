@@ -19154,5 +19154,53 @@
   "doi:10.1038/s41467-026-78060-4": {
     "source": "top_journal",
     "title": "Active layer microbial inocula restore missing functions across thawed permafrost soils"
+  },
+  "doi:10.3390/app16199588": {
+    "source": "top_journal",
+    "title": "3D Scene Reconstruction and Immersive VR Environment Generation Using Smartphone-Based Panoramic RGB-D Data"
+  },
+  "arxiv:2610.01707v1": {
+    "source": "arxiv",
+    "title": "MEGA: Object-Level Mesh Extraction from 3D Gaussian Splatting via Spatial Visual Distillation"
+  },
+  "arxiv:2610.02110v1": {
+    "source": "arxiv",
+    "title": "GlassGuard: Verified Glass Plane Mapping for Robot Navigation"
+  },
+  "arxiv:2610.01927v1": {
+    "source": "arxiv",
+    "title": "CLoSeR: Closing the Loop for Long-Context Streaming Reconstruction"
+  },
+  "arxiv:2610.01876v1": {
+    "source": "arxiv",
+    "title": "EvenSplat: Coupled 2D-3D Decomposition for Gaussian Splatting under Exposure and Illumination Variation"
+  },
+  "arxiv:2609.32177": {
+    "source": "top_journal",
+    "title": "Federated 3D Gaussian Splatting for Large-Scale Scene Reconstruction at Wireless Edge"
+  },
+  "arxiv:2610.01644v1": {
+    "source": "arxiv",
+    "title": "SonarVoxNet: Diver Detection in 3D Bounding Box using 3D Sonar"
+  },
+  "arxiv:2609.39841v2": {
+    "source": "arxiv",
+    "title": "DyRAD: Radar Novel View Synthesis for Dynamic Driving Scenes"
+  },
+  "arxiv:2610.01910v1": {
+    "source": "arxiv",
+    "title": "Robot Learning on Discrete Surfaces: Theory and Applications"
+  },
+  "arxiv:2610.01863v1": {
+    "source": "arxiv",
+    "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction"
+  },
+  "arxiv:2610.01573v1": {
+    "source": "arxiv",
+    "title": "LiDARFlow: Real-Time Panel-Based MAV Guidance in Unknown Environments"
+  },
+  "arxiv:2609.32789": {
+    "source": "top_journal",
+    "title": "Hierarchical Frequency-Domain Compression of Implicit Geometric Representations for Large-Scale Point Clouds"
   }
 }
