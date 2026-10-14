@@ -20626,5 +20626,33 @@
   "doi:10.1002/sae2.70216": {
     "source": "top_journal",
     "title": "Environmental Sustainability of Soybean Production in the Democratic Republic of Congo: Cases of Production Systems in the South‐Kivu and Kasaï‐Lomami Provinces"
+  },
+  "doi:10.1109/tvcg.2026.3741385": {
+    "source": "top_journal",
+    "title": "Active Reconstruction of Radiance Fields with Expanded Silhouette Refinement."
+  },
+  "arxiv:2610.10181": {
+    "source": "top_journal",
+    "title": "Argos: Adapt Rich Geometric Priors for Generalizable Online Scene-Change-Detection"
+  },
+  "doi:10.1109/tpami.2026.3740477": {
+    "source": "top_journal",
+    "title": "MaskGaussian++: Probabilistic Masks for General 3D Gaussian Representation."
+  },
+  "doi:10.1016/j.wasman.2026.115903": {
+    "source": "top_journal",
+    "title": "Multi-view stereo-based 3D modeling of waste pits in waste-to-energy plants with spatial-context feature fusion."
+  },
+  "doi:10.1007/978-3-032-38179-8_38": {
+    "source": "top_journal",
+    "title": "PhyDiCT: Plug-and-Play CT Reconstruction from Sparse X-Rays via Differentiable Rendering and Strong Priors"
+  },
+  "arxiv:2610.09274": {
+    "source": "top_journal",
+    "title": "Hardware-aware Calibrated Clustered Attention for Efficient Visual Geometric Transformers"
+  },
+  "arxiv:2610.09513": {
+    "source": "top_journal",
+    "title": "OmniCam: Omni-Camera Trajectory Generation via Geometry-Grounded Pose Token Learning"
   }
 }
