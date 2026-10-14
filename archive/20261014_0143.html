@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#2563eb}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-10-14 01:43 · Core 3 · Proxy 2 · Eco 2</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Active Reconstruction of Radiance Fields with Expanded Silhouette Refinement.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">11</span></div>
+<div class="meta-line">Authors: Rui-Qi Li, Yiu-Ming Cheung, Meng-Ke Li, Zhi-Kai Hu</div>
+<div class="meta-line">Venue: IEEE transactions on visualization and computer graphics</div>
+<div class="meta-line">Published: 2026-10-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/839eae809f7752d1a87b8b9229e6c346f573dec8">Abs</a> · <a href="https://doi.org/10.1109/tvcg.2026.3741385">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Radiance field representations have achieved notable success in novel view synthesis and 3D geometry reconstruction. Nevertheless, the reconstruction quality is highly sensitive to both the number of input images and the extent of scene coverage, and it often requires manual effort to capture well-conditioned image collections. To reduce acquisition cost while preserving reconstruction fidelity, active view selection methods aim to determine the next-best-view (NBV) that maximizes information gain at each iteration. However, existing approaches typically restrict the camera pose search space during NBV optimization, which can lead to sub-optimal view selection and limited reconstruction quality. In this paper, we expand the NBV candidates sampling space to identify informative image collections that jointly balance local surface detail and global geometric completeness. We propose a two-stage Silhouette Refinement Candidate Generation (SRCG) framework that leverages prior knowledge of well-composed viewpoints to generate candidate views with improved object coverage. We optimize the coarse camera candidates in a differentiable manner through volume rendering, guided by a proposed Expanded Silhouette Loss that encourages effective silhouette capture. Extensive evaluations on synthetic and real-world benchmarks using Neural Radiance Field (NeRF) and 3D Gaussian Splatting (3DGS) backbones demonstrate that the proposed approach produces candidate views with superior surface coverage and pixel density and consistently improves novel view synthesis across diverse object categories.</div></details>
+</div>
+<div class="card"><div class="title">Argos: Adapt Rich Geometric Priors for Generalizable Online Scene-Change-Detection<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">7</span></div>
+<div class="meta-line">Authors: Rui-Han Xu, Jia Yoon, Kai-Chen Zhou, Ue-Hwan Kim, Luca Carlone</div>
+<div class="meta-line">Venue: Science Robotics</div>
+<div class="meta-line">Published: 2026-10-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/80293e3ed08b6834ae73d724d886febf648abf23">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Robots operating in dynamic environments require reliable detection of how their surroundings change over time. Existing learning-based methods largely rely on pairwise 2D image features, which struggle under large viewpoint changes and occlusions, are sensitive to noise, and show limited generalization across domains, while explicit 3D approaches typically require costly offline optimization. We show that the implicit 3D knowledge of Geometric Foundation Models (GFMs) provides a strong basis for addressing these limitations. We introduce Argos, which adapts GFM features for joint scene change detection and 3D reconstruction. To address data scarcity and take a step toward a foundation model for scene change detection, we introduce a large-scale benchmark comprising two synthetic datasets and one real-world dataset, and train jointly across diverse datasets to improve cross-domain generalization. We further introduce Argos-SLAM, a real-time system designed for robotics, which performs online change detection and change-aware 4D mapping. Across benchmarks, our framework substantially outperforms existing baselines, with gains of up to 42.01% in change IoU and 27.91% in F1, while supporting scalable deployment in changing real-world environments.</div></details>
+</div>
+<div class="card"><div class="title">MaskGaussian++: Probabilistic Masks for General 3D Gaussian Representation.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">5</span></div>
+<div class="meta-line">Authors: Yi-Fei Liu, Yuan-Yuan Gao, Yi-Fan Zhan, Sheng-Jing Xu, Yu-Ning Gong...</div>
+<div class="meta-line">Venue: IEEE transactions on pattern analysis and machine intelligence</div>
+<div class="meta-line">Published: 2026-10-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/571be90bba05ed8c3919e12a51ef59c8bed5e3b4">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">While 3D Gaussian Splatting (3DGS) has demonstrated remarkable performance in novel view synthesis and realtime rendering, the high memory consumption due to the use of millions of Gaussians limits its practicality. To mitigate this issue, improvements have been made by pruning unnecessary Gaussians, either through a hand-crafted criterion or by using learned masks. However, these methods deterministically remove Gaussians based on a snapshot of the pruning moment, leading to sub-optimized reconstruction performance from a long-term perspective. To address this issue, we introduce MaskGaussian++, which models Gaussians as probabilistic entities rather than permanently removing them, and utilize them according to their probability of existence. To achieve this, we propose a masked-rasterization technique that enables unused yet probabilistically existing Gaussians to receive gradients, allowing for dynamic assessment of their contribution to the evolving scene and adjustment of their probability of existence. Beyond vanilla 3DGS, this probabilistic masking is a model-agnostic mechanism for the broader Gaussian family: we adapt it to neural (anchor-based) Gaussians with a shared anchor mask, and to distributed multi- GPU Gaussians with a distributed masked-rasterizer, through which we further uncover a log-linear scaling law of Gaussian Splatting spanning up to 90 million primitives, and to dynamic 4D Gaussians with a single time-invariant per-primitive mask that transfers across two structurally different 4D representations. Extensive experiments demonstrate the superiority of the proposed method: on vanilla 3DGS it prunes over 60% of Gaussians on average with only a 0.02 PSNR decline, halves the storage of neural Gaussians, scales $2\times$ more efficiently than Grendel-GS in large-scale distributed training, and compressing dynamic 4D Gaussians several-fold at on-par or better quality.</div></details>
+</div>
+<div class="card"><div class="title">Multi-view stereo-based 3D modeling of waste pits in waste-to-energy plants with spatial-context feature fusion.<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Zhi-Ming Chen, Qi-Li Chen, Dong-Sheng Tian, Wen-Bai Chen</div>
+<div class="meta-line">Venue: Waste management</div>
+<div class="meta-line">Published: 2026-10-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4a27dfe538f7a02458f922cdb766c818738a99a7">Abs</a> · <a href="https://doi.org/10.1016/j.wasman.2026.115903">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Three-dimensional (3D) modeling of waste pits can support waste pile monitoring and crane-assisted feeding in waste-to-energy (WtE) plants. RGB image-based multi-view stereo (MVS) offers a flexible perception route, but its performance remains limited by non-uniform illumination, weakly textured waste surfaces, local specular highlights, occlusion, and changes in pile morphology. This study aims to improve the reconstruction continuity and relative accuracy of RGB-MVS under these waste-pit-oriented visual conditions. To this end, SCFM-MVSNet is proposed by introducing a Spatial-Context Fusion Module (SCFM) into multi-scale feature extraction and a spatial-confidence-guided Gated Recurrent Unit (GRU) strategy into iterative depth refinement. The SCFM enhances spatial-context feature representation, while the confidence-guided GRU reduces the influence of unreliable matching features during depth updating. Experiments on public benchmarks show that SCFM-MVSNet achieves an Overall error of 0.290 on DTU and competitive performance on Tanks and Temples. Tests on self-constructed simulated and real waste pit datasets further show more continuous waste-pile surfaces and lower relative reconstruction errors than the compared methods. These results suggest that spatial-context feature fusion and confidence-aware refinement are beneficial for reducing local holes and unstable matching responses. The main contribution and novelty of this work lie in a waste-pit-oriented RGB-MVS framework that adapts RGB-based MVS to challenging waste pit 3D modeling through spatial-context-aware feature fusion, confidence-aware depth refinement, and paired simulated-real waste pit datasets. Further validation with independent geometric references is still required before autonomous crane-control deployment.</div></details>
+</div>
+<div class="card"><div class="title">PhyDiCT: Plug-and-Play CT Reconstruction from Sparse X-Rays via Differentiable Rendering and Strong Priors<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Wei-Cheng Dai, Shantanu Ghosh, K. Batmanghelich</div>
+<div class="meta-line">Venue: Information Fusion</div>
+<div class="meta-line">Published: 2026-10-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e68c670ebde6466d72175bb12a30e5150a229d44">Abs</a> · <a href="https://arxiv.org/pdf/2610.09253">PDF</a> · <a href="https://github.com/batmanlab/PhyDiCT">Code1</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Reconstructing 3D Computed Tomography (CT) images from a few X-ray projections is a highly ill-posed inverse problem due to the loss of volumetric information. We propose PhyDiCT, a training-free framework that integrates a differentiable Physics-based forward model, grounded in the Beer-Lambert law, with a text-conditioned Diffusion as a strong prior to reconstruct 3D lung CT images. We refer to our approach as training-free since the prior model is used without fine-tuning, and our goal is to steer the denoising procedure to generate samples consistent with X-ray observations. We guide the diffusion generation using Split Gibbs sampling to jointly optimize for projection fidelity (reward) and consistency with prior knowledge. Also, we introduce a test-time refinement step that enhances image realism and anatomical coherence. We extensively evaluate our method on publicly available 3D CT datasets using both perceptual and semantic metrics, demonstrating that it surpasses existing plug-and-play diffusion and fully trained reconstruction approaches. Our findings highlight that combining a strong generative prior with the underlying physics of image formation substantially improves reconstruction quality, e.g., 7.5\% improvement on SSIM compared to full training methods. Code will be released at https://github.com/batmanlab/PhyDiCT.</div></details>
+</div>
+<div class="card"><div class="title">Hardware-aware Calibrated Clustered Attention for Efficient Visual Geometric Transformers<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Wei-Tian Wang, Shubham Rai, Cecilia De la Parra, Akash Kumar</div>
+<div class="meta-line">Venue: Computational Visual Media</div>
+<div class="meta-line">Published: 2026-10-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/f769d63b6c4cd7a93f7d6ed6cc326e67fefb158d">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The Visual Geometry Grounded Transformer (VGGT) marks a significant leap forward in 3D scene reconstruction, as it is the first model that directly infers all key 3D attributes (camera poses, depths, and dense geometry) jointly in one pass. However, this joint inference mechanism requires global attention layers with extremely long sequences that causes a significant latency bottleneck. In this paper, we propose blockwise clustered attention (BC attention) to accelerate the global attention layers in VGGT. By limiting the clustering within HW-friendly neighborhood blocks, BC attention reduces the computation overhead of query clustering as well as the costly data movement between on- and off-chip memory. This enables BC attention to scale to long sequences and deliver practical latency improvements on GPUs. Moreover, we introduce a hashing hyperplane calibration method and a threshold-based error compensation method to reduce clustering errors efficiently, which is a bottleneck in the current clustered attention mechanism. Overall, our experiments on GPU demonstrate that calibrated BC attention accelerates the global attention layers by 2.10-2.63$\times$ and the whole backbone by 1.77-2.35$\times$ with negligible loss (1%) for large scenes. With a small performance loss (&lt;5%), calibrated BC attention further achieves a 2.26-2.87$\times$ latency improvement on the global attention layers and a 1.90-2.55$\times$ improvement on the backbone.</div></details>
+</div>
+<div class="card"><div class="title">OmniCam: Omni-Camera Trajectory Generation via Geometry-Grounded Pose Token Learning<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Zhen-Yang Liu, Chen-Jie Cao, Yi-Su Zhang, Xu-Hui Zuo, Xiang-Yang Xue...</div>
+<div class="meta-line">Venue: Science Robotics</div>
+<div class="meta-line">Published: 2026-10-07</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/f904f3626e720dd536e687f6be894f61660e6ab4">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Camera trajectories control viewpoint changes in video generation, scene reconstruction, and robotic perception. Generating them from language requires both scene geometry and target-aware framing. We introduce OmniCam, an autoregressive model that generates camera pose sequences from a single panorama and textual trajectory descriptions. Its geometry-grounded pose token learning combines three components: a panoramic point-cloud encoder for omnidirectional geometric context; hybrid absolute-rotation and relative-translation tokenization with temporally consistent quaternion signs; and separate geometric and semantic conditioning streams with an explicit 3D target anchor. We also construct OmniCaT, containing 267,700 trajectories across four camera behaviors. On the reported OmniCaT evaluation, OmniCam reduces trajectory errors by 28--47% and collision rate by 65.8% relative to GenDoP retrained on OmniCaT. Against the best baseline for each metric, the ATE and collision reductions are 43.0% and 62.3%, respectively. Component ablations support the use of geometric and target-aware conditioning, while downstream experiments examine camera-controlled video generation and robotic active perception.</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
