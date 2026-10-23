@@ -21910,5 +21910,41 @@
   "doi:10.66691/leco5508": {
     "source": "top_journal",
     "title": "WAYS TO IMPROVE LAND USE EFFICIENCY UNDER MODERN CONDITIONS"
+  },
+  "doi:10.3390/electronics15204779": {
+    "source": "top_journal",
+    "title": "Attention-Based Grouping Distance Stereo Network"
+  },
+  "arxiv:2610.23250": {
+    "source": "top_journal",
+    "title": "LonGaussian: Tracking Foundation Priors for Long-Context Feedforward Gaussian Reconstruction"
+  },
+  "doi:10.17586/0021-3454-2026-69-9-789-799": {
+    "source": "top_journal",
+    "title": "An algorithm for 6D object pose estimation based on generative single-image 3D reconstruction"
+  },
+  "arxiv:2610.23050": {
+    "source": "top_journal",
+    "title": "TriFold: Folding irregular 3D Gaussians into structured latents for 3D Scene Generation"
+  },
+  "arxiv:2610.24218": {
+    "source": "top_journal",
+    "title": "Landmark-Free and Scale-Blind Multi-View Registration of Preoperative Liver Models to Intraoperative Surfaces"
+  },
+  "arxiv:2610.23001": {
+    "source": "top_journal",
+    "title": "BRICE: Brain-inspired Recurrent Illusory Contour Encoder for Point Cloud Completion"
+  },
+  "arxiv:2610.22786": {
+    "source": "top_journal",
+    "title": "MultiPASE: Shape-Aware Comparative 3D Genome Analysis"
+  },
+  "doi:10.1371/journal.pone.0349628": {
+    "source": "top_journal",
+    "title": "Relation-aware dynamic knowledge subgraph enhanced large language models for medical multiple-choice question answering"
+  },
+  "doi:10.3389/fpsyt.2026.1962098": {
+    "source": "top_journal",
+    "title": "Context presentation and native conversation structure in large language model responses to escalating suicide risk: a controlled multimodel evaluation"
   }
 }
