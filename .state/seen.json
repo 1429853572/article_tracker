@@ -22014,5 +22014,109 @@
   "doi:10.55730/1300-011x.3492": {
     "source": "top_journal",
     "title": "The effect of seedling age on nickel (Ni) accumulation in maize (Zea mays L.)"
+  },
+  "doi:10.1007/s44163-026-02207-x": {
+    "source": "top_journal",
+    "title": "Communication-efficient collaborative 4D mapping via federated temporal Gaussian pruning and knowledge-distilled neural radiance fields for post-disaster rescue robotics"
+  },
+  "arxiv:2610.31186v1": {
+    "source": "arxiv",
+    "title": "RaSFNet: Ray-aligned and Scan-aware Fusion Network for LiDAR Semantic Segmentation"
+  },
+  "arxiv:2610.30468v1": {
+    "source": "arxiv",
+    "title": "SplatLab: Autonomous Scientific Discovery for 3DGS Research"
+  },
+  "arxiv:2610.31293v1": {
+    "source": "arxiv",
+    "title": "RecallGS: Geometry-Grounded Recall for Online Semantic Gaussian Splatting"
+  },
+  "arxiv:2610.30774v1": {
+    "source": "arxiv",
+    "title": "Evaluation of Front-End Feature Matching for Lunar Visual SLAM"
+  },
+  "arxiv:2610.30319v1": {
+    "source": "arxiv",
+    "title": "TerraTransfer++: Demonstration-Free End-to-End Planner"
+  },
+  "arxiv:2610.30013v1": {
+    "source": "arxiv",
+    "title": "ClunoGS: Compact Language 3D Gaussian Splatting via Unified Optimization"
+  },
+  "arxiv:2610.31645v1": {
+    "source": "arxiv",
+    "title": "OmniRay: Camera-Agnostic Monocular 3D Reconstruction with Composite Ray Fields"
+  },
+  "arxiv:2610.30910v1": {
+    "source": "arxiv",
+    "title": "H-2DGS: Height-Field Gaussian Splatting for Sharp and Deformable Neurosurgical Surface Reconstruction"
+  },
+  "arxiv:2610.29699v1": {
+    "source": "arxiv",
+    "title": "AirPlayground: Benchmarking Aerial Navigation across Diverse Reconstructed Environments"
+  },
+  "arxiv:2610.28490v2": {
+    "source": "arxiv",
+    "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection"
+  },
+  "arxiv:2610.31320v1": {
+    "source": "arxiv",
+    "title": "Stream4D: Streaming 4D Reconstruction with Training-free Motion Decoupling via Causal KV-Cache Attention"
+  },
+  "arxiv:2610.30619v1": {
+    "source": "arxiv",
+    "title": "GSHeadRelight: Fast Relightability for 3D Gaussian Head Synthesis"
+  },
+  "arxiv:2610.30326v1": {
+    "source": "arxiv",
+    "title": "R4DGS: Referring Segmentation in 4D Gaussian Splatting"
+  },
+  "arxiv:2610.29866v1": {
+    "source": "arxiv",
+    "title": "GeoMem-VLA: Internalizing 3D Scene Understanding into Temporal Memory for Vision-Language-Action Models"
+  },
+  "arxiv:2610.31635v1": {
+    "source": "arxiv",
+    "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction"
+  },
+  "arxiv:2610.31321v1": {
+    "source": "arxiv",
+    "title": "MVLoMa: Multi-View Local Feature Matching with Any Geometry Foundation Model"
+  },
+  "arxiv:2610.31221v1": {
+    "source": "arxiv",
+    "title": "Consistent Distributed Invariant EKF SLAM with Point and Object Features"
+  },
+  "arxiv:2610.31123v1": {
+    "source": "arxiv",
+    "title": "WildDepth-v2: A Synchronized RGB--LiDAR--Radar Dataset and Benchmark for Metric Depth, Motion, and Tracking of Wildlife"
+  },
+  "arxiv:2610.29936v1": {
+    "source": "arxiv",
+    "title": "DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos"
+  },
+  "arxiv:2610.29845v2": {
+    "source": "arxiv",
+    "title": "RangeNav: Task-Aligned LiDAR Range-Image Pretraining for Robot Navigation"
+  },
+  "arxiv:2610.26550v1": {
+    "source": "arxiv",
+    "title": "Learning Wheel Motion Uncertainty for Degeneracy-Aware LiDAR-Inertial Odometry on Quadrupedal Wheel-Legged Robots"
+  },
+  "arxiv:2610.25637v1": {
+    "source": "arxiv",
+    "title": "TNVD-SC: Diagnosing Scan Context Failures in Forests with Terrain-Normalized Vertical Distributions"
+  },
+  "arxiv:2610.25517v1": {
+    "source": "arxiv",
+    "title": "ReDT: Resolution-Decoupled Visual Geometry Transformer"
+  },
+  "arxiv:2610.25345v1": {
+    "source": "arxiv",
+    "title": "MCSplat: Multi-View Photometric and Geometric Consistent Feed-Forward Gaussian Splatting for Driving Scenes"
+  },
+  "arxiv:2610.24858": {
+    "source": "top_journal",
+    "title": "Arbitrary-Scale Anisotropic 3D MRI Super-Resolution with Gaussian Prototypes"
   }
 }
