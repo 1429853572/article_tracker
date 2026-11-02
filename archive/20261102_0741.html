@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paper Tracker</title>
+<style>:root{--acc:#16a34a}</style>
+<style>
+:root{--bg:#f8fafc;--card:#ffffff;--text:#0f172a;--muted:#667085;--border:#e5e7eb;--acc:#2563eb}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--border:#1f2937;--acc:#2563eb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.6}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.header{display:flex;gap:10px;justify-content:space-between;align-items:center;margin:8px 0 16px;flex-wrap:wrap}
+h1{font-size:22px;margin:0}
+.badge{font-size:12px;color:#111827;background:var(--acc);padding:2px 8px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px 18px;margin:14px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.title{font-weight:700;margin:0 0 6px 0;font-size:18px}
+.meta-line{color:var(--muted);font-size:13px;margin:2px 0}
+.links a{color:var(--acc);text-decoration:none;margin-right:12px}
+.links a:hover{text-decoration:underline}
+.detail{margin-top:10px;background:rgba(2,6,23,.03);border:1px solid var(--border);border-radius:10px;padding:8px 10px}
+summary{cursor:pointer;color:var(--acc)}
+.mono{white-space:pre-wrap;background:rgba(2,6,23,.03);border:1px solid var(--border);padding:10px;border-radius:10px}
+.tier-badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-left:6px}
+.tier-core{background:#dbeafe;color:#1d4ed8}
+.tier-proxy{background:#fef3c7;color:#92400e}
+.tier-eco{background:#d1fae5;color:#065f46}
+.tier-noise{background:#f3f4f6;color:#6b7280}
+[data-theme="dark"] .tier-core{background:#1e3a5f;color:#93c5fd}
+[data-theme="dark"] .tier-proxy{background:#422006;color:#fbbf24}
+[data-theme="dark"] .tier-eco{background:#064e3b;color:#6ee7b7}
+[data-theme="dark"] .tier-noise{background:#374151;color:#9ca3af}
+.controls{display:flex;gap:8px;align-items:center}
+.btn{border:1px solid var(--border);background:var(--card);padding:6px 10px;border-radius:10px;cursor:pointer;color:var(--text)}
+.btn:hover{border-color:var(--acc)}
+.hr{height:1px;background:var(--border);margin:14px 0}
+.history-list a{display:block;color:var(--acc);text-decoration:none;margin:4px 0}
+.history-list a:hover{text-decoration:underline}
+.footer{color:var(--muted);font-size:13px;margin:20px 0 10px}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>Paper Tracker</h1>
+<div style="display:flex;gap:10px;align-items:center">
+
+<div class="controls">
+  <button class="btn" onclick="__toggleTheme()">Theme: <span id="theme-label" style="margin-left:6px">AUTO</span></button>
+  <button class="btn" onclick="__expandAll(true)">Expand All</button>
+  <button class="btn" onclick="__expandAll(false)">Collapse All</button>
+</div>
+<span class="badge">2026-11-02 07:41 · Core 8 · Proxy 2 · Eco 4</span>
+</div>
+</div>
+<div class="hr"></div>
+<div class="row">
+<div class="card"><div class="title">Soil Responses to Mineral Nitrogen and Carbon-Bearing Amendments in Moso Bamboo Forests: A Meta-Analysis<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">9</span></div>
+<div class="meta-line">Authors: A. Qamar, Nasir Shad, Abbas Ali, Nizar Nawaz, Chun-Ce Guo</div>
+<div class="meta-line">Venue: Plants</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/4a62c9db05bfe8c74caf83807fcb13d9728426a1">Abs</a> · <a href="https://doi.org/10.3390/plants15213301">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Moso bamboo (Phyllostachys edulis) plantations in subtropical China are intensively fertilized, yet it remains unclear how soil responses differ between mineral nitrogen and carbon-bearing amendments, and how far they depend on the nitrogen application rate. This meta-analysis of 69 articles covered four fertilization regimes (N, nitrogen alone; NPK, balanced mineral fertilizer; N+OM, nitrogen with organic carbon; B, biochar alone). We found that soil pH and organic carbon (SOC) responded in opposite directions to nitrogen alone and to the carbon-bearing amendments. Nitrogen alone acidified the soil (−5.3%) and reduced SOC (−11.4%), whereas B and N+OM raised pH (+9.5%, +3.4%) and SOC (+14.0%, +28.7%); NPK also raised SOC (+17.9%) but slightly lowered pH (−1.7%). The mineral regimes increased nitrate (+72.9% under N) but not total nitrogen, which rose only under N+OM (+33.3%). Microbial biomass carbon (MBC) increased under N, NPK and N+OM (+9.8% to +20.6%), whereas enzyme activities were largely unchanged. Nitrogen alone increased cumulative nitrous oxide emission (+18.7%) and reduced methane uptake (−15.5%), whereas N+OM lowered the nitrous oxide emission rate (−5.9%) and increased methane uptake (+9.0%). Each additional 100 kg N ha−1 yr−1 raised MBC by 1.9% and ammonium nitrogen by 4.7% without altering SOC, although most of the application rates tested were below 100 kg N ha−1 yr−1. Within this range, adding an exogenous carbon source to nitrogen may limit soil acidification and SOC depletion.</div></details>
+<details class="detail"><summary>中文标题</summary><div class="mono">毛竹林土壤对矿质氮与含碳改良剂的响应：一项Meta分析</div></details>
+</div>
+<div class="card"><div class="title">Physiological responses and tolerance of Idesia polycarpa seedlings under simulated rhizosphere acidification<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Zu-Wei Hu, Wen-Wen Zhong, Ya-Nan Ma, Can Cao, Yu-Lan Bei...</div>
+<div class="meta-line">Venue: Frontiers in Plant Science</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/8d2ac1f2828a26821cf875e93dcac851530d1fd3">Abs</a> · <a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2026.1967073/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ 
+ Soil acidification poses a growing threat to forest seedling establishment, yet the physiological responses and tolerance limits of many multipurpose woody species under increasing acidity remain poorly understood.
+ Idesia polycarpa
+ Maxim. is an emerging woody oil tree with high ecological and economic value, but its physiological responses to root-zone acidification are largely unknown.
+ 
+ 
+ 
+ 
+ 
+ We subjected one-year-old
+ I. polycarpa
+ seedlings to 50 d of root-zone irrigation with acidified solutions at pH 5.5, 4.5, and 3.5, with deionized water as the control, and monitored visible injury, photosynthetic pigments, malondialdehyde (MDA), osmotic adjustment substances, and the activities of peroxidase (POD) and superoxide dismutase (SOD).
+ 
+ 
+ 
+ 
+ Visible injury increased with both acidity and exposure duration, and the cumulative injury index reached 85.00% under pH 3.5, 40.00% under pH 4.5, and 16.67% under pH 5.5 after 50 d, while CK remained at 0%. Under pH 3.5, photosynthetic pigment contents showed pronounced temporal fluctuations, with marked reductions at 20 and 50 d and partial recovery during the intermediate stages. MDA content also exhibited a non-monotonic response, with significantly higher values under pH 3.5 at several middle and late sampling times. Soluble sugar, proline, and soluble protein showed stage- and treatment-dependent changes rather than continuous accumulation or decline. POD activity under pH 3.5 reached approximately 3.55-fold the CK value at 10 d and subsequently declined, whereas SOD activity fluctuated markedly among treatments and sampling times. Correlation analysis revealed coordinated variation among photosynthetic pigments, MDA, osmotic adjustment substances, and the two measured antioxidant enzymes, but these associations do not establish causal relationships.
+ 
+ 
+ 
+ Overall, seedlings under pH 5.5 and pH 4.5 showed partial physiological adjustment, whereas pH 3.5 was associated with substantially greater visible injury and physiological disturbance. The contrasting responses between the pH 4.5 and pH 3.5 irrigation treatments suggest a potential physiological tolerance boundary within this tested acidity interval under the present controlled conditions, rather than a statistically defined biological breakpoint.
+</div></details>
+<details class="detail"><summary>中文标题</summary><div class="mono">模拟根际酸化下 Idesia polycarpa 幼苗的生理响应与耐受性</div></details>
+</div>
+<div class="card"><div class="title">Restricciones edáficas en suelos cacaoteros de la Amazonía peruana<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Peter Coaguila-Rodriguez, A. Cerna-Cueva</div>
+<div class="meta-line">Venue: Agronomía Mesoamericana</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/db970251e67769c0decfbf9463ae00eddcac672a">Abs</a> · <a href="https://revistas.ucr.ac.cr/index.php/ragromeso/article/download/9719/25614">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Introduction. District-level soil assessments may obscure local constraints relevant to cacao soil management. Objective. To characterize and prioritize environmental edaphic constraints in cacao soils of the Peruvian Amazon, with emphasis on soil acidity, available phosphorus, aluminum saturation, and available cadmium at the locality scale. Materials and methods. A total of 1,842 surface soil samples (0–20 cm), collected between April and July 2021 in 84 localities in the districts of Puerto Bermúdez and Constitución, were analyzed. Physical and chemical soil variables were evaluated using descriptive statistics, district-level comparisons, locality-level summaries, co-occurrence analysis, bivariate relationships, principal component analysis, and exploratory clustering. Results. Median soil pH was 4.65, median available phosphorus was 5.27 mg kg⁻¹, and median aluminum saturation was 39.21% (1,539 valid determinations). The co-occurrence of pH below 5.5, available phosphorus below 7 mg kg⁻¹, and aluminum saturation of at least 30% was observed in 757 samples (41.1%), indicating the combined occurrence of acidity, low phosphorus, and high aluminum saturation. Available cadmium had a median of 0.035 mg kg⁻¹ but showed a heterogeneous distribution, with localized signals in 13 localities. Conclusions. The locality scale distinguished widespread chemical constraints from localized available-cadmium signals and provided criteria for prioritizing soil monitoring.</div></details>
+<details class="detail"><summary>Summary / 总结</summary>
+<div class="mono">Because district-level soil assessments can obscure local constraints relevant to cacao soil management, this study characterized and prioritized edaphic constraints in cacao soils of the Peruvian Amazon at the locality scale, focusing on soil acidity, available phosphorus, aluminum saturation, and available cadmium. A total of 1,842 surface soil samples (0–20 cm) collected from April to July 2021 in 84 localities in Puerto Bermúdez and Constitución were analyzed using descriptive statistics, district-level comparisons, locality-level summaries, co-occurrence analysis, bivariate relationships, principal component analysis, and exploratory clustering. Median soil pH was 4.65, median available phosphorus was 5.27 mg kg⁻¹, and median aluminum saturation was 39.21% across 1,539 valid determinations; the co-occurrence of pH below 5.5, available phosphorus below 7 mg kg⁻¹, and aluminum saturation of at least 30% occurred in 757 samples (41.1%). Available cadmium had a median of 0.035 mg kg⁻¹ but was heterogeneously distributed, with localized signals in 13 localities, indicating that locality-scale assessment distinguished widespread chemical constraints from localized cadmium signals and supported prioritization of soil monitoring.</div>
+<div class="mono" style="margin-top:8px">鉴于区级土壤评估可能掩盖与可可土壤管理相关的局部限制因素，本研究在地方尺度上表征并排序秘鲁亚马逊可可土壤的环境与土壤限制，重点关注土壤酸度、有效磷、铝饱和度和有效镉。研究分析了2021年4月至7月在Puerto Bermúdez和Constitución的84个地方采集的1,842份表层土壤样品（0–20 cm），采用描述性统计、区级比较、地方级汇总、共现分析、双变量关系、主成分分析和探索性聚类评估土壤物理和化学变量。结果为土壤pH中位数4.65、有效磷中位数5.27 mg kg⁻¹、铝饱和度中位数39.21%（1,539个有效测定）；pH低于5.5、有效磷低于7 mg kg⁻¹且铝饱和度至少30%的共现出现在757份样品中（41.1%）。有效镉中位数为0.035 mg kg⁻¹，但分布不均，在13个地方出现局部信号，表明地方尺度评估可区分广泛存在的化学限制与局部有效镉信号，并为土壤监测优先级提供依据。</div>
+</details>
+<details class="detail"><summary>中文标题</summary><div class="mono">秘鲁亚马逊可可土壤的土壤限制因素</div></details>
+</div>
+<div class="card"><div class="title">Towards an integrated ecosystem monitoring framework at the LTER Parangalitsa site<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">6</span></div>
+<div class="meta-line">Authors: Lora Kirova, M. Zhiyanski, Maria Glushkova</div>
+<div class="meta-line">Venue: ARPHA Conference Abstracts</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/e97db48849b5f077da4102962fb397efd43c749c">Abs</a> · <a href="https://aca.pensoft.net/article/218812/download/pdf/">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Introduction
+ 
+ Long-term ecosystem research increasingly relies on the integration and harmonization of complementary environmental observations to improve our understanding of ecosystem functioning and responses to environmental change (Mollenhauer et al. 2018, Zacharias et al. 2026). Extended time series provide an essential temporal perspective for detecting ecosystem responses to environmental change and understanding interactions among multiple environmental drivers (Jones and Driscoll 2022).
+ Long-term observations at the site provide information on climatic conditions and key components of forest ecosystem status and functioning. However, these datasets originate from different monitoring programs, periods and methodological frameworks, which limits their direct integration and the assessment of interactions among atmospheric, soil and vegetation processes. The harmonization of existing long-term records with newly established observations therefore represents an important step towards a more comprehensive ecosystem-level monitoring framework.
+ The aim of this work is to present the ongoing development of an integrated monitoring framework at the LTER Parangalitsa site, combining historical and long-term datasets with newly introduced measurements of complementary ecosystem variables. The framework is intended to improve the capacity to assess ecosystem responses to environmental change and to support future integrated analyses of this old-growth mountain forest ecosystem.
+ 
+ Materials and methods
+ 
+ The LTER Parangalitsa site, located within the old-growth Norway spruce forests of the Parangalitsa Biosphere Reserve (Rila Mountains, Bulgaria), represents a long-term forest monitoring and research site within the ICP Forests, LTER-Bulgaria and eLTER networks.
+ The monitoring programme combines historical and contemporary observations covering multiple ecosystem compartments. Meteorological records dating back to 1980 are complemented by long-term environmental monitoring conducted within the ICP Forests programme, in which the site has participated since 1990. Soil monitoring follows established ICP Forests methodological guidelines and includes periodic assessments of soil physical and chemical properties, such as soil organic carbon, total nitrogen, soil acidity, bulk density, texture and nutrient status. Together, these datasets provide a basis for investigating long-term ecosystem dynamics under natural, unmanaged forest conditions.
+ The ongoing expansion of the monitoring programme is guided by the eLTER Standard Observations framework, aiming to progressively cover relevant ecosystem variables and improve methodological harmonization across monitoring components. As part of this development, Leaf Area Index (LAI) measurements were initiated in 2026 to characterize canopy structure and seasonal dynamics, while litterfall monitoring provides information on aboveground organic matter inputs. Continuous monitoring of shallow subsurface water has also been established using a multiparameter EXO1 sonde installed in a dedicated 2-m-deep monitoring well. The recorded parameters include temperature, pH, dissolved oxygen, oxidation-reduction potential, salinity and total dissolved solids.
+ Together, these complementary observations establish a foundation for linking climatic variability, canopy dynamics, soil processes and subsurface hydrological conditions within an integrated ecosystem monitoring framework.
+ 
+ Results and discussion
+ 
+ The compilation of historical and contemporary monitoring records reveals substantial differences in the temporal coverage and frequency of ecosystem observations at the LTER Parangalitsa site (Table 1). Meteorological records extend back to 1979, while soil observations have been available since the early 1990s. Periodic assessments of forest floor properties and aboveground biomass provide additional information on forest ecosystem characteristics. More recently, the monitoring programme has expanded to include automated measurements, molecular biodiversity observations and additional hydrological and vegetation-related variables.
+ The compiled datasets cover multiple ecosystem compartments but differ considerably in temporal continuity, sampling frequency and methodological approaches. Historical observations provide a valuable long-term perspective, whereas recently introduced measurements extend the range of ecosystem variables being monitored. Their integration will require careful consideration of methodological compatibility and temporal resolution. The ongoing development of the monitoring programme, guided by the eLTER Standard Observations framework, provides a basis for improving data harmonization and supporting future integrated assessments of ecosystem dynamics.
+ 
+ Conclusions
+ 
+ The LTER Parangalitsa site provides a valuable basis for integrated ecosystem monitoring through the combination of historical records, established long-term observations and newly introduced measurements. The progressive alignment of these monitoring components with the eLTER Standard Observations framework is expected to improve data comparability and strengthen the capacity for cross-compartment analyses. This developing framework will support future assessments of long-term ecosystem dynamics and responses to environmental change in old-growth mountain forests.</div></details>
+</div>
+<div class="card"><div class="title">Evidence for temporal decoupling of olivine weathering and inorganic carbon removal in unsaturated soil columns<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Malgorzata Rizzi, Elliot Chang, C. Pallud</div>
+<div class="meta-line">Venue: Frontiers in Climate</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/286916204a65652fd5fa68b0bb5db52e9f1b558f">Abs</a> · <a href="https://doi.org/10.3389/fclim.2026.1964775">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ 
+ Enhanced Rock Weathering (ERW) is a nature-based carbon dioxide (CO
+ 2
+ ) removal technology that speeds the natural weathering process of rocks by applying finely ground silicate rocks over the land surface. It has been proposed that ERW can remove between 0.5 and 2 Gt CO
+ 2
+ year
+ −1
+ when deployed at scale. To investigate how soil porewater responds to the dissolution of silicate dust during enhanced rock weathering, we conducted unsaturated soil column experiments amended with olivine (Mg
+ 2
+ SiO
+ 4
+ ).
+ 
+ 
+ 
+ 
+ 
+ Since the main principle of ERW-based carbon removal is the reaction of atmospheric CO
+ 2
+ dissolved in rainwater with silicate rocks, leading to release of base cations and bicarbonate ions, we measured cations, anions, pH, alkalinity, dissolved inorganic carbon (DIC) and dissolved organic carbon (DOC) in the leached effluent. Complementary solid-phase soil measurements of exchangeable cations, pH, total inorganic carbon (TIC) and total organic carbon (TOC) were performed to improve understanding of weathering product transport and retention, while aqueous speciation calculations provided saturation state information of relevant secondary mineral phases.
+ 
+ 
+ 
+ 
+ 
+ We demonstrate that measurable olivine weathering can occur without proportional short-term export of bicarbonate or DIC, and estimates of potential CO
+ 2
+ removal based on weathering-derived cation release exceeded realized inorganic CO
+ 2
+ removal quantified from bicarbonate and DIC export. Furthermore, the observed increase in DOC export and decrease in surface-soil organic carbon suggest that enhanced weathering may alter soil organic carbon dynamics.
+ 
+ 
+ 
+ 
+ The discrepancy between weathering-derived cation release and inorganic carbon export is consistent with temporal decoupling between weathering and realized carbon removal, likely caused by retention of weathering-derived products within the soil. Although the mechanisms underlying the observed changes in organic carbon dynamics require further investigation, these results indicate that ERW may affect soil carbon pools beyond inorganic carbon alone. Although alkalinity export was lower than would be predicted from weathering rates alone, quantification of silicate dissolution remains an important upper-bound indicator of future carbon removal potential. These findings highlight the importance of considering soil retention processes, organic carbon dynamics, and transport timescales when interpreting ERW monitoring data and quantifying carbon removal in agricultural soils.
+</div></details>
+<details class="detail"><summary>Summary / 总结</summary>
+<div class="mono">Enhanced rock weathering is proposed as a CO2 removal technology, but the response of soil porewater to silicate dust dissolution and the coupling between weathering and inorganic carbon removal remain uncertain. This study conducted unsaturated soil column experiments amended with olivine and measured leachate cations, anions, pH, alkalinity, dissolved inorganic carbon, and dissolved organic carbon, complemented by solid-phase exchangeable cations, pH, total inorganic carbon, total organic carbon, and aqueous speciation calculations. The results show that measurable olivine weathering occurred without proportional short-term bicarbonate or DIC export; CO2 removal estimated from weathering-derived cation release exceeded realized inorganic CO2 removal quantified from bicarbonate and DIC export. DOC export increased and surface-soil organic carbon decreased, indicating that enhanced weathering may alter soil organic carbon dynamics. The discrepancy suggests temporal decoupling between weathering and realized carbon removal, likely due to retention of weathering-derived products in the soil, and highlights the need to consider soil retention, organic carbon dynamics, and transport timescales when interpreting ERW monitoring data and quantifying carbon removal in agricultural soils.</div>
+<div class="mono" style="margin-top:8px">增强岩石风化被视为一种二氧化碳去除技术，但土壤孔隙水对硅酸盐粉尘溶解的响应以及风化与无机碳去除之间的耦合关系仍不清楚。本研究采用橄榄石改良的非饱和土柱实验，测定淋出液中的阳离子、阴离子、pH、碱度、溶解无机碳和溶解有机碳，并辅以土壤交换性阳离子、pH、总无机碳、总有机碳及水溶液形态计算。结果表明，可测的橄榄石风化并未带来成比例的短期碳酸氢盐或溶解无机碳输出，基于风化阳离子释放估算的二氧化碳去除量高于由碳酸氢盐和溶解无机碳输出实现的无机碳去除量；同时溶解有机碳输出增加、表层土壤有机碳下降，说明增强风化可能改变土壤有机碳动态。风化与实际碳去除之间的差异提示二者存在时间解耦，可能与风化产物在土壤中滞留有关，也表明解释增强岩石风化监测数据和量化农田土壤碳去除时需考虑土壤滞留过程、有机碳动态和传输时间尺度。</div>
+</details>
+<details class="detail"><summary>中文标题</summary><div class="mono">非饱和土柱中 olivine 风化与无机碳去除时间解耦的证据</div></details>
+</div>
+<div class="card"><div class="title">Chinese fir-Phoebe mixture increases microbial diversity and functional potential by accelerating SOM decomposition and increasing nutrient availability<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">4</span></div>
+<div class="meta-line">Authors: Ke-Xin Li, Dong Wang, Xiong-Qing Zhang, Feng Lin, Zhen-Hua Liu</div>
+<div class="meta-line">Venue: Microbiology Spectrum</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/c56bd883274c66d76c4fa30ddb89a674cf9d3faa">Abs</a> · <a href="https://doi.org/10.1128/spectrum.00351-26">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">ABSTRACT Near-natural silviculture practices have gained prominence as sustainable forestry strategies for optimizing stand site conditions and enhancing forest productivity. The performance of these ecosystem processes is closely related to soil microorganisms. However, there is still a lack of systematic characterization of how microorganisms respond to such silvicultural interventions, and this critical knowledge gap limits our ability to predict long-term forest ecosystem trajectories. Moreover, the specific functions of microbial communities in mixed plantations remain largely unknown. Here, we analyzed the compositional and functional profiles of bacterial and fungal communities across a gradient of stand types, including nine near-natural mixed Cunninghamia lanceolata and Phoebe bournei plantations (a 3 × 3 factorial design with three densities per species) and one pure C. lanceolata stand. The results showed that mixed planting enhanced bacterial and fungal diversity and altered their community structures by accelerating soil organic matter decomposition and total nitrogen mineralization, while increasing soil pH, available phosphorus, and available potassium. Notably, mixed planting increased the relative abundance of bacteria involved in carbon and nitrogen metabolism, along with saprophytic and symbiotic fungi, while reducing that of pathogenic fungi. Moreover, microbial community variation was stronger among mixed planting treatments than between soil depths, with reduced C. lanceolata density exerting a greater influence than increased P. bournei density. These findings underscore that tree diversity and planting density collectively determine soil microbial assembly. Consequently, this study provides empirical evidence to predict the impact of near-natural silviculture on microbial communities and offers insights for optimizing the management of C. lanceolata plantations. IMPORTANCE Driven by western forest management concepts of “Nature-Approximating Forestry,” near-natural afforestation has emerged as a key strategy for improving forest quality and productivity, especially in mixed conifer-broadleaf afforestation. Soil microorganisms constitute a vital component of forest ecosystems, serving as a primary driver of ecosystem functioning. Our research demonstrated that mixed conifer-broadleaf forests (Chinese fir-Phoebe) can increase soil bacterial and fungal diversity and functional potential in pure C. lanceolata plantations by accelerating organic matter decomposition and increasing soil pH, available phosphorus, and available potassium levels. Driven by western forest management concepts of “Nature-Approximating Forestry,” near-natural afforestation has emerged as a key strategy for improving forest quality and productivity, especially in mixed conifer-broadleaf afforestation. Soil microorganisms constitute a vital component of forest ecosystems, serving as a primary driver of ecosystem functioning. Our research demonstrated that mixed conifer-broadleaf forests (Chinese fir-Phoebe) can increase soil bacterial and fungal diversity and functional potential in pure C. lanceolata plantations by accelerating organic matter decomposition and increasing soil pH, available phosphorus, and available potassium levels.</div></details>
+<details class="detail"><summary>Summary / 总结</summary>
+<div class="mono">This study addressed the limited systematic understanding of how near-natural silvicultural interventions, especially conifer-broadleaf mixtures, affect soil microbial community composition and function. The authors analyzed bacterial and fungal compositional and functional profiles across nine near-natural Cunninghamia lanceolata and Phoebe bournei mixed plantations arranged in a 3 × 3 factorial design with three densities per species, plus one pure C. lanceolata stand. Mixed planting increased bacterial and fungal diversity and altered community structure by accelerating soil organic matter decomposition and total nitrogen mineralization while increasing soil pH, available phosphorus, and available potassium. It also increased the relative abundance of bacteria involved in carbon and nitrogen metabolism and of saprophytic and symbiotic fungi but reduced pathogenic fungi, and microbial community variation was stronger among mixed planting treatments than between soil depths, with reduced C. lanceolata density exerting a greater influence than increased P. bournei density.</div>
+<div class="mono" style="margin-top:8px">本研究针对近自然营林措施、尤其是针阔混交如何影响土壤微生物群落组成与功能仍缺乏系统认识的问题，分析了9个由杉木（Cunninghamia lanceolata）和闽楠（Phoebe bournei）组成的近自然混交林（采用3×3因子设计，每种树种设3个密度）以及1个杉木纯林的细菌和真菌组成与功能特征。结果表明，混交种植通过加速土壤有机质分解和总氮矿化，并提高土壤pH、有效磷和有效钾，提高了细菌和真菌多样性并改变了群落结构。混交种植还提高了参与碳氮代谢的细菌以及腐生和共生真菌的相对丰度，降低了病原真菌的相对丰度；微生物群落变异在混交处理间大于土层间，且降低杉木密度的影响大于提高闽楠密度。</div>
+</details>
+</div>
+<div class="card"><div class="title">Soil amendments unravel nutrient limitations and soil acidity constraints to wheat productivity<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: B. Lulie, E. Adgo, T. Sida, B. Gebrekidan, João Vasco Silva</div>
+<div class="meta-line">Venue: Nutrient Cycling in Agroecosystems</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/538987fff0c6efc28077dedf373faf54ddb66649">Abs</a></div>
+<details class="detail"><summary>Summary / 总结</summary>
+<div class="mono">The study addresses coupled nutrient limitations and soil acidity as constraints on wheat productivity and asks whether soil amendments can alleviate them. It evaluates soil amendment treatments in a wheat production context and relates treatment effects to nutrient availability, acidity-related constraints, and wheat productivity. According to the available title-level information, the amendments help clarify and mitigate these limitations, but no abstract was supplied, so specific quantitative yield or soil-chemistry results cannot be reported.</div>
+<div class="mono" style="margin-top:8px">该研究针对养分限制与土壤酸化对小麦生产力的共同制约，探讨土壤改良剂能否缓解这些限制。研究在小麦生产情境中评估土壤改良处理，并将处理效应与养分有效性、酸化相关限制及小麦生产力联系起来。根据现有题录信息，改良剂有助于厘清并缓解这些限制，但由于未提供摘要，无法报告具体的产量或土壤化学定量结果。</div>
+</details>
+<details class="detail"><summary>中文标题</summary><div class="mono">土壤改良剂揭示养分限制和土壤酸性对小麦生产力的制约</div></details>
+</div>
+<div class="card"><div class="title">Long-Term Epidemiological Surveillance Integrated with Data Science and Multimodel Approaches Advances Understanding of Polerovirus SCYLV Dynamics in Colombian Sugarcane.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: J. Ramírez-Gil, Julián David Gómez-Ballen, Angel Rebollar Alviter, J. C. Angel, Freddy Fernando Garcés-Obando</div>
+<div class="meta-line">Venue: Phytopathology</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/7dcefb7b86a3c5fc7d0e7d6347813cc9f3b56878">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">The Polerovirus Sugarcane yellow leaf virus (SCYLV) causes one of the most economically important viral diseases of sugarcane worldwide, including Colombia, where sugarcane is a strategic crop and the virus has high phytosanitary relevance but limited epidemiological characterization. This study provides the first integrative quantitative and multimodel epidemiological assessment of SCYLV in the country, using a 22-year surveillance dataset (1999 to 2020) from Colombia&#x27;s main sugarcane-producing region. The analysis integrated data science, classical statistics, machine learning, and spatial epidemiology to identify temporal trends, spatiotemporal aggregation, and environmental and agronomic drivers of disease risk. Data science procedures supported data curation, exploratory analysis, and detection of patterns in SCYLV presence-absence, incidence, and prevalence across the historical series. Risk factor identification used logistic regression modeling of presence-absence data to estimate adjusted associations, and the machine learning framework modeled both presence-absence (classification) and incidence (regression) to capture nonlinear interactions. Spatiotemporal dynamics were assessed using presence-absence data in a space-time permutation model fitted to a Poisson-type distribution and the Knox test. SCYLV presence-absence and incidence were significantly associated with varietal susceptibility, with CC 01-1940 and SP 71-6949 showing the highest case burden climatic variability, with major outbreak clusters coinciding with strong El Niño-Southern Oscillation anomalies of both phases (El Niño in 2007 and 2015/2016 and the strong 2010/2011 La Niña), meteorological conditions (temperature, wind speed, and vapor pressure), vegetation greenness (normalized difference vegetation index), and soil properties (pH, cation exchange capacity, sand content, and nitrogen). The Knox test identified a high-risk spatiotemporal window for SCYLV spread, with relative risk &gt; 10 concentrated within 4.5 km and 4 days after a confirmed positive case, highlighting a critical range for targeted surveillance and rapid preventive action. This integrative workflow provides a reproducible, data-driven foundation for delineating differential risk zones and supports evidence-based strategies for the integrated management of SCYLV in Colombian sugarcane systems, with transferable methodological value for long-term surveillance analyses of other aphid-transmitted viruses.</div></details>
+<details class="detail"><summary>Summary / 总结</summary>
+<div class="mono">To address the limited epidemiological characterization of Sugarcane yellow leaf virus (SCYLV) in Colombia despite its high phytosanitary and economic importance, this study performed the first integrative quantitative and multimodel assessment of SCYLV using a 22-year surveillance dataset from 1999 to 2020 in Colombia&#x27;s main sugarcane-producing region. The analysis combined data science procedures, classical statistics, logistic regression for presence-absence data, machine learning for classification and incidence regression, and spatial epidemiology using a space-time permutation model fitted to a Poisson-type distribution and the Knox test to identify temporal trends, spatiotemporal aggregation, and environmental and agronomic drivers. SCYLV presence-absence and incidence were significantly associated with varietal susceptibility, with CC 01-1940 and SP 71-6949 showing the highest case burden, and with climatic variability, including major outbreak clusters coinciding with strong El Niño-Southern Oscillation anomalies in 2007, 2015/2016, and 2010/2011, as well as temperature, wind speed, vapor pressure, NDVI, and soil properties such as pH, cation exchange capacity, sand content, and nitrogen. The Knox test identified a high-risk spatiotemporal window for SCYLV spread, with relative risk greater than 10 concentrated within 4.5 km and 4 days after a confirmed positive case, supporting targeted surveillance and rapid preventive action.</div>
+<div class="mono" style="margin-top:8px">针对甘蔗黄叶病毒（SCYLV）在哥伦比亚虽具有重要植物检疫和经济意义但流行病学特征有限的问题，本研究利用1999年至2020年哥伦比亚主要甘蔗产区的22年监测数据，首次对该病毒开展了综合定量和多模型流行病学评估。分析整合了数据科学流程、经典统计学、针对存在-缺失数据的逻辑回归、用于分类和发病率回归的机器学习，以及基于泊松型分布时空置换模型和Knox检验的空间流行病学方法，以识别时间趋势、时空聚集及环境和农艺驱动因素。SCYLV存在-缺失和发病率与品种易感性显著相关，其中CC 01-1940和SP 71-6949病例负担最高，并与气候变异相关，主要暴发聚集与2007年、2015/2016年强厄尔尼诺和2010/2011年强拉尼娜的厄尔尼诺-南方涛动异常同期出现，同时还与温度、风速、水汽压、归一化植被指数以及土壤pH、阳离子交换量、砂粒含量和氮等性质相关。Knox检验识别出SCYLV传播的高风险时空窗口，在确诊病例后4.5公里和4天范围内相对风险大于10，为定向监测和快速预防行动提供了依据。</div>
+</details>
+<details class="detail"><summary>中文标题</summary><div class="mono">长期流行病学监测结合数据科学与多模型方法促进对哥伦比亚甘蔗中 Polerovirus SCYLV 动态的认识。</div></details>
+</div>
+<div class="card"><div class="title">Divergent aging patterns of polylactic acid (PLA) and polyvinyl chloride (PVC) plastic sheets and their differential associations with soil carbon stability.<span class="tier-badge tier-core">CORE</span><span class="tier-badge tier-core" style="margin-left:4px">3</span></div>
+<div class="meta-line">Authors: Yi Zhang, Chang-Chao Li, Yi-Jing Wang, Shu-Wan Yan, Xuan Zhang...</div>
+<div class="meta-line">Venue: Journal of hazardous materials</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/ac28b9cc9618083a96cf469bbb68c25dcf31095c">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Plastic pollution is a growing concern. Plastic particles undergo aging that changes their properties and ecological impacts, yet how different polymers age in natural settings and relate to soil carbon cycling remains unclear. We conducted a nine-month in situ experiment to compare the aging of biodegradable PLA (polylactic acid) and conventional PVC (polyvinyl chloride) sheets and to assess their associations with soil microbial communities, enzymes, and organic carbon fractions. PLA surfaces developed hydrolysis‑induced cracks and fragmentation, whereas PVC showed oxidative roughening. These aging patterns were associated with divergent functional potential of plastisphere microbial communities. PLA‑associated soils had higher β-glucosidase and peroxidase activities, together with a trend toward higher labile carbon (FPOC) indicators than PVC‑associated soils. Mineral‑associated organic carbon (MAOC) did not differ between treatments, but MAOC proportion was negatively correlated with bulk density only under PLA. Because our study lacked an unamended control, our conclusions are limited to PLA-PVC comparisons. Our findings show that the two polymers differ in aging pathways, microbial associations, and associations with labile carbon turnover that vary with soil physical properties, suggesting that the environmental implications of biodegradable plastics cannot be assumed from their label alone.</div></details>
+<details class="detail"><summary>Summary / 总结</summary>
+<div class="mono">Plastic pollution motivates clarifying how different polymers age in natural settings and how aging relates to soil carbon cycling. A nine-month in situ experiment compared biodegradable PLA and conventional PVC sheets, linking surface aging to plastisphere microbial communities, soil enzymes, and organic carbon fractions. PLA developed hydrolysis-induced cracks and fragmentation, whereas PVC showed oxidative roughening, and the two polymers were associated with divergent plastisphere functional potential. PLA-associated soils had higher β-glucosidase and peroxidase activities and a trend toward higher labile carbon (FPOC) indicators than PVC-associated soils; mineral-associated organic carbon (MAOC) did not differ between treatments, but MAOC proportion was negatively correlated with bulk density only under PLA. Because no unamended control was included, the conclusions are limited to PLA-PVC comparisons.</div>
+<div class="mono" style="margin-top:8px">塑料污染背景下，不同聚合物在自然环境中的老化及其与土壤碳循环的关系尚不明确。该研究通过为期九个月的原位实验比较可生物降解聚乳酸（PLA）与常规聚氯乙烯（PVC）片材的老化，并评估其与塑料圈微生物群落、土壤酶和有机碳组分的关联。PLA表面出现水解诱导的裂纹和破碎，而PVC表现为氧化粗糙化，两者塑料圈微生物群落的功能潜力存在差异。PLA相关土壤的β-葡萄糖苷酶和过氧化物酶活性高于PVC相关土壤，活性碳（FPOC）指标也呈较高趋势；矿物结合有机碳（MAOC）在处理间无差异，但MAOC比例仅在PLA处理下与容重呈负相关。由于缺少未添加塑料的对照，研究结论仅限于PLA与PVC之间的比较。</div>
+</details>
+<details class="detail"><summary>中文标题</summary><div class="mono">Polylactic acid (PLA) 与 polyvinyl chloride (PVC) 塑料片的老化模式差异及其与土壤碳稳定性的不同关联</div></details>
+</div>
+<div class="card"><div class="title">Effect of cyclohexylamine hydrochloride on Zn (101) preferred deposition in aqueous zinc batteries<span class="tier-badge tier-proxy">PROXY</span><span class="tier-badge tier-core" style="margin-left:4px">2</span></div>
+<div class="meta-line">Authors: Xing-Ming Zhang</div>
+<div class="meta-line">Venue: Geoderma</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/63a01a913a3ba2ccd9c600d9aaa6d28d59dea6b8">Abs</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Because aqueous zinc metal batteries (AZMBs) are inexpensive and very safe, they are considered viable options for largescale energy storage. In conventional aqueous electrolytes, Zn deposition is usually dominated by the Zn (002) crystal plane, which is thermodynamically advantageous and promotes relatively compact Zn growth. In contrast, we use cyclohexylamine hydrochloride (CH) as an electrolyte additive to regulate Zn deposition behavior. CH can anchor onto the crystal plane of Zn (101), guiding Zn²⁺ to deposit along the preferred (101) orientation and thereby suppressing dendrite growth. Meanwhile, the N-Zn coordination bond formation induces partial deprotonation, generating a mildly acidic interfacial environment, which effectively inhibits the production of basic byproducts of zinc sulfate. Utilizing CH as an electrolyte addition, cells exhibit stable cycling for 3000 h at 1 mA cm−2 and 0.5 mAh cm−2, whereas the Zn||NaV₃O₈·1.5H₂O complete cell retains 71.4% of its original capacity after 3000 cycles. This study offers novel perspectives into the relationship between electrolyte additives and Zn deposition behavior, while opening up new opportunities for inhibiting Zn dendrite growth in AZMBs.</div></details>
+<details class="detail"><summary>Summary / 总结</summary>
+<div class="mono">Aqueous zinc metal batteries are attractive for large-scale energy storage, but conventional aqueous electrolytes favor thermodynamically advantageous Zn (002) deposition, motivating better control of Zn deposition and dendrite suppression. This study uses cyclohexylamine hydrochloride (CH) as an electrolyte additive that anchors onto the Zn (101) crystal plane, guiding Zn2+ deposition along the preferred (101) orientation; N-Zn coordination also induces partial deprotonation and a mildly acidic interfacial environment that inhibits basic zinc sulfate byproducts. With CH addition, cells cycled stably for 3000 h at 1 mA cm−2 and 0.5 mAh cm−2, and a Zn||NaV3O8·1.5H2O complete cell retained 71.4% of its original capacity after 3000 cycles.</div>
+<div class="mono" style="margin-top:8px">水系锌金属电池因成本低且安全性高而适合大规模储能，但常规水系电解液中锌沉积通常由热力学有利的 Zn (002) 晶面主导，因此需要调控锌沉积行为并抑制枝晶。本研究以环己胺盐酸盐（CH）作为电解液添加剂，使其锚定在 Zn (101) 晶面上，引导 Zn2+ 沿优选的 (101) 取向沉积；同时 N-Zn 配位作用诱导部分去质子化，形成弱酸性界面环境，从而有效抑制硫酸锌碱性副产物的生成。加入 CH 后，电池在 1 mA cm−2 和 0.5 mAh cm−2 条件下稳定循环 3000 h，Zn||NaV3O8·1.5H2O 全电池在 3000 次循环后仍保持 71.4% 的初始容量。</div>
+</details>
+<details class="detail"><summary>中文标题</summary><div class="mono">cyclohexylamine hydrochloride 对水系锌电池中 Zn (101) 择优沉积的影响</div></details>
+</div>
+<div class="card"><div class="title">Soil health management outweighs edaphic properties in explaining soil organic matter across working organic farms<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Kenzo Esquivel, Hannah Waterhouse, Jennifer B. Thompson, D. Karp, Grace Santos...</div>
+<div class="meta-line">Venue: SOIL</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/db960539df7d632a58f3ad6e163bdab7852dfbb2">Abs</a> · <a href="https://soil.copernicus.org/articles/12/1035/2026/soil-12-1035-2026.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Rebuilding soil organic carbon (SOC) on agricultural lands plays a pivotal role in mitigating climate change and improving soil function, yet its accumulation is constrained by both management practices and inherent soil properties. Scientists and farm advisors recommend that farmers plant cover crops, reduce tillage, and add organic amendments to increase SOC, yet the effectiveness of practices intended to improve soil health may be limited by underlying edaphic controls such as mineralogy, texture, and pH. Given that SOC consists of two distinct fractions – particulate organic matter (POM) and mineral-associated organic matter (MAOM) – which differ in their stability and response to management, a critical question emerges: How do soil health practices compare to edaphic factors in influencing carbon fractions and overall stocks? Despite extensive research in controlled field settings, real-world farming contexts remain less understood, limiting our ability to predict SOC gains across diverse soil conditions. Here, we evaluate how in-season and recent (&lt; 5 years) implementation of soil health management systems on working farms relates to SOC fractions and stocks across 28 organic fields growing leafy greens in the Central Coast of California. Continuous living cover was associated with higher free particulate organic matter (fPOM; +3.16 Mg C ha
+ −1
+ between representative high- and low-cover sites, 95 % CI: 0.82–5.92), with weaker, borderline associations with MAOM carbon concentration (
+ p
+ =0.07–0.11 depending on model specification) and total carbon stock (
+ p
+ =0.068). Reduced tillage showed a similar pattern, with a clear association with fPOM (+1.58 Mg C ha
+ −1
+ , 95 % CI: 0.39–2.93) and a weaker association with MAOM (
+ p
+ =0.07–0.09). Crop diversity was associated with higher occluded POM (+1.35 Mg C ha
+ −1
+ , 95 % CI: 0.11–2.53). We found no association between organic amendments and any measured carbon pool. On average, management variables explain 3.7 times more variance than edaphic variables across carbon fractions, while edaphic variables explained roughly 2.1 times more variance for total carbon stock. These findings suggest soil health management is most clearly linked to particulate carbon accumulation, with more tentative evidence for mineral-associated carbon and total stock, across a wide range of edaphic conditions on working organic farms. We studied how soil-building practices like cover cropping, reduced tillage, and crop diversity affect soil carbon on farms in California. We find that maintaining living plants throughout the year and reducing tillage can boost multiple forms of soil carbon with distinct functions and longevity. While soil type matters, how the land is managed often had a greater effect. This suggests that improving farming practices can meaningfully increase carbon in the soil and draw down atmospheric carbon.
+</div></details>
+</div>
+<div class="card"><div class="title">One-step microbial conversion of waste molasses into bioactive fulvic-like acid fertilizer for sustainable soil quality improvement and agricultural waste valorization<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Yuan Zhang, Shi-Jun Pan, Rui-Nan Wang, Hai-Ming Cheng, Sheng Feng...</div>
+<div class="meta-line">Venue: Frontiers in Microbiology</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/6629e551eb927b7b79b942ab4a995403b8a4f755">Abs</a> · <a href="https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1998010/pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ Waste molasses (WM), a carbon rich by-product of sugar production, is frequently underutilized, resulting in environmental pollution and resource loss. In this study, a one-step microbial bioconversion process using
+ Bacillus subtilis
+ was developed to transform WM into molasses derived fulvic acid (MFA). The highest MFA yield (33.54%) was achieved at 35 °C, 48 h, and a 5% inoculation rate. Integrated GC-MS and LC-MS analyses revealed dynamic substrate transformation during fermentation and suggested that 4-hydroxy-2-methylacetophenone, 4-oxododecanedioic acid, and 3-hydroxy-2-octylpentanedioic acid were putative intermediates involved in MFA formation. Structural characterization showed that the resulting MFA possessed a loose, porous morphology and abundant hydroxyl, carboxyl, and carbonyl groups. In a single 150 d field trial, MFA application was associated with higher soil organic carbon and humus contents than the unfertilized control and promoted maize vegetative growth. MFA also enriched the microbial communities including
+ Pseudomonas
+ ,
+ Acidobacterium
+ ,
+ Actinobacteria
+ , and
+ Bacteroidetes
+ . The abundance of several genes related to carbon assimilation and carboxylation, including
+ rbcL
+ ,
+ rbcS
+ ,
+ accB
+ ,
+ accC
+ , and
+ pccA
+ , has also increased. Metabolomic analysis further revealed shifts in metabolites associated with central carbon metabolic pathways, including glycolysis and the pentose phosphate pathway MFA application also markedly promoted maize growth without chemical fertilizer input, demonstrating its potential as an organic soil amendment and partial fertilizer substitute. Collectively, these findings suggest that a one-step microbial transformation can convert WM into functional fulvic-like acid fertilizer. This method provides a potential route for mineral derived FA production. Simultaneously combining the reuse of agricultural waste, improvement of soil quality, reduction of partial fertilizer dependence, and development of circular agriculture.
+</div></details>
+<details class="detail"><summary>Summary / 总结</summary>
+<div class="mono">Waste molasses is a carbon-rich sugar by-product that is often underutilized, causing environmental pollution and resource loss, so this study developed a one-step Bacillus subtilis microbial bioconversion process to produce molasses-derived fulvic acid (MFA). The highest MFA yield reached 33.54% at 35 °C, 48 h, and a 5% inoculation rate, and integrated GC-MS and LC-MS analyses revealed dynamic substrate transformation with 4-hydroxy-2-methylacetophenone, 4-oxododecanedioic acid, and 3-hydroxy-2-octylpentanedioic acid as putative intermediates. The resulting MFA had a loose, porous morphology and abundant hydroxyl, carboxyl, and carbonyl groups, and in a single 150 d field trial MFA application was associated with higher soil organic carbon and humus contents than the unfertilized control, promoted maize vegetative growth, enriched Pseudomonas, Acidobacterium, Actinobacteria, and Bacteroidetes, increased the abundance of carbon assimilation and carboxylation genes including rbcL, rbcS, accB, accC, and pccA, and shifted metabolites associated with central carbon pathways such as glycolysis and the pentose phosphate pathway; MFA also promoted maize growth without chemical fertilizer input, indicating potential as an organic soil amendment and partial fertilizer substitute.</div>
+<div class="mono" style="margin-top:8px">废糖蜜是糖生产的富碳副产物，常因利用不足而造成环境污染和资源浪费，因此本研究开发了利用枯草芽孢杆菌一步微生物转化废糖蜜制备糖蜜源黄腐酸（MFA）的工艺。在35 °C、48 h和5%接种率条件下MFA最高产量达到33.54%，GC-MS和LC-MS分析揭示了发酵过程中底物的动态转化，并推测4-羟基-2-甲基苯乙酮、4-氧代十二烷二酸和3-羟基-2-辛基戊二酸为MFA形成的潜在中间体。所得MFA具有疏松多孔形貌并富含羟基、羧基和羰基，在为期150 d的田间试验中，施用MFA较未施肥对照提高了土壤有机碳和腐殖质含量，促进了玉米营养生长，富集了Pseudomonas、Acidobacterium、Actinobacteria和Bacteroidetes，提高了rbcL、rbcS、accB、accC和pccA等碳同化和羧化相关基因的丰度，并改变了糖酵解和戊糖磷酸途径等中心碳代谢相关代谢物；MFA在不施用化肥的情况下也促进了玉米生长，显示其作为有机土壤改良剂和部分肥料替代品的潜力。</div>
+</details>
+</div>
+<div class="card"><div class="title">Lichens as Bioindicators and Bioaccumulators to Assess the Ecological Sustainability of Industrial Pollution: A Distance-Gradient Study Around the Biggest Onshore Oil Extraction Centre of Italy (COVA in Val d’Agri, Basilicata)<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: Roberto Cazzolla Gatti</div>
+<div class="meta-line">Venue: Sustainability</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/31a92a6527f5be4487455b07a2736dbf155d3f1c">Abs</a> · <a href="https://doi.org/10.3390/su182110867">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">Onshore oil extraction is a major source of atmospheric pollution in terrestrial ecosystems, yet its spatial impacts on biological communities and pollutant-deposition gradients remain poorly quantified, particularly in ecologically sensitive landscapes. The Centro Olio Val d’Agri (COVA), located in the municipality of Viggiano (Basilicata, southern Italy), is the largest onshore oil pre-treatment facility in Italy and operates within a landscape of high conservation value encompassing multiple Natura 2000 protected areas and the Pertusillo drinking water reservoir. In this study, we applied an integrated lichen biomonitoring approach, combining biodiversity-based sustainability bioindication with chemical bioaccumulation, to characterise the spatial extent and ecological significance of atmospheric pollution originating from COVA across the Val d’Agri basin. Lichen thalli were collected from oak trees (Quercus spp.) at sampling stations distributed along a gradient of increasing distance from the facility and analysed for the concentrations of 28 heavy metals and 22 polycyclic aromatic hydrocarbons (PAHs). Lichen community composition was simultaneously assessed using the Lichen Biodiversity Index (LBI), calculated separately for total, nitrophilous, and non-nitrophilous species. Pearson correlation analysis revealed significant negative relationships between distance from COVA and the concentrations of manganese (r = −0.656, p &lt; 0.001) and chrysene (r = −0.423, p = 0.006), identifying these compounds as clear chemical fingerprints of industrial pollution associated with the facility. Conversely, aluminium, iron, titanium, vanadium, and selenium showed significant positive correlations with distance (p &lt; 0.05), reflecting the predominance of geogenic crustal dust and agricultural sources in the rural landscape surrounding COVA. No significant correlation was detected between LBI values and distance from COVA for any of the three community metrics examined. This finding is likely attributable to the high ecological background variability generated by coppice forest management, heterogeneity in bark chemistry, and the limited sensitivity of community-based lichen indices to the specific emission profile of the facility. These findings demonstrate that chemical bioaccumulation is a more sensitive diagnostic tool than community-based bioindication for detecting the spatial footprint of oil extraction facilities and highlight the need for integrated, multi-method sustainability biomonitoring frameworks for the environmental surveillance of onshore hydrocarbon production sites.</div></details>
+<details class="detail"><summary>中文标题</summary><div class="mono">地衣作为生物指示物和生物累积器评估工业污染的生态可持续性：意大利最大陆上石油开采中心（Basilicata大区Val d’Agri的COVA）周边的距离梯度研究</div></details>
+</div>
+<div class="card"><div class="title">Soil health and One Health implications in the anthropocene: a perspective on microbiome engineering<span class="tier-badge tier-eco">ECO</span><span class="tier-badge tier-core" style="margin-left:4px">1</span></div>
+<div class="meta-line">Authors: S. Timmusk, Erik Ribeli, Lawrence Behers, C. Muñoz, Mauricio Schoebitz...</div>
+<div class="meta-line">Venue: Plant and Soil</div>
+<div class="meta-line">Published: 2026-10-26</div>
+<div class="links" style="margin-top:8px"><a href="https://www.semanticscholar.org/paper/5b676acabfb13594c0503976b90bef2eee158a4f">Abs</a> · <a href="https://link.springer.com/content/pdf/10.1007/s11104-026-09120-3.pdf">PDF</a></div>
+<details class="detail"><summary>Abstract</summary><div class="mono">
+ 
+ 
+ Climate change and Anthropocene pressures accelerate soil degradation, threatening agricultural productivity, ecosystems, and human health. Within the One Health framework, soils are critical living systems. However, while physical and chemical dimensions of soil health are well studied, the biological dimension—particularly microbiome functional diversity—remains heavily underutilized in climate-resilient agriculture.
+ 
+ 
+ 
+ We argue that microbiome functional diversity is the missing biological foundation linking Soil Health and One Health. Rather than viewing microbiomes as isolated components, we propose they be treated as interconnected functional networks regulating resilience across soil, plant, animal, and human systems. We position microbiome engineering as a strategic research priority to translate ecological knowledge into sustainable agricultural solutions.
+ 
+ 
+ 
+ Synthesizing discussions from the Chile–Sweden ACCESS Forum, we identify vital research priorities: exploring microbiomes from harsh, ancient, and extreme environments; developing synthetic microbial communities (SynComs); and integrating high-resolution mass spectrometry, multi-omics, microscale soil models, and extended genotype approaches. These tools offer unprecedented pathways to manipulate microbial functions that enhance nutrient cycling, carbon sequestration, stress tolerance, and pollutant remediation.
+ 
+ 
+ 
+ Advancing microbiome functional diversity from ecological discovery to functional microbiome engineering represents a critical, actionable step toward achieving climate-resilient agroecosystems and fulfilling the global objectives of the One Health framework in the Anthropocene.
+</div></details>
+<details class="detail"><summary>Summary / 总结</summary>
+<div class="mono">Driven by the recognition that climate change and other Anthropocene pressures are accelerating soil degradation while the biological dimension of soil health—especially microbiome functional diversity—remains underused in climate-resilient agriculture, this perspective argues that microbiome functional diversity is the missing biological foundation linking Soil Health and One Health. Rather than treating microbiomes as isolated components, the authors propose viewing them as interconnected functional networks that regulate resilience across soil, plant, animal, and human systems, and position microbiome engineering as a strategic research priority; the argument is developed by synthesizing discussions from the Chile–Sweden ACCESS Forum rather than by new experimentation. The synthesis identifies priority directions including exploration of microbiomes from harsh, ancient, and extreme environments, development of synthetic microbial communities (SynComs), and integration of high-resolution mass spectrometry, multi-omics, microscale soil models, and extended genotype approaches, which are proposed as pathways to manipulate microbial functions supporting nutrient cycling, carbon sequestration, stress tolerance, and pollutant remediation, with the overall aim of moving microbiome functional diversity from ecological discovery toward functional engineering in climate-resilient agroecosystems.</div>
+<div class="mono" style="margin-top:8px">鉴于气候变化及其他人类世压力加速土壤退化，而土壤健康中的生物学维度尤其是微生物组功能多样性在气候韧性农业中仍未得到充分利用，本文提出微生物组功能多样性是连接土壤健康与“同一健康”框架的缺失生物学基础。作者不将微生物组视为孤立组分，而主张将其作为调控土壤、植物、动物与人类系统韧性的相互关联功能网络，并把微生物组工程列为战略性研究优先方向；文章基于智利—瑞典ACCESS论坛的研讨进行综合评述，而非开展新的实验。该综合提出若干重点研究方向，包括探索来自恶劣、古老与极端环境的微生物组，开发合成微生物群落（SynComs），以及整合高分辨率质谱、多组学、微尺度土壤模型与扩展基因型方法；这些手段被视为操纵微生物功能的途径，以增强养分循环、碳固存、胁迫耐受与污染物修复能力，从而推动微生物组功能多样性从生态学发现走向功能性微生物组工程，服务于气候韧性农业生态系统。</div>
+</details>
+<details class="detail"><summary>中文标题</summary><div class="mono">Anthropocene 下土壤健康与 One Health 的意义：microbiome engineering 的视角</div></details>
+</div>
+</div>
+<details style="margin-top:16px" class="detail"><summary>History</summary>
+<div class="history-list">
+
+</div>
+</details>
+<div class="footer">Generated by article_tracker</div>
+</div>
+<script>
+(function(){
+  var root=document.documentElement;
+  function apply(t){
+    if(t==='dark')root.setAttribute('data-theme','dark');
+    else if(t==='light')root.removeAttribute('data-theme');
+    else{
+      if(window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+        root.setAttribute('data-theme','dark');
+      else root.removeAttribute('data-theme');
+    }
+  }
+  var t=localStorage.getItem('theme')||'light';
+  if(!['light','dark','auto'].includes(t))t='light';
+  apply(t);
+  window.__toggleTheme=function(){
+    var cur=localStorage.getItem('theme')||'light';
+    if(cur==='light')cur='dark';
+    else if(cur==='dark')cur='auto';
+    else cur='light';
+    localStorage.setItem('theme',cur);apply(cur);
+    var el=document.getElementById('theme-label');
+    if(el)el.textContent=cur.toUpperCase();
+  };
+  window.__expandAll=function(open){
+    document.querySelectorAll('details').forEach(function(d){d.open=!!open});
+  };
+})();
+</script>
+</body>
+</html>
